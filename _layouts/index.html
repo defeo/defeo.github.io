@@ -6,7 +6,7 @@ layout: main
 <div class="row">
 
   <div class="offset1 span9">
-    <section class="hero-unit" id="top">
+    <section class="hero-unit">
       <div class="row-fluid">
 	<div class="span6 text-center">
 	  <div class="page-header">
@@ -17,7 +17,6 @@ layout: main
 	    <strong>Maître de Conférences – Équipe CRYPTO</strong><br>
 	    <a href="http://www.prism.uvsq.fr/">Laboratoire PRiSM</a><br>
 	    <a href="http://www.uvsq.fr/">Université de Versailles – Saint-Quentin</a><br/>
-	    <span
 	    45 Avenue des États-Unis<br/>
 	    78035 Versailles Cedex, France
 	  </address>
@@ -48,27 +47,35 @@ layout: main
       </div>
       
       <h3>Research interests</h3>
-      <p>Algorithmic Number Theory, Computer Algebra, Cryptology,
-	Automated deduction.</p>
-      
+      {% capture interests_block %}{% include interests.md %}{% endcapture %}
+      {{ interests_block | markdownify }}
+
+      {% capture papers_block %}{% include papers.md %}{% endcapture %}
+      {{ papers_block | markdownify }}
     </section><!-- research -->
 
     <section id="teaching">
       <div class="page-header">
 	<h1>Teaching</h1>
       </div>
+      {% capture teaching_block %}{% include teaching.md %}{% endcapture %}
+      {{ teaching_block | markdownify }}
     </section><!-- teaching -->
 
     <section id="software">
       <div class="page-header">
 	<h1>Software</h1>
       </div>
+      {% capture software_block %}{% include software.md %}{% endcapture %}
+      {{ software_block | markdownify }}
     </section><!-- software -->
 
     <section id="talks">
       <div class="page-header">
 	<h1>Selected Talks</h1>
       </div>
+      {% capture talks_block %}{% include talks.md %}{% endcapture %}
+      {{ talks_block | markdownify }}
     </section><!-- talks -->
 
   </div>
