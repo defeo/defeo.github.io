@@ -25,4 +25,4 @@ page</a>."}, in particular when they have applications to
 data-content="The study of algorithms for <em>secure</em>
 communication in presence of <em>adversaries</em>. <a
 href='http://en.wikipedia.org/wiki/Cryptography'>Wikipedia
-page</a>".}. Read my [**blog**](/blog) to know more about it.
+page</a>."}. Read my [**blog**](/blog) to know more about it.
