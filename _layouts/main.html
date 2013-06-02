@@ -23,7 +23,7 @@
 
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".side-nav">
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -38,11 +38,12 @@
             <ul class="nav">
               <li {% if page.url == "/index.html"  %} class="active" {% endif %}><a href="/"><i class="icon-home"></i> Home</a></li>
 	      <li {% if page.url contains "/blog"  %} class="active" {% endif %}><a href="/blog"><i class="icon-pencil"></i> Blog</a></li>
-              <li {% if page.url ==    "/cv.html"  %} class="active" {% endif %}><a href="/cv.html"><i class="icon-file"></i> CV</a></li>
+              <li {% if page.url ==    "/cv.html"  %} class="active" {% endif %}><a href="/cv.html"><i class="icon-user"></i> CV</a></li>
             </ul>
-	    <form id="search-form" class="form-search pull-right">
-	      <input id="search-field" type="search" class="input-medium search-query" placeholder="Site Search">
-	      <i id="search-glass" class="icon-search"></i>
+	    <form id="search-form" class="navbar-form form-search pull-right" action="https://www.google.com/search">
+	      <input id="search-field" type="search" class="input-medium search-query" placeholder="Site Search" name="q">
+	      <input type="hidden" name="q" value="site:defeo.lu">
+	      <button id="search-glass" type="submit"><i class="icon-search"></i></button>
 	    </form>
 	  </div><!--/.nav-collapse -->
 	</div>
@@ -58,13 +59,13 @@
     <footer class="footer">
       <div class="container">
 	<p><a rel="license"
-	   href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB">
+	   href="http://creativecommons.org/licenses/by/3.0/deed.en_GB">
 	  <img alt="Creative Commons Licence" style="border-width:0"
-	       src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/>
-	</a> &copy; <a href="/">Luca De Feo</a> 2013, licensed
+	       src="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+	</a> <a href="/">Luca De Feo</a> 2013, licensed
 	under <a rel="license"
-	href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB">CC
-	BY-SA 3.0</a>.</p>
+	href="http://creativecommons.org/licenses/by/3.0/deed.en_GB">CC
+	BY 3.0</a>.</p>
 	
 	<p>Website designed and built
 	  by <a href="https://github.com/defeo">Luca De Feo</a>,

@@ -6,8 +6,11 @@
 })();
 
 /* Simple google search box */
+/*
 (function() {
-    $('#search-glass').click(function() {
+    $('#search-form').submit(function() {
 	document.location.href= 'https://www.google.com/search?q=' + encodeURI([$('#search-field').val(), 'site:defeo.lu'].join('+'));
+	return false;
     });
 })();
+*/

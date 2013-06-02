@@ -5,17 +5,36 @@
    ========================================================================== */
 
 body {
-/*background-color: #efefef;*/
+ /*background-color: #eee;*/
 }
 
-/*.box {
+.hero-unit {
+  background-color: #ccc;
+}
+
+/*
+section {
   border: solid thin black;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
   background-color: white;
-}*/
+}  */
 
+/* Internal navigation menu on the side */
+section {
+  padding-top: 30px;
+}
+
+.side-nav .active a {
+  background-color: #ccc;
+}
+
+@media (max-width: 767px) {
+  .affix {
+    position: static;
+  }
+}
 
 /* Footer on every page */
 footer {
@@ -31,13 +50,12 @@ footer p {
 
 
 /* Search form in navbar*/
-#search-form {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: 0;
-}
-
 #search-glass {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
   position: relative;
   right: 28px;
+  margin-top: 5px;
 }
