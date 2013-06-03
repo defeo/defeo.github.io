@@ -6,7 +6,7 @@ I collect here my main software projects. You can find more in my
 
 The following software are based upon [academic research](#research).
 
-[FAAST](http://www.prism.uvsq.fr/~dfl/FAAST)
+[FAAST](https://github.com/defeo/FAAST)
 : A library for
 	[Fast Arithmetic in Artin-Schreier Towers](http://dx.doi.org/10.1145/1576702.1576722).
 
