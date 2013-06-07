@@ -14,8 +14,8 @@ layout: main
 	  </div>
 
 	  <address class="vcard">
-	    <strong>Maître de Conférences – Équipe CRYPTO</strong><br>
-	    <a href="http://www.prism.uvsq.fr/">Laboratoire PRiSM</a><br>
+	    <strong>Maître de Conférences en Informatique</strong><br>
+	    <a href="http://www.prism.uvsq.fr/">Équipe CRYPTO – Laboratoire PRiSM</a><br>
 	    <a href="http://www.uvsq.fr/">Université de Versailles – Saint-Quentin</a><br/>
 	    45 Avenue des États-Unis<br/>
 	    78035 Versailles Cedex, France
@@ -33,6 +33,20 @@ layout: main
 	  <img src="img/luca-drink.jpg" class="img-rounded">
 	</div>
       </div>
+
+      <hr>
+
+      <div id="whoami" class="pretty">
+	<div style="display:none">
+	  <p><a href="javascript:void(0)">Hi, I am
+	      Luca... <i class="icon-chevron-down"></i></a></p>
+	</div>
+
+	<div>
+	  {% capture welcome_block %}{% include welcome.md %}{% endcapture %}
+	  {{ welcome_block | markdownify }}
+	</div>
+      </div>
     </section><!-- /home -->
 
     <section id="news">
@@ -46,7 +60,7 @@ layout: main
 	<h1>Research</h1>
       </div>
       
-      <h3>Research interests</h3>
+      <!--h3>Research interests</h3-->
       {% capture interests_block %}{% include interests.md %}{% endcapture %}
       {{ interests_block | markdownify }}
 
