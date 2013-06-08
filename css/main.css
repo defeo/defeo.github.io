@@ -71,9 +71,26 @@ p.pretty, .pretty p {
   text-indent: 0;
 }
 
-/* Visual helpers for key navigation */
-[data-toggle="key-nav"] {
+/* Hotkeys styling */
+.modal-body {
+  /* This is unuseful */
+  max-height: 10%;
+  overflow: auto;
+}
+.hotkey {
   text-decoration: underline;
+}
+.hotkey-list {
+  margin: auto;
+}
+.hotkey-list td {
+  padding: 0 4px;
+}
+.hotkey-list tr td:first-child {
+  text-align: right;
+}
+.hotkey-list code {
+  margin: 0 4px;
 }
 
 /* Footer on every page */

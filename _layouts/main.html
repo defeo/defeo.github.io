@@ -25,6 +25,13 @@
   </head>
   <body data-spy="scroll" data-target=".side-nav">
 
+    <!-- Global hotkey shortcuts -->
+    <span data-toggle="hotkey" data-hotkey="? shift+?" data-hotkey-trigger="hotkey.help" title="Help"></span>
+    <span data-toggle="hotkey" data-hotkey-special="/" data-hotkey-focus="#search-field" title="Search"></span>
+    <span data-toggle="hotkey" data-hotkey-special="home" href="#" title="Go to top"></span>
+    <span data-toggle="hotkey" data-hotkey-special="esc" data-hotkey-selector="input" data-hotkey-trigger="hotkey.blur" title="Unfocus text fields"></span>
+    <span data-toggle="hotkey" title="––––"></span>
+
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
 	<div class="container">
@@ -36,10 +43,11 @@
 	  <a class="brand" href="/">Luca De Feo</a>
 	  <div class="nav-collapse collapse">
             <ul class="nav">
-              <li {% if page.url == "/index.html"  %} class="active" {% endif %}><a href="/"><i class="icon-home"></i> Home</a></li>
-	      <li {% if page.url contains "/blog"  %} class="active" {% endif %}><a href="/blog"><i class="icon-pencil"></i> Blog</a></li>
-              <li {% if page.url ==    "/cv.html"  %} class="active" {% endif %}><a href="/cv.html"><i class="icon-user"></i> CV</a></li>
+              <li {% if page.url == "/index.html"  %} class="active" {% endif %}><a href="/"><i class="icon-home"></i> <span data-toggle="hotkey" href="/" title="Home">H</span>ome</a></li>
+	      <li {% if page.url contains "/blog"  %} class="active" {% endif %}><a href="/blog"><i class="icon-pencil"></i> <span data-toggle="hotkey" href="/blog" title="Blog">B</span>log</a></li>
+              <li {% if page.url ==    "/cv.html"  %} class="active" {% endif %}><a href="/cv.html"><i class="icon-user"></i> <span data-toggle="hotkey" href="/cv.html" title="CV">C</span>V</a></li>
             </ul>
+	    <span data-toggle="hotkey" title="––––"></span>
 	    <form id="search-form" class="navbar-form form-search pull-right" action="https://www.google.com/search">
 	      <input id="search-field" type="search" class="input-medium search-query" placeholder="Site Search" name="q">
 	      <input type="hidden" name="q" value="site:defeo.lu">
@@ -80,10 +88,22 @@
       </div>
     </footer>
       
-    
+    <!-- Key shortcuts help modal -->
+    <div id="hotkey-help" data-toggle="modal" class="modal hide fade"
+	 tabindex="-1" aria-labelledby="myModalLabel"
+	 aria-hidden="true">
+      <div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal"
+		aria-hidden="true">×</button>
+	<h3 id="myModalLabel">Keayboard shortcuts</h3>
+      </div>
+      <div class="modal-body">
+      </div>
+    </div>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+      <script src="js/jquery.hotkeys/jquery.hotkeys.js"></script>
 
       <script src="js/vendor/bootstrap.min.js"></script>
 
