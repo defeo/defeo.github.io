@@ -50,6 +50,11 @@ p.pretty, .pretty p {
   font-size: 19px;
 }
 
+/* Change cursor on popovers */
+[data-toggle="popover"] {
+  cursor: help;
+}
+
 /* Chevron adjustement */
 #whoami .icon-chevron-down {
   position: relative;
@@ -83,4 +88,46 @@ footer p {
   position: relative;
   right: 28px;
   margin-top: 5px;
+}
+
+
+/* Bibliography style */
+.title:after, 
+.author:after,
+.editor:after {
+  white-space: pre;
+  content: ".\a";
+}
+
+.link:after,
+.doi:after {
+  content: ".";
+}
+
+.title {
+  color: rgb(0, 136, 204);
+  font-style: normal;
+  font-weight: bold;
+}
+
+.author, .editor, .link, .doi {
+  font-style: normal;  
+  margin-left: 10px;
+}
+
+.author {
+  font-style: italic;
+}
+
+.doi:before {
+  content: "doi:";
+}
+
+.download {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: -96px -24px;
 }
