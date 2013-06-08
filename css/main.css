@@ -55,6 +55,11 @@ p.pretty, .pretty p {
   cursor: help;
 }
 
+/* For scrolling */
+#whoami {
+  padding-top: 40px;
+}
+
 /* Chevron adjustement */
 #whoami .icon-chevron-down {
   position: relative;
@@ -64,6 +69,11 @@ p.pretty, .pretty p {
 /* Unprettify popovers */
 #whoami .popover {
   text-indent: 0;
+}
+
+/* Visual helpers for key navigation */
+[data-toggle="key-nav"] {
+  text-decoration: underline;
 }
 
 /* Footer on every page */

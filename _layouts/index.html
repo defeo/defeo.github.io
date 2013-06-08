@@ -38,7 +38,8 @@ layout: main
 
       <div id="whoami" class="pretty">
 	<div style="display:none">
-	  <p><a href="javascript:void(0)">Hi, I am
+	  <p><a href="javascript:void(0)"><span data-toggle="key-nav"
+	      data-hash="whoami" title="Who am I">H</span>i, I am
 	      Luca... <i class="icon-chevron-down"></i></a></p>
 	</div>
 
@@ -97,12 +98,32 @@ layout: main
   <div class="span1 side-nav">
     <ul class="nav nav-tabs nav-stacked affix-top hidden-phone" data-spy="affix">
       <li class="active"><a href="#"><i class="icon-arrow-up"></i> Top</a></li>
-      <li><a href="#news"><i class="icon-chevron-left"></i> News</a></li>
-      <li><a href="#research"><i class="icon-chevron-left"></i> Research</a></li>
-      <li><a href="#teaching"><i class="icon-chevron-left"></i> Teaching</a></li>
-      <li><a href="#software"><i class="icon-chevron-left"></i> Software</a></li>
-      <li><a href="#talks"><i class="icon-chevron-left"></i> Talks</a></li>
+      <li><a href="#news"><i class="icon-chevron-left"></i> <span data-toggle="key-nav"
+	      data-hash="news" title="News">N</span>ews</a></li>
+      <li><a href="#research"><i class="icon-chevron-left"></i> <span data-toggle="key-nav"
+	      data-hash="research" title="Research">R</span>esearch</a></li>
+      <li><a href="#teaching"><i class="icon-chevron-left"></i> <span data-toggle="key-nav"
+	      data-hash="teaching" title="Teaching">T</span>eaching</a></li>
+      <li><a href="#software"><i class="icon-chevron-left"></i> <span data-toggle="key-nav"
+	      data-hash="software" title="Software">S</span>oftware</a></li>
+      <li><a href="#talks"><i class="icon-chevron-left"></i> Tal<span data-toggle="key-nav"
+	      data-hash="talks" title="Talks">k</span>s</a></li>
     </ul>
   </div>
 
+  <div id="key-help" data-toggle="modal" class="modal hide fade"
+       tabindex="-1" aria-labelledby="myModalLabel"
+       aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal"
+      aria-hidden="true">×</button>
+      <h3 id="myModalLabel">Keayboard shortcuts</h3>
+    </div>
+    <div class="modal-body">
+      <dl class="dl-horizontal">
+	<dt>/</dt><dd>Help</dd>
+	<dt>Home</dt><dd>Top of page</dd>
+      </dl>
+    </div>
+  </div>
 </div>
