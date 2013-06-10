@@ -62,6 +62,7 @@ $(function() {
     });
 
     /* Keyboard navigation */
+    var hk_tooltip = ['Activate keyboard shortcuts', 'Keyboard shortcuts active']
     $('#hotkeys-btn').click(function() {
 	// Deactivate button while we enable
 	$(this).prop('disabled', true);
@@ -87,8 +88,9 @@ $(function() {
 	// Notify the help modal is filled
 	// (works because .hotkey() uses no asynchronous code)
 	help.data('hotkey-filled', true);
-	// Prepare button
+	// Update button
 	$(this).toggleClass('active');
+	$(this).attr('title', hk_tooltip.reverse()[0]);
 	$(this).removeProp('disabled');
     })
     // Event for ESC key inside forms
