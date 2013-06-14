@@ -1,0 +1,22 @@
+.post footer {
+  border-top: solid thin #000;
+}
+.post header {
+  border-bottom: solid thin #000;
+}
+.tags, .permalink {
+  color: #888;
+  display: inline;
+  margin: 1px 4px 1px 8px;
+}
+.tags > ul {
+  display: inline;
+}
+.tags > ul > li {
+  padding: 0 2px;
+}
+.pagination ul {
+  border: solid thin #ccc;
+  border-radius: 4px;
+  box-shadow: 1px 0 1px 1px #ccc;  
+}

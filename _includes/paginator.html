@@ -1,0 +1,38 @@
+{% assign prev = paginator.previous_page %}
+{% assign p = paginator.page %}
+{% assign next = paginator.next_page %}
+{% assign last = paginator.total_pages %}
+
+{% if last > 1 %}
+<div class="pagination pagination-centered">
+<ul>
+{% if last <= 3 %}
+  {% for i in (1..last) %}
+    {% if i == p %}
+      <li class="active"><a>{{ i }}</a></li>
+    {% else %}
+      <li><a href="/blog/{% if i > 1 %}{{ i }}{% endif %}">{{ i }}</a></li>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% if p == 1 %}
+    <li class="disabled"><a>«</a></li>
+  {% else %}
+    <li><a href="/blog">«</a></li>
+  {% endif %}
+  {% if p == last %}<li><a href="/blog/{{ prev|minus:1 }}">{{ prev|minus:1 }}</a></li>{% endif %}
+  {% unless p == 1 %}<li><a href="/blog/{% if p != 2 %}{{ prev }}{% endif %}">{{ prev }}</a></li>{% endunless %}
+  <li class="active"><a>{{ p }}</a></li>
+  {% unless p == last %}<li><a href="/blog/{{ next }}">{{ next }}</a></li>{% endunless %}
+  {% if p == 1 %}<li><a href="/blog/3">3</a></li>{% endif %}
+  {% if p == last %}
+    <li class="disabled"><a>»</a></li>
+  {% else %}
+    <li><a href="/blog/{{ last }}">»</a></li>
+  {% endif %}
+{% endif %}
+
+</ul>
+</div>
+
+{% endif %}

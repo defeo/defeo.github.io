@@ -1,0 +1,110 @@
+body {
+  background-color: #eee;
+  background: linear-gradient(to right, #fefefe, #eee);
+}
+
+.hero-unit {
+  background-color: #ccc;
+  box-shadow: 3px 0 4px 4px #aaa;
+  margin: 0;
+}
+
+section {
+  padding: 30px 20px 5px 20px;
+  margin: 15px 0 0 0;
+}
+
+/* Popped out elements */
+section, .side-nav ul {
+  background-color: #fff;
+  border: solid thin #ccc;
+  border-radius: 6px;
+  box-shadow: 3px 0 4px 4px #ccc;  
+}
+
+/* Side menus */
+.side-nav li.active > a {
+  border-color: #bbb;
+  background-color: #ccc;
+}
+
+@media (max-width: 767px) {
+  .affix {
+    position: static;
+  }
+}
+
+/* Main footer */
+footer.footer {
+  background-color: #ccc;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 70px;
+}
+
+footer.footer p {
+  margin: 0;
+}
+
+
+/* Search form in navbar*/
+#search-glass {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  right: 28px;
+  margin-top: 5px;
+}
+
+
+/* Buttons in navbar */
+#nav-buttons button {
+  color: rgb(153, 153, 153);
+}
+#nav-buttons button.active, #nav-buttons button:hover {
+  color: #fff;
+}
+#nav-buttons button.active > [class^="icon-"], 
+#nav-buttons button.active > [class*=" icon-"]
+{
+  background-image: url("../img/glyphicons-halflings-white.png");
+}
+
+/* Other adjustments in navbar (maybe one day...) */
+/*
+.navbar-inverse .nav > * > a:hover > [class^="icon-"],
+.navbar-inverse .nav > * > a:hover > [class*=" icon-"] {
+  background-image: url("../img/glyphicons-halflings-white.png");
+}
+*/
+
+/* Typographically sound style */
+p.pretty, .pretty p {
+  max-width: 100ex;
+  text-align: justify;
+  text-indent: 3ex;
+  padding: 0;
+  margin: 0 auto;
+}
+
+/* Hotkeys styling */
+#hotkey-help {
+  position: absolute;
+}
+.hotkey {
+  text-decoration: underline;
+}
+.hotkey-list {
+  margin: auto;
+}
+.hotkey-list td {
+  padding: 0 4px;
+}
+.hotkey-list tr td:first-child {
+  text-align: right;
+}
+.hotkey-list code {
+  margin: 0 4px;
+}
