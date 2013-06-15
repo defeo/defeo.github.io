@@ -4,7 +4,7 @@
 .post header {
   border-bottom: solid thin #000;
 }
-.tags, .permalink {
+.tags, .permalink, .comments {
   color: #888;
   display: inline;
   margin: 1px 4px 1px 8px;
@@ -19,4 +19,9 @@
   border: solid thin #ccc;
   border-radius: 4px;
   box-shadow: 1px 0 1px 1px #ccc;  
+}
+.post .addthis_default_style {
+  float: right;
+  display: inline-block;
+  margin: 4px 4px 0 0;
 }

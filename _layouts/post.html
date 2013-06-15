@@ -1,8 +1,30 @@
 ---
 layout: blog
 ---
-<div class="page-header">
-  <h1>{{page.title}}</h1>
-</div>
+<div class="row">
+  <div class="offset1 span8">
+    <section class="post" data-id="{{post.id}}">
+      <header>
+	<h1>{{page.title}} 
+	  <small>{{page.date | date:"%B %d, %Y" | replace_first:" 0"," "}}</small>
+	</h1>
+      </header>
 
-{{content}}
+      {{content}}
+
+      <footer>
+	<div class="tags"><i class="icon-tag"></i> tags:
+	  <ul class="inline">
+	    {% for tag in page.tags %}
+	    <li><a href="/blog/tag/{{tag}}">{{tag}}</a></li>
+	    {% endfor %}
+	  </ul>
+	</div>
+      </footer>
+    </section>
+  </div>
+
+  <div class="span2">
+    
+  </div>
+</div>

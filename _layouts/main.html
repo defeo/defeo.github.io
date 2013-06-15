@@ -109,6 +109,11 @@
 	  static Website generated
 	  with <a href="http://jekyllrb.com/">Jekyll</a> and kindly
 	  hosted by <a href="http://pages.github.com/">GitHub</a>.</p>
+
+	<div class="addthis_toolbox addthis_default_style"
+	     addthis:url="{{page.url}}">
+	  {% include addthis-buttons.html %}
+	</div>
       </div>
     </footer>
       
@@ -143,5 +148,17 @@
         g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
         s.parentNode.insertBefore(g,s)}(document,'script'));
       </script>
+
+      <!-- AddThis Customization -->
+      <script type="text/javascript">
+	var addthis_config = {
+	  services_exclude: 'email,gmail,print',
+	  ui_click:         true,             // do not show addthis popup on hover
+	  data_ga_tracker:  'UA-41256499-1',  // GA integration
+	  data_ga_social:   true,
+	};
+      </script>
+      <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51bbb5b707779db5"></script>
+
   </body>
 </html>

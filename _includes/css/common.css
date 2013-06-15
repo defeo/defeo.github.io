@@ -46,6 +46,16 @@ footer.footer p {
   margin: 0;
 }
 
+footer.footer .addthis_toolbox {
+  align: center;
+  margin-top: 8px;
+}
+footer.footer .addthis_toolbox > a,
+footer.footer .addthis_toolbox > a span {
+  display: inline-block;
+  float: none;
+  padding: 0;
+}
 
 /* Search form in navbar*/
 #search-glass {
