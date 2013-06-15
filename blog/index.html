@@ -1,5 +1,6 @@
 ---
 layout: blog
+share: /blog
 ---
 
 <div class="row">
@@ -30,7 +31,7 @@ layout: blog
 	  <a href="{{post/url}}">see comments</a>
 	</span>
 	<div class="addthis_toolbox addthis_default_style"
-	     addthis:url="{{post.url}}"
+	     addthis:url="http:{{site.base}}{{post.url}}"
 	     addthis:title="{{post.title}}">
 	  {% include addthis-buttons.html %}
 	  <a class="addthis_counter addthis_bubble_style"></a>

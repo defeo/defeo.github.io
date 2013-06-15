@@ -9,6 +9,10 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="Blog of Luca De Feo, Maître de Conférences at Université de Versailles.">
     <link rel="author" href="/" />
+    <link rel="me" href="/" />
+    <link rel="me" href="https://plus.google.com/100246861993995854455?rel=author" />
+    <link rel="me" href="https://github.com/defeo">
+    <link rel="me" href="https://twitter.com/@luca_defeo">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -111,7 +115,8 @@
 	  hosted by <a href="http://pages.github.com/">GitHub</a>.</p>
 
 	<div class="addthis_toolbox addthis_default_style"
-	     addthis:url="{{page.url}}">
+	     addthis:url="http:{{site.base}}{% if page.share %}{{page.share}}{% else %}{{page.url | replace:'/index.html','/'}}{% endif %}">
+	  Share this page: 
 	  {% include addthis-buttons.html %}
 	</div>
       </div>

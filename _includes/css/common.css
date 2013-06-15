@@ -47,11 +47,13 @@ footer.footer p {
 }
 
 footer.footer .addthis_toolbox {
+  color: #999;
   align: center;
-  margin-top: 8px;
+  margin-top: 2px;
 }
 footer.footer .addthis_toolbox > a,
 footer.footer .addthis_toolbox > a span {
+  vertical-align: middle;
   display: inline-block;
   float: none;
   padding: 0;

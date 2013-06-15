@@ -1,3 +1,4 @@
+base: //defeo.lu
 permalink: /blog/:categories/:title
 
 paginate: 5
