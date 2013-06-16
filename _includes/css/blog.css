@@ -6,7 +6,7 @@
 }
 .tags, .permalink, .comments {
   color: #888;
-  display: inline;
+  display: inline-block;
   margin: 1px 4px 1px 8px;
 }
 .tags > ul {

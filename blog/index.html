@@ -19,6 +19,13 @@ share: /blog
       {{post.content}}
 
       <footer>
+	<div class="addthis_toolbox addthis_default_style"
+	     addthis:url="http:{{site.base}}{{post.url}}"
+	     addthis:title="{{post.title}}">
+	  {% include addthis-buttons.html %}
+	  <a class="addthis_counter addthis_bubble_style"></a>
+	</div>
+
 	<span class="permalink"><a href="{{post.url}}">permalink</a></span>
 	<div class="tags"><i class="icon-tag"></i> tags:
 	  <ul class="inline">
@@ -30,12 +37,6 @@ share: /blog
 	<span class="comments"><i class="icon-comment"></i> 
 	  <a href="{{post/url}}">see comments</a>
 	</span>
-	<div class="addthis_toolbox addthis_default_style"
-	     addthis:url="http:{{site.base}}{{post.url}}"
-	     addthis:title="{{post.title}}">
-	  {% include addthis-buttons.html %}
-	  <a class="addthis_counter addthis_bubble_style"></a>
-	</div>
       </footer>
     </section>
     {% endfor %}
