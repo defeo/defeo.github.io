@@ -28,7 +28,6 @@ _transalpyne: a language for automatic transposition_{:.title}
 _with [Éric Schost][eschost]_{:.author}
 _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 [10.1145/1838599.1838624](http://dx.doi.org/10.1145/1838599.1838624){:.doi}
-[ ](http://dl.acm.org/authorize?462220){:.download}
 [ ](http://dl.acm.org/authorize?373407){:.download}<br>
 [hal-00505809](http://hal.inria.fr/index.php?action_todo=search&view_this_doc=hal-00505809){:.link}
 [ ](http://hal.archives-ouvertes.fr/docs/00/50/58/09/PDF/Calculemus.pdf){:.download}
