@@ -18,6 +18,6 @@ the links for more information and course material.
 : A website offering coding challenges for training in Information Theory, Coding and Cryptology.
 
 
-[AWS]: http://swift.prism.uvsq.fr/ "AWS"
-[IN310]: http://swift.prism.uvsq.fr:5999/ "IN310"
-[IN420]: http://apollinaire.prism.uvsq.fr/ "IN420"
+[AWS]: http://was.defeo.lu/ "AWS"
+[IN310]: http://in310.defeo.lu/ "IN310"
+[IN420]: http://in420.defeo.lu/ "IN420"
