@@ -48,11 +48,17 @@ $(function() {
     }
 
     // Attach handlers for the WhoamI block
-    $who.on(touch ? 'click' : 'mouseenter mouseleave', function(e) {
+    var toggle_handler = function(e) {
 	((semaphore == 'shrunk' && e.type != 'mouseleave') ||
 	 (semaphore == 'expanded' && e.type != 'mouseenter')) &&
 	    togglewho();
-    });
+    };
+    if (touch) {
+	$who.on('click', toggle_handler);
+    } else {
+	$who.on('mouseenter', 'a', toggle_handler)
+	    .on('mouseleave', toggle_handler);
+    }
     $(window).on('hashchange', function(e) {
 	if (window.location.hash == whohash) {
 	    /^shr/.test(semaphore) && togglewho();
