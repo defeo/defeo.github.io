@@ -9,6 +9,9 @@ the links for more information and course material.
 [Algorithmique pour la cryptographie][IN420]
 : [IN420][IN420], L2 Informatique.
 
+[Mathématiques][ESB1MATH]
+: [ESB1MATH][ESB1MATH], IATIC3 (1st year engineering school).
+
 [Applications web et sécurité][AWS]
 : [AWS][AWS], M1 Informatique.
 
@@ -21,3 +24,4 @@ the links for more information and course material.
 [AWS]: http://was.defeo.lu/ "AWS"
 [IN310]: http://in310.defeo.lu/ "IN310"
 [IN420]: http://in420.defeo.lu/ "IN420"
+[ESB1MATH]: http://defeo.lu/esb1math "ESB1MATH"
