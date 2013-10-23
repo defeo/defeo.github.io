@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="{{ style }}">
     {% endfor %}
 
+    <link rel="alternate" type="application/rss+xml" title="Luca De Feo's blog" href="/blog/feed.xml">
+
     <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     {% if page.mathjax %}
     <script type="text/x-mathjax-config">
@@ -41,7 +43,6 @@
         }
       });
     </script>
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
     {% endif %}
   </head>
   <body {% if page.scrollspy %} data-spy="scroll" data-target="{{page.scrollspy}}" {% endif %}>
@@ -53,7 +54,7 @@
     <span data-toggle="hotkey" data-hotkey-special="esc" data-hotkey-selector="input" data-hotkey-trigger="hotkey.blur" title="Unfocus text fields"></span>
     <span data-toggle="hotkey" title="––––"></span>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
 	<div class="container">
 	  <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -84,13 +85,9 @@
 	  </div><!--/.nav-collapse -->
 	</div>
       </div>
-    </div>
-
-    <div class="container">
+    </nav>
 
       {{ content }}
-
-    </div> <!-- /container -->
 
     <footer class="footer">
       <div class="container">
@@ -144,6 +141,8 @@
       {% for script in page.scripts %}
         <script src="{{ script }}"></script>
       {% endfor %}
+
+      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
 
       <script src="/js/main.js"></script>
 

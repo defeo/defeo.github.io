@@ -6,15 +6,11 @@ share: /blog
 <div class="row">
   <div class="offset1 span8">
 
-    {% include paginator.html %}
-
     {% for post in paginator.posts %}
-    <section class="post" id="post-{{paginator.page}}-{{forloop.index}}" data-id="{{post.id}}">
-      <header>
-	<h1>{{post.title}} 
-	  <small>{{post.date | date:"%B %d, %Y" | replace_first:" 0"," "}}</small>
-	</h1>
-      </header>
+    <article class="post" id="post-{{paginator.page}}-{{forloop.index}}" data-id="{{post.id}}">
+      <h1>{{post.title}} 
+	<small>{{post.date | date:"%B %d, %Y" | replace_first:" 0"," "}}</small>
+      </h1>
 
       {{post.content}}
 
@@ -27,7 +23,7 @@ share: /blog
 	</div>
 
 	<span class="permalink"><a href="{{post.url}}">permalink</a></span>
-	<div class="tags"><i class="icon-tag"></i> tags:
+	<div class="tags"><i class="icon-tags"></i> tags:
 	  <ul class="inline">
 	    {% for tag in post.tags %}
 	    <li><a href="/blog/tag/{{tag}}">{{tag}}</a></li>
@@ -38,7 +34,7 @@ share: /blog
 	  <a href="{{post/url}}">see comments</a>
 	</span>
       </footer>
-    </section>
+    </article>
     {% endfor %}
     
     {% include paginator.html %}
@@ -47,5 +43,7 @@ share: /blog
 
   <div class="span2">
     
+    {% include blog-nav.html %}
+
   </div>
 </div>

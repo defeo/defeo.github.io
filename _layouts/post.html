@@ -3,17 +3,15 @@ layout: blog
 ---
 <div class="row">
   <div class="offset1 span8">
-    <section class="post" data-id="{{post.id}}">
-      <header>
-	<h1>{{page.title}} 
-	  <small>{{page.date | date:"%B %d, %Y" | replace_first:" 0"," "}}</small>
-	</h1>
-      </header>
+    <article class="post" data-id="{{post.id}}">
+      <h1>{{page.title}} 
+	<small>{{page.date | date:"%B %d, %Y" | replace_first:" 0"," "}}</small>
+      </h1>
 
       {{content}}
 
       <footer>
-	<div class="tags"><i class="icon-tag"></i> tags:
+	<div class="tags"><i class="icon-tags"></i> tags:
 	  <ul class="inline">
 	    {% for tag in page.tags %}
 	    <li><a href="/blog/tag/{{tag}}">{{tag}}</a></li>
@@ -21,10 +19,12 @@ layout: blog
 	  </ul>
 	</div>
       </footer>
-    </section>
+    </article>
   </div>
 
   <div class="span2">
     
+    {% include blog-nav.html %}
+
   </div>
 </div>

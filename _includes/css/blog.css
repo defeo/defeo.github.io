@@ -1,7 +1,25 @@
+#blog-header {
+  margin-top: -20px;
+  background-color: #ddd;
+  background: linear-gradient(to bottom, #eee, rgba(0,0,0,0));
+  font-size: 150%;
+  line-height: 130%;
+  font-family: monospace;
+}
+#blog-header .container {
+  padding: 20px;
+}
+@media (max-width: 979px) {
+  #blog-header {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
 .post footer {
   border-top: solid thin #000;
 }
-.post header {
+.post h1 {
   border-bottom: solid thin #000;
 }
 .tags, .permalink, .comments {
@@ -25,3 +43,30 @@
   display: inline-block;
   margin: 4px 4px 0 0;
 }
+
+#blog-nav {
+  margin-top: 15px;
+}
+
+#blog-nav h4 {
+  font-size: medium;
+  font-weight: bold;
+  margin-left: calc(-14px - 0.5ex);
+}
+
+#blog-nav li { list-style-type: none }
+#blog-nav ul { margin-left: 0 }
+
+#blog-nav > div {
+  padding-left: calc(14px + 0.5ex);
+  border-bottom: solid thin #ccc;
+  box-shadow: 0 1px 0 #fff;
+}
+
+#blog-nav > div:first-child {
+  border-top: solid thin #ccc;
+  box-shadow: 0 1px 0 #fff, inset 0 1px 0 #fff;
+}
+
+/* Remove this when comments are implemented */
+.comments { display: none }

@@ -9,13 +9,13 @@ body {
   margin: 0;
 }
 
-section {
+section, article {
   padding: 30px 20px 5px 20px;
   margin: 15px 0 0 0;
 }
 
 /* Popped out elements */
-section, .side-nav ul {
+article, .side-nav ul {
   background-color: #fff;
   border: solid thin #ccc;
   border-radius: 6px;
