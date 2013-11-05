@@ -9,6 +9,12 @@ body {
   margin: 0;
 }
 
+/* Address card */
+#www  {
+  display: none;
+}
+
+
 section, article {
   padding: 30px 20px 5px 20px;
   margin: 15px 0 0 0;

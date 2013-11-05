@@ -1,0 +1,20 @@
+@media print {
+  .footer, nav, #hotkey-help,
+  .download, #print-link { display: none }
+  #www { display: inline }
+  h4, dt { page-break-after: avoid }
+}
+#print-link {
+  float: right;
+  font-size: medium;
+  margin-left: 4em;
+  margin-top: 10px;
+}
+#print-link a {
+  vertical-align: baseline;
+  line-height: 40px;
+  color: black;
+}
+#print-link a i {
+  vertical-align: baseline;
+}

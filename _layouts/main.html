@@ -31,19 +31,6 @@
     <link rel="alternate" type="application/rss+xml" title="Luca De Feo's blog" href="/blog/feed.xml">
 
     <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    {% if page.mathjax %}
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        config: ["MMLorHTML.js"],
-        jax: ["input/TeX","input/AsciiMath","output/HTML-CSS","output/NativeMML"],
-        extensions: ["MathMenu.js","MathZoom.js"],
-        TeX: {
-          extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-          Macros: {% include tex-macros.json %}
-        }
-      });
-    </script>
-    {% endif %}
   </head>
   <body {% if page.scrollspy %} data-spy="scroll" data-target="{{page.scrollspy}}" {% endif %}>
 
@@ -67,7 +54,7 @@
             <ul class="nav">
               <li {% if page.url == "/index.html"  %} class="active" {% endif %}><a href="/"><i class="icon-home"></i> <span data-toggle="hotkey" href="/" title="Home">H</span>ome</a></li>
 	      <li {% if page.url contains "/blog"  %} class="active" {% endif %}><a href="/blog"><i class="icon-pencil"></i> <span data-toggle="hotkey" href="/blog" title="Blog">B</span>log</a></li>
-              <li {% if page.url ==    "/cv.html"  %} class="active" {% endif %}><a href="#"><i class="icon-user"></i> <span data-toggle="hotkey" href="/cv.html" title="CV">C</span>V</a></li>
+              <li {% if page.url ==    "/cv.html"  %} class="active" {% endif %}><a href="/cv.html"><i class="icon-user"></i> <span data-toggle="hotkey" href="/cv.html" title="CV">C</span>V</a></li>
             </ul>
 	    <span data-toggle="hotkey" title="––––"></span>
 
@@ -142,7 +129,20 @@
         <script src="{{ script }}"></script>
       {% endfor %}
 
-      <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+      {% if page.mathjax %}
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+          config: ["MMLorHTML.js"],
+          jax: ["input/TeX","input/AsciiMath","output/HTML-CSS","output/NativeMML"],
+          extensions: ["MathMenu.js","MathZoom.js"],
+          TeX: {
+          extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
+          Macros: {% include tex-macros.json %}
+          }
+	  });
+	</script>
+	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+      {% endif %}
 
       <script src="/js/main.js"></script>
 

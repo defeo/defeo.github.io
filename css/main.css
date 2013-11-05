@@ -1,4 +1,10 @@
 ---
 ---
-{% capture css %}{% include css/common.css %}{% include css/home.css %}{% include css/blog.css %}{% endcapture %}
+{% capture css %}
+{% include css/common.css %}
+{% include css/home.css %}
+{% include css/blog.css %}
+{% include css/cv.css %}
+{% include css/print.css %}
+{% endcapture %}
 {{ css | strip_newlines }}

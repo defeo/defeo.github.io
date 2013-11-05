@@ -1,0 +1,25 @@
+---
+layout: main
+date: 2013-10-27
+---
+
+<div class="container cv">
+  <strong id="print-link"><a href="javascript:print()"><i class="icon-print"></i>
+      <span data-toggle="hotkey" href="javascript:print()" title="Print page">P</span>rint</a></strong>
+
+  <h1>Luca De Feo's <em>curriculum vitæ</em><br/>
+    <small>last update: {{ page.date |  date:"%B %d, %Y" | replace_first:" 0"," " }}</small>
+  </h1>
+
+  <section id="address">
+    <address id="status" class="adr">
+      born <time class="bday">May 26, 1983</time><br>
+      <strong>sex:</strong> male<br>
+      <strong>citizenship:</strong> Italian<br>
+    </address>
+
+    {% include address_card.html %}
+  </section>
+
+  {{ content }}
+</div>

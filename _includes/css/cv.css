@@ -1,0 +1,15 @@
+.cv { max-width: 22cm }
+#status { float: right }
+.cv td:first-child { 
+  padding-right: 2ex;
+  color: #08c;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+.cv section { padding-top: 0 }
+.cv h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin: 0 -20px 10px -20px;
+}
+.cv h3, .cv h4 { margin-left: -10px }
