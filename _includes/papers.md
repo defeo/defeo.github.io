@@ -37,10 +37,11 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 
 _Fast algorithms for ℓ-adic towers over finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
-_ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013_{:.editor}
+_ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013, pp. 165-172_{:.editor}
 <http://defeo.lu/towers>{:.link}<br>
-<http://arxiv.org/abs/1301.6021>{:.link}
-[ ](http://arxiv.org/pdf/1301.6021v1){:.download}
+[10.1145/2465506.2465956](http://dx.doi.org/10.1145/2465506.2465956){:.doi}
+[ ](http://dl.acm.org/authorize?6823128){:.download}
+
 
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao]_{:.author}
