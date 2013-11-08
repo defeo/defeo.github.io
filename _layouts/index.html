@@ -42,6 +42,9 @@ scrollspy: .side-nav
       <div class="page-header">
 	<h1>News</h1>
       </div>
+
+      {% capture news_block %}{% include news.md %}{% endcapture %}
+      {{ news_block | markdownify }}
     </section><!-- news -->
 
     <section id="research">
