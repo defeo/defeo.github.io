@@ -13,3 +13,5 @@ kramdown:
     coderay_wrap: div
     coderay_css: class
     coderay_line_numbers: table
+
+twitter_user: "@luca_defeo"

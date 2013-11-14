@@ -6,16 +6,32 @@
   <head lang="en">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
     <title>{{ page.title }}</title>
-    <meta name="description" content="Luca De Feo is Maître de Conférences in Computer Science at Université de Versailles. He works on Algorithmic number theory, computer algebra and cryptolgy. He blogs on these subjects and on information technology.">
-    <link rel="author" href="/" /> <link rel="me" href="/" />
-    <link rel="me"
-    href="https://plus.google.com/100246861993995854455?rel=author" />
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta name="twitter:card" content="summary">
+    {% if page.is_post %}
+    <meta property="og:type" content="article">
+    {% endif %}
+    <link rel="author" href="/"> 
+    <link rel="me" href="/">
+    <link rel="me" href="https://plus.google.com/100246861993995854455?rel=author">
     <link rel="me" href="https://github.com/defeo">
     <link rel="me" href="https://twitter.com/@luca_defeo">
+    <meta name="twitter:site" content="{{ site.twitter_user }}">
+    <meta name="twitter:creator" content="{{ site.twitter_user }}">
+    {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt | strip_html }}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html }}">
+    <meta property="og:description" content="{{ page.excerpt | strip_html }}">
+    {% endif %}
+    {% if page.image %}
+    <meta name="twitter:image" content="http:{{ site.base }}{{ page.image }}">
+    <meta property="og:image" content="http:{{ site.base }}{{ page.image }}">
+    {% endif %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <style>
       body {
