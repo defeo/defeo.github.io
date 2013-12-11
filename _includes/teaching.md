@@ -15,12 +15,16 @@ the links for more information and course material.
 [Applications web et sécurité][AWS]
 : [AWS][AWS], M1 Informatique.
 
+[Algorithmique et programmation C][MSIM914]
+: [MSIM914][MSIM914], M2 Algèbre appliquée.
+
 ### Other resources
       
 [IT Katas](http://it-katas.defeo.lu/ "IT Katas")
 : A website offering coding challenges for training in Information Theory, Coding and Cryptology.
 
 
+[MSIM914]: http://defeo.lu/MA2-AlgoC "MSIM914"
 [AWS]: http://was.defeo.lu/ "AWS"
 [IN310]: http://in310.defeo.lu/ "IN310"
 [IN420]: http://in420.defeo.lu/ "IN420"
