@@ -25,7 +25,7 @@ the links for more information and course material.
 
 
 [MSIM914]: http://defeo.lu/MA2-AlgoC "MSIM914"
-[AWS]: http://was.defeo.lu/ "AWS"
+[AWS]: http://defeo.lu/aws "AWS"
 [IN310]: http://in310.defeo.lu/ "IN310"
-[IN420]: http://in420.defeo.lu/ "IN420"
+[IN420]: http://defeo.lu/in420 "IN420"
 [ESB1MATH]: http://defeo.lu/esb1math "ESB1MATH"
