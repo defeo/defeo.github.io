@@ -21,6 +21,9 @@ The following software are based upon [academic research](#research).
 
 ### Other projects
 
+[Pylagiarist](https://github.com/defeo/pylagiarist)
+: A Python script for detecting plagiarism.
+
 [was_framework](https://github.com/defeo/was_framework)
 : A [Node.js](http://nodejs.org) framework based upon
 	[express](http://expressjs.com), used for teaching the course
