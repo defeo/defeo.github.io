@@ -14,7 +14,7 @@ The following software are based upon [academic research](#research).
 : A Python implementation of the
 	[Transposable Algebraic Language](http://dx.doi.org/10.1145/1838599.1838624).
 
-[Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](http://www.prism.uvsq.fr/~dfl/fichiers/pqcrypto11_scripts.tgz)
+[Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](https://github.com/defeo/ss-isogeny-software/)
 : A sage script implementing the cryptosystem described in
 	[Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](http://dx.doi.org/10.1007/978-3-642-25405-5_2).
     
