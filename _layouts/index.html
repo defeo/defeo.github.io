@@ -58,6 +58,9 @@ image: /img/luca-drink.jpg
       {% capture interests_block %}{% include interests.md %}{% endcapture %}
       {{ interests_block | markdownify }}
 
+      {% capture students_block %}{% include students.md %}{% endcapture %}
+      {{ students_block | markdownify }}
+
       {% capture papers_block %}{% include papers.md %}{% endcapture %}
       {{ papers_block | markdownify }}
     </section><!-- research -->

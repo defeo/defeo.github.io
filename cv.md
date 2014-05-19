@@ -43,7 +43,13 @@ investigations and I have distributed some software using it.
 
 #### PhD supervision
 
-2013–present | Cyril Hugounenq: *Réalisation d'algorithmes efficaces pour l'arithmétique des corps finis et des variétés abéliennes, avec applications à la cryptologie*.
+2013–present | **Cyril Hugounenq:** *Réalisation d'algorithmes efficaces pour l'arithmétique des corps finis et des variétés abéliennes, avec applications à la cryptologie*.
+
+#### Masters' thesis supervision
+
+2014 | **Ludovic Brieulle:** *Calcul d'isomorphismes de corps finis.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA) (joint supervision with Jean-Pierre Flori (ANSSI) and Jérôme Plût (ANSSI)).
+2014 | **Sébastien Besnier:** *Participation au développement d'un framework pour les courbes elliptiques en Sage.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA).
+2013 | **Cyril Hugounenq:** *Amélioration de l'algorithme de Couveignes pour le calcul d'isogénies.* [M2 Sécurité, Cryptologie et Codage de l'Information (UJF)](http://im2ag-webmath.e.ujf-grenoble.fr/enseignement2/spip.php?rubrique19&lang=fr).
 
 #### Grants and awards
 
@@ -51,6 +57,16 @@ investigations and I have distributed some software using it.
 2009 | **SIGSAM ISSAC 2009 Distinguished Student Author Award** for *Fast arithmetics in Artin-Schreier towers over Finite Fields*.
 
 #### Recent publications
+
+_Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
+_with [David Jao][djao] and Jérôme Plût_{:.author}
+_Journal of Mathematical Cryptology. De Gruiter. (to appear)_{:.editor}
+<http://eprint.iacr.org/2011/506>{:.link}
+
+_Fast arithmetic for the algebraic closure of finite fields_{:.title}
+_with [Éric Schost][eschost] and Javad Doliskani_{:.author}
+_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. ??_{:.editor}
+[10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
 
 _Fast algorithms for ℓ-adic towers over finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
@@ -107,6 +123,17 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 2011–present | Université de Versailles, **Lecturer** in *Computer Science* (bachelor, master's)
 2009–2010 | Université Paris Diderot, **Teaching assistant** in *Computer Science*.
 2007–2009 | École Polytechnique, **Teaching assistant** in *Computer Science*.
+
+#### Research administration
+
+* **Program committee member:**
+  * "Yet Another Conference on Cryptography 2012".
+* **Rewiever for international journals and conferences:**
+  * "Journal of Symbolic Computation",
+  * "Design, Codes and Cryptography",
+  * "Finite Fields and their applications",
+  * "Applicable Algebra in Engineering, Communication and Computing",
+  * "Yet Another Conference on Cryptography".
 
 #### Other responsibilities
 

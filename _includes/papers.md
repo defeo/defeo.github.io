@@ -1,15 +1,11 @@
-### Preprints
-{:.publist}
-
-_Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies (extended version)_{:.title}
-_with [David Jao][djao] and Jérôme Plût_{:.author}
-_Cryptology ePrint Archive 2011/506, June 2012_{:.editor}
-<http://eprint.iacr.org/2011/506>{:.link}
-[ ](http://eprint.iacr.org/2011/506.pdf){:.download}
-
-
 ### Journal articles
 {:.publist}
+
+_Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
+_with [David Jao][djao] and Jérôme Plût_{:.author}
+_Journal of Mathematical Cryptology. De Gruiter. (to appear)_{:.editor}
+<http://eprint.iacr.org/2011/506>{:.link}
+[ ](http://eprint.iacr.org/2011/506.pdf){:.download}
 
 _Fast Arithmetics in Artin-Schreier Towers over Finite Fields_{:.title}
 _with [Éric Schost][eschost]_{:.author}
@@ -34,6 +30,12 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 
 ### In conference proceedings
 {:.publist}
+
+_Fast arithmetic for the algebraic closure of finite fields_{:.title}
+_with [Éric Schost][eschost] and Javad Doliskani_{:.author}
+_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. ??_{:.editor}
+<http://defeo.lu/ff_compositum>{:.link}<br>
+[10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
 
 _Fast algorithms for ℓ-adic towers over finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
