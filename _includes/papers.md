@@ -4,6 +4,7 @@
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao] and Jérôme Plût_{:.author}
 _Journal of Mathematical Cryptology. De Gruiter. (to appear)_{:.editor}
+[10.1515/jmc-2012-0015](http://dx.doi.org/10.1515/jmc-2012-0015){:.doi}<br>
 <http://eprint.iacr.org/2011/506>{:.link}
 [ ](http://eprint.iacr.org/2011/506.pdf){:.download}
 

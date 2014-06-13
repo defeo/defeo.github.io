@@ -61,7 +61,7 @@ investigations and I have distributed some software using it.
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao] and Jérôme Plût_{:.author}
 _Journal of Mathematical Cryptology. De Gruiter. (to appear)_{:.editor}
-<http://eprint.iacr.org/2011/506>{:.link}
+[10.1515/jmc-2012-0015](http://dx.doi.org/10.1515/jmc-2012-0015){:.doi}
 
 _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
