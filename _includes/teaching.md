@@ -12,6 +12,9 @@ the links for more information and course material.
 [Algorithmique et programmation C][MSIM914]
 : [MSIM914][MSIM914], M2 Algèbre appliquée.
 
+[Algèbre Commutative et effective (TDs)][MSMA910]
+: [MSMA910][MSMA910], M2 Algèbre appliquée.
+
 ### Old courses
 
 [Algorithmique pour la cryptographie][IN420]
@@ -26,8 +29,9 @@ the links for more information and course material.
 : A website offering coding challenges for training in Information Theory, Coding and Cryptology.
 
 
-[MSIM914]: http://defeo.lu/MA2-AlgoC "MSIM914"
-[AWS]: http://defeo.lu/aws "AWS"
-[IN310]: http://defeo.lu/in310 "IN310"
-[IN420]: http://defeo.lu/in420 "IN420"
-[ESB1MATH]: http://defeo.lu/esb1math "ESB1MATH"
+[MSIM914]: http://defeo.lu/MA2-AlgoC/ "MSIM914"
+[MSMA910]: http://defeo.lu/MA2-ace/ "MSMA910"
+[AWS]: http://defeo.lu/aws/ "AWS"
+[IN310]: http://defeo.lu/in310/ "IN310"
+[IN420]: http://defeo.lu/in420/ "IN420"
+[ESB1MATH]: http://defeo.lu/esb1math/ "ESB1MATH"
