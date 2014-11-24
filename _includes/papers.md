@@ -37,6 +37,7 @@ _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
 _ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. ??_{:.editor}
 <http://defeo.lu/ff_compositum>{:.link}<br>
 [10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
+[ ](http://dl.acm.org/authorize?N82344){:.download}
 
 _Fast algorithms for ℓ-adic towers over finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
@@ -44,7 +45,6 @@ _ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013, pp. 165-172_{:.editor}
 <http://defeo.lu/towers>{:.link}<br>
 [10.1145/2465506.2465956](http://dx.doi.org/10.1145/2465506.2465956){:.doi}
 [ ](http://dl.acm.org/authorize?6823128){:.download}
-
 
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao]_{:.author}
