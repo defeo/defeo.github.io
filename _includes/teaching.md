@@ -7,13 +7,13 @@ the links for more information and course material.
 : [IN310][IN310], L2 Informatique.
 
 [Applications web et sécurité][AWS]
-: [AWS][AWS], M1 Informatique.
+: [AWS][AWS], [M1 Informatique][SECRETS].
 
 [Algorithmique et programmation C][MSIM914]
-: [MSIM914][MSIM914], M2 Algèbre appliquée.
+: [MSIM914][MSIM914], [M2 Algèbre appliquée][MA2].
 
 [Algèbre Commutative et effective (TDs)][MSMA910]
-: [MSMA910][MSMA910], M2 Algèbre appliquée.
+: [MSMA910][MSMA910], [M2 Algèbre appliquée][MA2].
 
 ### Old courses
 
@@ -35,3 +35,5 @@ the links for more information and course material.
 [IN310]: http://defeo.lu/in310/ "IN310"
 [IN420]: http://defeo.lu/in420/ "IN420"
 [ESB1MATH]: http://defeo.lu/esb1math/ "ESB1MATH"
+[MA2]: http://www.departement.math.uvsq.fr/master2AA
+[SECRETS]: http://www.master-secrets.uvsq.fr/
