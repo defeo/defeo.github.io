@@ -3,6 +3,9 @@
 I teach the following courses in [UVSQ](http://www.uvsq.fr/). Follow
 the links for more information and course material.
 
+[Applications de l'informatique][IN202]
+: [IN202][IN202], L1 Informatique.
+
 [Mathématiques pour l'informatique][IN310]
 : [IN310][IN310], L2 Informatique.
 
@@ -32,6 +35,7 @@ the links for more information and course material.
 [MSIM914]: http://defeo.lu/MA2-AlgoC/ "MSIM914"
 [MSMA910]: http://defeo.lu/MA2-ace/ "MSMA910"
 [AWS]: http://defeo.lu/aws/ "AWS"
+[IN202]: http://defeo.lu/in202/ "IN202"
 [IN310]: http://defeo.lu/in310/ "IN310"
 [IN420]: http://defeo.lu/in420/ "IN420"
 [ESB1MATH]: http://defeo.lu/esb1math/ "ESB1MATH"
