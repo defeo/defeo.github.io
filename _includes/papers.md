@@ -34,7 +34,7 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 
 _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
-_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. ??_{:.editor}
+_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
 <http://defeo.lu/ff_compositum>{:.link}<br>
 [10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
 [ ](http://dl.acm.org/authorize?N82344){:.download}

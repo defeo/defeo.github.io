@@ -53,6 +53,7 @@ investigations and I have distributed some software using it.
 
 #### Grants and awards
 
+2014–2015 | **Digiteo post-doctoral grant**, *Projet IdealCodes: Coppersmith’s Method for Coding Theory and Cryptography*.
 2013–2016 | **Digiteo doctoral grant**, *Projet ARGC: Arithmetique Rapide pour la Géométrie et la Cryptologie*.
 2009 | **SIGSAM ISSAC 2009 Distinguished Student Author Award** for *Fast arithmetics in Artin-Schreier towers over Finite Fields*.
 
@@ -65,7 +66,7 @@ _Journal of Mathematical Cryptology. De Gruiter. (to appear)_{:.editor}
 
 _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
-_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. ??_{:.editor}
+_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
 [10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
 
 _Fast algorithms for ℓ-adic towers over finite fields_{:.title}
@@ -137,6 +138,7 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 
 #### Other responsibilities
 
+2014 | Organisation of the workshop [CLIC 2014](http://idealcodes.github.io/clic-2014) (Codes, Lattices, Ideals, Cryptography).
 2011–present | Université de Versailles, organization of the [**Cryptology seminar**](http://www.prism.uvsq.fr/index.php?option=com_content&view=article&id=366&Itemid=946).
 {:.ir}
 
