@@ -53,7 +53,9 @@ investigations and I have distributed some software using it.
 
 #### Grants and awards
 
-2014–2015 | **Digiteo post-doctoral grant**, *Projet IdealCodes: Coppersmith’s Method for Coding Theory and Cryptography*.
+2015–2019 | **Horizon 2020 European Research Infrastructures WP**, *OpenDreamKit*, <http://opendreamkit.org/>.
+2015 | **ISSAC 2015 Best Poster Award** for *Deterministic Root Finding in Finite Fields*.
+2014–2016 | **Digiteo post-doctoral grant**, *Projet IdealCodes: Coppersmith’s Method for Coding Theory and Cryptography*, <http://idealcodes.github.io/>.
 2013–2016 | **Digiteo doctoral grant**, *Projet ARGC: Arithmetique Rapide pour la Géométrie et la Cryptologie*.
 2009 | **SIGSAM ISSAC 2009 Distinguished Student Author Award** for *Fast arithmetics in Artin-Schreier towers over Finite Fields*.
 
