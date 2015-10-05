@@ -96,6 +96,10 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 
 #### Software
 
+[Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](https://github.com/defeo/ss-isogeny-software/)
+: A sage script implementing the cryptosystem described in
+	[Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](http://dx.doi.org/10.1007/978-3-642-25405-5_2).
+    
 [FAAST](https://github.com/defeo/FAAST)
 : A library for
 	[Fast Arithmetic in Artin-Schreier Towers](http://dx.doi.org/10.1145/1576702.1576722).
@@ -103,15 +107,6 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 [Transalpyne](http://transalpyne.gforge.inria.fr/)
 : A Python implementation of the
 	[Transposable Algebraic Language](http://dx.doi.org/10.1145/1838599.1838624).
-
-[Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](https://github.com/defeo/ss-isogeny-software/)
-: A sage script implementing the cryptosystem described in
-	[Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](http://dx.doi.org/10.1007/978-3-642-25405-5_2).
-    
-[was_framework](https://github.com/defeo/was_framework)
-: A [Node.js](http://nodejs.org) framework based upon
-	[express](http://expressjs.com), used for teaching the course
-	[Applications Web et Sécurité](#teaching).
 
 
 </section>
@@ -130,7 +125,8 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 #### Research administration
 
 * **Program committee member:**
-  * "Yet Another Conference on Cryptography 2012".
+  * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2016"](http://waifi.org/),
+  * ["Yet Another Conference on Cryptography (YACC) 2012"](http://yacc.univ-tln.fr/).
 * **Rewiever for international journals and conferences:**
   * "Journal of Symbolic Computation",
   * "Design, Codes and Cryptography",
@@ -140,7 +136,8 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 
 #### Other responsibilities
 
-2014 | Organisation of the workshop [CLIC 2014](http://idealcodes.github.io/clic-2014) (Codes, Lattices, Ideals, Cryptography).
+2016 | Organisation of the [**C2 summer school**](https://ecole-c2-2016.inria.fr/).
+2014 | Organisation of the workshop [**CLIC 2014**](http://idealcodes.github.io/clic-2014) (Codes, Lattices, Ideals, Cryptography).
 2011–present | Université de Versailles, organization of the [**Cryptology seminar**](http://www.prism.uvsq.fr/index.php?option=com_content&view=article&id=366&Itemid=946).
 {:.ir}
 
