@@ -21,6 +21,9 @@ The following software are based upon [academic research](#research).
 
 ### Other projects
 
+[eLeMents](https://elementslms.github.io/)
+: A DIY Learning Management System based on GitHub Pages.
+
 [Pylagiarist](https://github.com/defeo/pylagiarist)
 : A Python script for detecting plagiarism.
 

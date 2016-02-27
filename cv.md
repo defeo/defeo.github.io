@@ -19,7 +19,8 @@ scripts:
 
 #### Employment
 
-Sep 2011 – present | Laboratoire PRiSM, Université de Versailles **Maître de Conférences (Assistant Professor)**.
+Dec 2015 – present | Laboratoire de Mathématiques de Versailles, Université de Versailles **Maître de Conférences (Assistant Professor)**.
+Sep 2011 – Nov 2015 | Laboratoire PRiSM, Université de Versailles **Maître de Conférences (Assistant Professor)**.
 Jul 2011 – Aug 2011 | Combinatorics & Optimization, University of Waterloo **Postdoctoral researcher**.
 Dec 2010 – May 2011 | IRMAR, Université de Rennes 1 **Postdoctoral researcher**.
 
@@ -38,7 +39,7 @@ the stress on efficient algorithms, both in the theoretical analysis
 and the software implementation.
 
 I am interested in computer algebra systems and expressive programming
-languages for doing mathematics. I like to use Sage in my
+languages for doing mathematics. I like to use SageMath in my
 investigations and I have distributed some software using it.
 
 #### PhD supervision
@@ -132,6 +133,7 @@ _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
   * "Design, Codes and Cryptography",
   * "Finite Fields and their applications",
   * "Applicable Algebra in Engineering, Communication and Computing",
+  * "International Symposium on Symbolic and Algebraic Computation",
   * "Yet Another Conference on Cryptography".
 
 #### Other responsibilities
