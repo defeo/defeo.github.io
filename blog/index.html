@@ -8,8 +8,8 @@ share: /blog
 <div class="row">
   <div class="offset1 span8">
 
-    {% for post in paginator.posts %}
-    <article class="post" id="post-{{paginator.page}}-{{forloop.index}}" data-id="{{post.id}}">
+    {% for post in site.posts %}
+    <article class="post" id="post-{{forloop.index}}" data-id="{{post.id}}">
       <h1>{{post.title}} 
 	<small>{{post.date | date:"%B %d, %Y" | replace_first:" 0"," "}}</small>
       </h1>
@@ -39,8 +39,7 @@ share: /blog
     </article>
     {% endfor %}
     
-    {% include paginator.html %}
-
+    
   </div>
 
   <div class="span2">
