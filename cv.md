@@ -44,7 +44,7 @@ investigations and I have distributed some software using it.
 
 #### PhD supervision
 
-2013–present | **Cyril Hugounenq:** *Réalisation d'algorithmes efficaces pour l'arithmétique des corps finis et des variétés abéliennes, avec applications à la cryptologie*.
+2013–present<br>(defense exp. 2016) | **Cyril Hugounenq:** *Réalisation d'algorithmes efficaces pour l'arithmétique des corps finis et des variétés abéliennes, avec applications à la cryptologie*.
 
 #### Masters' thesis supervision
 
