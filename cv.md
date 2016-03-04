@@ -1,6 +1,7 @@
 ---
 layout: cv
 scripts:
+date: 2016/03/05
 ---
 
 {::options parse_block_html="true" /}
@@ -82,20 +83,14 @@ _with [Éric Schost][eschost]_{:.author}
 _Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792_{:.editor}
 [10.1016/j.jsc.2011.12.008](http://dx.doi.org/10.1016/j.jsc.2011.12.008){:.doi}
 
-_Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
-_with [David Jao][djao]_{:.author}
-_Post-Quantum Cryptography, Nov 2011, Taipei, Taiwan. Springer, 7071, pp. 19-34_{:.editor}
-[10.1007/978-3-642-25405-5\_2](http://dx.doi.org/10.1007/978-3-642-25405-5_2){:.doi}
-
-_Fast algorithms for computing isogenies between ordinary elliptic curves in small characteristic_{:.title}
-_Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
-[10.1016/j.jnt.2010.07.003](http://dx.doi.org/10.1016/j.jnt.2010.07.003){:.doi}
-
 [djao]: http://djao.math.uwaterloo.ca/
 [eschost]: http://www.csd.uwo.ca/~eshcost
 [fm]: http://www.lix.polytechnique.fr/~morain/
 
 #### Software
+
+[eLeMents](https://elementslms.github.io)
+: A DIY Learning Management System based on GitHub Pages.
 
 [Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies](https://github.com/defeo/ss-isogeny-software/)
 : A sage script implementing the cryptosystem described in

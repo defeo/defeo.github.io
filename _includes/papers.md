@@ -1,3 +1,23 @@
+### Preprints
+{:.publist}
+
+_Computing isomorphisms and embeddings of finite fields_{:.title}
+_with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
+_In preparation_{:.editor}
+<https://github.com/defeo/ffisom>{:.link}
+
+_Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
+_with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
+_In preparation. Best poster award ISSAC 2015._{:.editor}
+<https://github.com/defeo/root_finding/>{:.link}
+
+_Explicit isogenies in quadratic time in any characteristic_{:.title}
+_with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
+_Submitted to ANTS-XII_{:.editor}
+<http://arxiv.org/abs/1603.00711>{:.link}
+[ ](http://arxiv.org/abs/1603.00711v1){:.download}
+
+
 ### Journal articles
 {:.publist}
 
@@ -70,5 +90,6 @@ _École Polytechnique, December 13, 2010. In English_{:.editor}
 
 
 [djao]: http://djao.math.uwaterloo.ca/
-[eschost]: http://www.csd.uwo.ca/~eshcost
+[eschost]: https://cs.uwaterloo.ca/~eschost/
 [fm]: http://www.lix.polytechnique.fr/~morain/
+[cpetit]: http://people.maths.ox.ac.uk/petit/
