@@ -6,4 +6,6 @@ and the software implementation.
 I am interested in computer algebra systems and expressive programming
 languages for doing mathematics. I like to use
 [Sage](http://www.sagemath.org) in my investigations and I have
-distributed some [software](#software) using it.
+distributed some [software](#software) using it. I also am a member of
+the [OpenDreamKit](http://opendreamkit.org/) community, seeking to
+enhance the ecosystem of computational mathematics tools.

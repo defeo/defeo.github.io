@@ -41,13 +41,15 @@ and the software implementation.
 
 I am interested in computer algebra systems and expressive programming
 languages for doing mathematics. I like to use SageMath in my
-investigations and I have distributed some software using it.
+investigations and am a member of the
+[OpenDreamKit](http://opendreamkit.org/) community, seeking to enhance
+the ecosystem of computational mathematics tools.
 
 #### PhD supervision
 
 2013–present<br>(defense exp. 2016) | **Cyril Hugounenq:** *Réalisation d'algorithmes efficaces pour l'arithmétique des corps finis et des variétés abéliennes, avec applications à la cryptologie*.
 
-#### Masters' thesis supervision
+#### Master's thesis supervision
 
 2014 | **Ludovic Brieulle:** *Calcul d'isomorphismes de corps finis.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA) (joint supervision with Jean-Pierre Flori (ANSSI) and Jérôme Plût (ANSSI)).
 2014 | **Sébastien Besnier:** *Participation au développement d'un framework pour les courbes elliptiques en Sage.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA).
