@@ -11,12 +11,6 @@ _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
 _In preparation. Best poster award ISSAC 2015._{:.editor}
 <https://github.com/defeo/root_finding/>{:.link}
 
-_Explicit isogenies in quadratic time in any characteristic_{:.title}
-_with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
-_Submitted to ANTS-XII_{:.editor}
-<http://arxiv.org/abs/1603.00711>{:.link}
-[ ](http://arxiv.org/abs/1603.00711v1){:.download}
-
 
 ### Journal articles
 {:.publist}
@@ -51,6 +45,12 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 
 ### In conference proceedings
 {:.publist}
+
+_Explicit isogenies in quadratic time in any characteristic_{:.title}
+_with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
+_ANTS-XII, to Appear._{:.editor}
+<http://arxiv.org/abs/1603.00711>{:.link}
+[ ](http://arxiv.org/abs/1603.00711v1){:.download}
 
 _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}

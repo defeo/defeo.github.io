@@ -65,6 +65,11 @@ the ecosystem of computational mathematics tools.
 
 #### Recent publications
 
+_Explicit isogenies in quadratic time in any characteristic_{:.title}
+_with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
+_ANTS-XII, to Appear._{:.editor}
+<http://arxiv.org/abs/1603.00711>{:.link}
+
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao] and Jérôme Plût_{:.author}
 _Journal of Mathematical Cryptology, 2014, 8 (3), pp. 209-247_{:.editor}
