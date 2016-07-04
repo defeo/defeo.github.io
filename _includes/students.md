@@ -2,7 +2,7 @@
 
 #### PhD
 
-* [Cyril Hougounenq](https://github.com/Hugounenq-Cyril): *Réalisation
+* [Cyril Hugounenq](https://github.com/Hugounenq-Cyril): *Réalisation
   d’algorithmes efficaces pour l’arithmétique des corps finis et des
   variétés abéliennes, avec applications à la cryptologie.*
 
