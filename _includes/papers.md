@@ -84,8 +84,8 @@ _Fast Algorithms for Towers of Finite Fields and Isogenies_{:.title}
 _PhD Thesis. Advisors: [François Morain][fm], [Éric Schost][eschost]_{:.author}
 _École Polytechnique, December 13, 2010. In English_{:.editor}
 <https://github.com/defeo/PhD-Thesis>{:.link}<br>
-[tel-00547034](http://hal.inria.fr/index.php?action_todo=search&view_this_doc=tel-00547034&version=3){:.link}
-[ ](http://tel.archives-ouvertes.fr/docs/00/58/10/03/PDF/these.pdf){:.download}
+[HAL/tel-00547034](https://hal.inria.fr/tel-00547034){:.link}
+[ ](https://hal.inria.fr/tel-00547034v3/document){:.download}
 
 
 
