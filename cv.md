@@ -1,7 +1,7 @@
 ---
 layout: cv
 scripts:
-date: 2016/03/05
+date: 2016/09/04
 ---
 
 {::options parse_block_html="true" /}
@@ -20,6 +20,7 @@ date: 2016/03/05
 
 #### Employment
 
+Sep 2016 – Aug 2017 | INRIA Saclay, **Chercheur délégué (Invited researcher)**.
 Dec 2015 – present | Laboratoire de Mathématiques de Versailles, Université de Versailles **Maître de Conférences (Assistant Professor)**.
 Sep 2011 – Nov 2015 | Laboratoire PRiSM, Université de Versailles **Maître de Conférences (Assistant Professor)**.
 Jul 2011 – Aug 2011 | Combinatorics & Optimization, University of Waterloo **Postdoctoral researcher**.
@@ -57,6 +58,7 @@ the ecosystem of computational mathematics tools.
 
 #### Grants and awards
 
+2016–2017 | **Chercheur délégué**, INRIA Saclay.
 2015–2019 | **Horizon 2020 European Research Infrastructures WP**, *OpenDreamKit*, <http://opendreamkit.org/>.
 2015 | **ISSAC 2015 Best Poster Award** for *Deterministic Root Finding in Finite Fields*.
 2014–2016 | **Digiteo post-doctoral grant**, *Projet IdealCodes: Coppersmith’s Method for Coding Theory and Cryptography*, <http://idealcodes.github.io/>.
@@ -67,8 +69,8 @@ the ecosystem of computational mathematics tools.
 
 _Explicit isogenies in quadratic time in any characteristic_{:.title}
 _with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
-_ANTS-XII, to Appear._{:.editor}
-<http://arxiv.org/abs/1603.00711>{:.link}
+_LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282_{:.editor}
+[10.1112/S146115701600036X](http://dx.doi.org/10.1112/S146115701600036X){:.doi}
 
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao] and Jérôme Plût_{:.author}

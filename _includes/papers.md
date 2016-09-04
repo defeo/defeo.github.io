@@ -8,12 +8,19 @@ _In preparation_{:.editor}
 
 _Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
 _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
-_In preparation. Best poster award ISSAC 2015._{:.editor}
+_In preparation. Best poster award ISSAC 2015_{:.editor}
 <https://github.com/defeo/root_finding/>{:.link}
 
 
 ### Journal articles
 {:.publist}
+
+_Explicit isogenies in quadratic time in any characteristic_{:.title}
+_with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
+_LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282_{:.editor}
+[10.1112/S146115701600036X](http://dx.doi.org/10.1112/S146115701600036X){:.doi}<br>
+<http://arxiv.org/abs/1603.00711>{:.link}
+[ ](http://arxiv.org/abs/1603.00711v1){:.download}
 
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao] and Jérôme Plût_{:.author}
@@ -45,12 +52,6 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 
 ### In conference proceedings
 {:.publist}
-
-_Explicit isogenies in quadratic time in any characteristic_{:.title}
-_with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
-_ANTS-XII, to Appear._{:.editor}
-<http://arxiv.org/abs/1603.00711>{:.link}
-[ ](http://arxiv.org/abs/1603.00711v1){:.download}
 
 _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
