@@ -4,14 +4,4 @@ permalink: /blog/:categories/:title
 #paginate: 5
 #paginate_path: /blog/:num
 
-markdown: kramdown
-
-kramdown:
-  enable_coderay: true
-
-  coderay:
-    coderay_wrap: div
-    coderay_css: class
-    coderay_line_numbers: table
-
 twitter_user: "@luca_defeo"
