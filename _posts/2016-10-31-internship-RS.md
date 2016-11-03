@@ -89,6 +89,8 @@ direction de [Luca De Feo](http://defeo.lu/) et de
 Le stagiaire sera amené à interagir avec le Laboratoire Cryptographie
 et Composants de l'[ANSSI](https://www.ssi.gouv.fr/).
 
+Pour candidater, envoyez un email à <luca.de-feo@uvsq.fr> en joignant votre
+CV et une lettre de motivation.
 
 ## Bibliographie
 
