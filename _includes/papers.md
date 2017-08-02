@@ -3,8 +3,9 @@
 
 _Computing isomorphisms and embeddings of finite fields_{:.title}
 _with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
-_In preparation_{:.editor}
-<https://github.com/defeo/ffisom>{:.link}
+<https://github.com/defeo/ffisom>{:.link}<br>
+<https://arxiv.org/abs/1705.01221>{:.link}
+[ ](https://arxiv.org/abs/1705.01221){:.download}
 
 _Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
 _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
