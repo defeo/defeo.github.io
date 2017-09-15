@@ -1,6 +1,10 @@
 ### Preprints
 {:.publist}
 
+_Mathematics of Isogeny Based Cryptography_{:.title}
+<http://defeo.lu/ema2017/>{:.link}
+[ ](http://defeo.lu/ema2017/poly.pdf){:.download}
+
 _Computing isomorphisms and embeddings of finite fields_{:.title}
 _with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
 <https://github.com/defeo/ffisom>{:.link}<br>

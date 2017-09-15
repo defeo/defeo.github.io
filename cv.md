@@ -1,7 +1,7 @@
 ---
 layout: cv
 scripts:
-date: 2016/09/04
+date: 2017/09/14
 ---
 
 {::options parse_block_html="true" /}
@@ -20,7 +20,7 @@ date: 2016/09/04
 
 #### Employment
 
-Sep 2016 – Aug 2017 | INRIA Saclay, **Chercheur délégué (Invited researcher)**.
+Sep 2016 – Aug 2018 | INRIA Saclay, **Chercheur délégué (Invited researcher)**.
 Dec 2015 – present | Laboratoire de Mathématiques de Versailles, Université de Versailles **Maître de Conférences (Assistant Professor)**.
 Sep 2011 – Nov 2015 | Laboratoire PRiSM, Université de Versailles **Maître de Conférences (Assistant Professor)**.
 Jul 2011 – Aug 2011 | Combinatorics & Optimization, University of Waterloo **Postdoctoral researcher**.
@@ -48,17 +48,20 @@ the ecosystem of computational mathematics tools.
 
 #### PhD supervision
 
-2013–present<br>(defense exp. 2016) | **Cyril Hugounenq:** *Réalisation d'algorithmes efficaces pour l'arithmétique des corps finis et des variétés abéliennes, avec applications à la cryptologie*.
+2017–present | **Édouard Rousseau:** *Arithmétique efficace pour la cryptographie et la cryptanalyse*
+2013–2017 | **Cyril Hugounenq:** *Volcans et calcul d'isogénies*.
 
 #### Master's thesis supervision
 
+2017 | **Jean Kieffer:** *Protocoles d'échange de clefs à base d'isogénies.* [M2 de Mathématiques Fondamentales (UPMC)](http://mathfond.math.upmc.fr/).
 2014 | **Ludovic Brieulle:** *Calcul d'isomorphismes de corps finis.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA) (joint supervision with Jean-Pierre Flori (ANSSI) and Jérôme Plût (ANSSI)).
 2014 | **Sébastien Besnier:** *Participation au développement d'un framework pour les courbes elliptiques en Sage.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA).
 2013 | **Cyril Hugounenq:** *Amélioration de l'algorithme de Couveignes pour le calcul d'isogénies.* [M2 Sécurité, Cryptologie et Codage de l'Information (UJF)](http://im2ag-webmath.e.ujf-grenoble.fr/enseignement2/spip.php?rubrique19&lang=fr).
 
 #### Grants and awards
 
-2016–2017 | **Chercheur délégué**, INRIA Saclay.
+2017 | **ISSAC 2017 Best Poster Award** for *Isogeny-based cryptography in Nemo: A case study*.
+2016–2018 | **Chercheur délégué**, INRIA Saclay.
 2015–2019 | **Horizon 2020 European Research Infrastructures WP**, *OpenDreamKit*, <http://opendreamkit.org/>.
 2015 | **ISSAC 2015 Best Poster Award** for *Deterministic Root Finding in Finite Fields*.
 2014–2016 | **Digiteo post-doctoral grant**, *Projet IdealCodes: Coppersmith’s Method for Coding Theory and Cryptography*, <http://idealcodes.github.io/>.
@@ -66,6 +69,15 @@ the ecosystem of computational mathematics tools.
 2009 | **SIGSAM ISSAC 2009 Distinguished Student Author Award** for *Fast arithmetics in Artin-Schreier towers over Finite Fields*.
 
 #### Recent publications
+
+_Mathematics of Isogeny Based Cryptography_{:.title}
+_Preprint, 2017_{:.editor}
+<http://defeo.lu/ema2017/poly.pdf>{:.link}
+
+_Computing isomorphisms and embeddings of finite fields_{:.title}
+_with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
+_Preprint, 2017_{:.editor}
+<https://arxiv.org/abs/1705.01221>{:.link}
 
 _Explicit isogenies in quadratic time in any characteristic_{:.title}
 _with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
@@ -86,11 +98,6 @@ _Fast algorithms for ℓ-adic towers over finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
 _ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013, pp. 165-172_{:.editor}
 [10.1145/2465506.2465956](http://dx.doi.org/10.1145/2465506.2465956){:.doi}
-
-_Fast Arithmetics in Artin-Schreier Towers over Finite Fields_{:.title}
-_with [Éric Schost][eschost]_{:.author}
-_Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792_{:.editor}
-[10.1016/j.jsc.2011.12.008](http://dx.doi.org/10.1016/j.jsc.2011.12.008){:.doi}
 
 [djao]: http://djao.math.uwaterloo.ca/
 [eschost]: http://www.csd.uwo.ca/~eshcost
@@ -130,6 +137,9 @@ _Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792_{:.editor}
 #### Research administration
 
 * **Program committee member:**
+  * ["International Symposium on Symbolic and Algebraic Computation (ISSAC) 2018"](http://issac-conference.org/2018/),
+  * ["Codes, Cryptology and Information Security - South East  Asia (C2SI-SEA)"](#),
+  * ["AfricaCrypt 2018"](www.math.unicaen.fr/~nitaj/Africacrypt.htmll),
   * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2016"](http://waifi.org/),
   * ["Yet Another Conference on Cryptography (YACC) 2012"](http://yacc.univ-tln.fr/).
 * **Rewiever for international journals and conferences:**
@@ -137,11 +147,15 @@ _Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792_{:.editor}
   * "Design, Codes and Cryptography",
   * "Finite Fields and their applications",
   * "Applicable Algebra in Engineering, Communication and Computing",
+  * "Journal of Algebra and Its Applications",
   * "International Symposium on Symbolic and Algebraic Computation",
-  * "Yet Another Conference on Cryptography".
+  * "Yet Another Conference on Cryptography",
+  * "AsiaCrypt",
+  * "PQCrypto".
 
 #### Other responsibilities
 
+2017–2019 | Organisation of the [**Journées Nationales du Calcul Formel**](http://jncf.math.cnrs.fr/).
 2016 | Organisation of the [**C2 summer school**](https://ecole-c2-2016.inria.fr/).
 2014 | Organisation of the workshop [**CLIC 2014**](http://idealcodes.github.io/clic-2014) (Codes, Lattices, Ideals, Cryptography).
 2011–present | Université de Versailles, organization of the [**Cryptology seminar**](http://www.prism.uvsq.fr/index.php?option=com_content&view=article&id=366&Itemid=946).
