@@ -1,15 +1,11 @@
 ### Preprints
 {:.publist}
 
-_Mathematics of Isogeny Based Cryptography_{:.title}
-<http://defeo.lu/ema2017/>{:.link}
-[ ](http://defeo.lu/ema2017/poly.pdf){:.download}
-
 _Computing isomorphisms and embeddings of finite fields_{:.title}
 _with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
 <https://github.com/defeo/ffisom>{:.link}<br>
 <https://arxiv.org/abs/1705.01221>{:.link}
-[ ](https://arxiv.org/abs/1705.01221){:.download}
+[ ](https://arxiv.org/pdf/1705.01221){:.download}
 
 _Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
 _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
@@ -24,8 +20,8 @@ _Explicit isogenies in quadratic time in any characteristic_{:.title}
 _with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
 _LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282_{:.editor}
 [10.1112/S146115701600036X](http://dx.doi.org/10.1112/S146115701600036X){:.doi}<br>
-<http://arxiv.org/abs/1603.00711>{:.link}
-[ ](http://arxiv.org/abs/1603.00711v1){:.download}
+<https://arxiv.org/abs/1603.00711>{:.link}
+[ ](https://arxiv.org/abs/1603.00711v1){:.download}
 
 _Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
 _with [David Jao][djao] and Jérôme Plût_{:.author}
@@ -38,14 +34,14 @@ _Fast Arithmetics in Artin-Schreier Towers over Finite Fields_{:.title}
 _with [Éric Schost][eschost]_{:.author}
 _Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792_{:.editor}
 [10.1016/j.jsc.2011.12.008](http://dx.doi.org/10.1016/j.jsc.2011.12.008){:.doi}<br>
-<http://arxiv.org/abs/1002.2594>{:.link}
-[ ](http://arxiv.org/pdf/1002.2594v1){:.download}
+<https://arxiv.org/abs/1002.2594>{:.link}
+[ ](https://arxiv.org/pdf/1002.2594v1){:.download}
 
 _Fast algorithms for computing isogenies between ordinary elliptic curves in small characteristic_{:.title}
 _Journal of Number Theory, 2011, 131 (5), pp. 873-893_{:.editor}
 [10.1016/j.jnt.2010.07.003](http://dx.doi.org/10.1016/j.jnt.2010.07.003){:.doi}<br>
-<http://fr.arxiv.org/abs/1002.2597>{:.link}
-[ ](http://fr.arxiv.org/pdf/1002.2597v1){:.download}
+<https://www.arxiv.org/abs/1002.2597>{:.link}
+[ ](https://www.arxiv.org/pdf/1002.2597v1){:.download}
 
 _transalpyne: a language for automatic transposition_{:.title}
 _with [Éric Schost][eschost]_{:.author}
@@ -82,6 +78,15 @@ _with [Éric Schost][eschost]_{:.author}
 _ISSAC '09, July 2009, Seoul, Korea. ACM, 2009, pp. 127-134_{:.editor}
 [10.1145/1576702.1576722](http://dx.doi.org/10.1145/1576702.1576722){:.doi}
 [ ](http://dl.acm.org/authorize?117912){:.download}
+
+### Other
+{:.publist}
+
+_Mathematics of Isogeny Based Cryptography_{:.title}
+_Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp._{:.editor}
+<https://github.com/defeo/ema2017/>{:.link}<br>
+<https://arxiv.org/abs/1711.04062>{:.link}
+[ ](https://arxiv.org/pdf/1711.04062){:.download}
 
 ### Thesis
 {:.publist}
