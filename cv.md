@@ -48,11 +48,13 @@ the ecosystem of computational mathematics tools.
 
 #### PhD supervision
 
-2017–present | **Édouard Rousseau:** *Arithmétique efficace pour la cryptographie et la cryptanalyse*
+2017–present | **Édouard Rousseau:** *Arithmétique efficace pour la cryptographie et la cryptanalyse*.
+2016-present | **Robin Larrieu:** *Fast Finite Field Arithmetic*.
 2013–2017 | **Cyril Hugounenq:** *Volcans et calcul d'isogénies*.
 
 #### Master's thesis supervision
 
+2018 | **Mattia Veroni:** *Comptage de points de courbes elliptiques en moyenne caractéristique.* [Laurea Magistrale in Matematica (UniTrento)](https://offertaformativa.unitn.it/it/lm/matematica).
 2017 | **Jean Kieffer:** *Protocoles d'échange de clefs à base d'isogénies.* [M2 de Mathématiques Fondamentales (UPMC)](http://mathfond.math.upmc.fr/).
 2014 | **Ludovic Brieulle:** *Calcul d'isomorphismes de corps finis.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA) (joint supervision with Jean-Pierre Flori (ANSSI) and Jérôme Plût (ANSSI)).
 2014 | **Sébastien Besnier:** *Participation au développement d'un framework pour les courbes elliptiques en Sage.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA).
