@@ -1,11 +1,12 @@
 ### Preprints
 {:.publist}
 
-_Computing isomorphisms and embeddings of finite fields_{:.title}
-_with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
-<https://github.com/defeo/ffisom>{:.link}<br>
-<https://arxiv.org/abs/1705.01221>{:.link}
-[ ](https://arxiv.org/pdf/1705.01221){:.download}
+_Towards practical key exchange from ordinary isogeny graphs_{:.title}
+_with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
+_under review, 2018_{:.editor}
+<https://eprint.iacr.org/2018/485>{:.link}
+[ ](https://eprint.iacr.org/2018/485.pdf){:.download}
+
 
 _Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
 _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
@@ -15,6 +16,14 @@ _In preparation. Best poster award ISSAC 2015_{:.editor}
 
 ### Journal articles
 {:.publist}
+
+_Computing isomorphisms and embeddings of finite fields_{:.title}
+_with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
+_to appear in Mathematics of Computation, 2018_{:.editor}
+[10.1090/mcom/3363](https://doi.org/10.1090/mcom/3363){:.doi}<br>
+<https://github.com/defeo/ffisom>{:.link}<br>
+<https://arxiv.org/abs/1705.01221>{:.link}
+[ ](https://arxiv.org/pdf/1705.01221){:.download}
 
 _Explicit isogenies in quadratic time in any characteristic_{:.title}
 _with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
@@ -54,6 +63,12 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 ### In conference proceedings
 {:.publist}
 
+_Knowledge-Based Interoperability for Mathematical Software Systems_{:.title}
+_with Michael Kohlhase, Dennis Müller, Markus Pfeiffer, Florian Rabe, Nicolas M. Thiéry, Victor Vasilyev and Tom Wiesing_{:.author}
+_Mathematical Aspects of Computer and Information Sciences, Springer, 2017, pp. 195-210_{:.editor}
+[10.1007/978-3-319-72453-9_14](http://dx.doi.org/10.1007/978-3-319-72453-9_14){:.doi}
+[ ](https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/12491/crc.pdf){:.download}
+
 _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
 _ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
@@ -82,8 +97,14 @@ _ISSAC '09, July 2009, Seoul, Korea. ACM, 2009, pp. 127-134_{:.editor}
 ### Other
 {:.publist}
 
+_Supersingular Isogeny Key Encapsulation_{:.title}
+_with R. Azarderakhsh, M. Campagna, C. Costello, B. Hess, A. Jalali, D. Jao, B. Koziel, B. LaMacchia, P. Longa, M. Naehrig, J. Renes, V. Soukharev, D. Urbanik_{:.author}
+_Encryption/Key Encapsulation scheme, candidate to the [NIST Post-Quantum Cryptography competion](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), 2017_{:.editor}
+<http://sike.org>{:.link}
+[ ](http://sike.org/files/SIDH-spec.pdf){:.download}
+
 _Mathematics of Isogeny Based Cryptography_{:.title}
-_Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp._{:.editor}
+_Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp_{:.editor}
 <https://github.com/defeo/ema2017/>{:.link}<br>
 <https://arxiv.org/abs/1711.04062>{:.link}
 [ ](https://arxiv.org/pdf/1711.04062){:.download}

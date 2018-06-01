@@ -1,7 +1,7 @@
 ---
 layout: cv
 scripts:
-date: 2017/09/14
+date: 2018/06/01
 ---
 
 {::options parse_block_html="true" /}
@@ -70,14 +70,29 @@ the ecosystem of computational mathematics tools.
 
 #### Recent publications
 
-_Mathematics of Isogeny Based Cryptography_{:.title}
-_Preprint, 2017_{:.editor}
-<http://defeo.lu/ema2017/poly.pdf>{:.link}
+_Towards practical key exchange from ordinary isogeny graphs_{:.title}
+_with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
+_under review, 2018_{:.editor}
+<https://eprint.iacr.org/2018/485>{:.link}
 
 _Computing isomorphisms and embeddings of finite fields_{:.title}
 _with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
-_Preprint, 2017_{:.editor}
-<https://arxiv.org/abs/1705.01221>{:.link}
+_to appear in Mathematics of Computation, 2018_{:.editor}
+[10.1090/mcom/3363](https://doi.org/10.1090/mcom/3363){:.doi}
+
+_Supersingular Isogeny Key Encapsulation_{:.title}
+_with R. Azarderakhsh, M. Campagna, C. Costello, B. Hess, A. Jalali, D. Jao, B. Koziel, B. LaMacchia, P. Longa, M. Naehrig, J. Renes, V. Soukharev, D. Urbanik_{:.author}
+_Encryption/Key Encapsulation scheme, candidate to the [NIST Post-Quantum Cryptography competion](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), 2017_{:.editor}
+<http://sike.org>{:.link}
+
+_Mathematics of Isogeny Based Cryptography_{:.title}
+_Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp_{:.editor}
+<https://arxiv.org/abs/1711.04062>{:.link}
+
+_Knowledge-Based Interoperability for Mathematical Software Systems_{:.title}
+_with Michael Kohlhase, Dennis Müller, Markus Pfeiffer, Florian Rabe, Nicolas M. Thiéry, Victor Vasilyev and Tom Wiesing_{:.author}
+_Mathematical Aspects of Computer and Information Sciences, Springer, 2017, pp. 195-210_{:.editor}
+[10.1007/978-3-319-72453-9_14](http://dx.doi.org/10.1007/978-3-319-72453-9_14){:.doi}
 
 _Explicit isogenies in quadratic time in any characteristic_{:.title}
 _with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
@@ -93,11 +108,6 @@ _Fast arithmetic for the algebraic closure of finite fields_{:.title}
 _with [Éric Schost][eschost] and Javad Doliskani_{:.author}
 _ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
 [10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
-
-_Fast algorithms for ℓ-adic towers over finite fields_{:.title}
-_with [Éric Schost][eschost] and Javad Doliskani_{:.author}
-_ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013, pp. 165-172_{:.editor}
-[10.1145/2465506.2465956](http://dx.doi.org/10.1145/2465506.2465956){:.doi}
 
 [djao]: http://djao.math.uwaterloo.ca/
 [eschost]: http://www.csd.uwo.ca/~eshcost
@@ -136,22 +146,13 @@ _ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013, pp. 165-172_{:.editor}
 
 #### Research administration
 
-* **Program committee member:**
+* Program committee member:
+  * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2018"](http://waifi.org/),  
   * ["International Symposium on Symbolic and Algebraic Computation (ISSAC) 2018"](http://issac-conference.org/2018/),
-  * ["Codes, Cryptology and Information Security - South East  Asia (C2SI-SEA)"](#),
   * ["AfricaCrypt 2018"](www.math.unicaen.fr/~nitaj/Africacrypt.htmll),
   * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2016"](http://waifi.org/),
   * ["Yet Another Conference on Cryptography (YACC) 2012"](http://yacc.univ-tln.fr/).
-* **Rewiever for international journals and conferences:**
-  * "Journal of Symbolic Computation",
-  * "Design, Codes and Cryptography",
-  * "Finite Fields and their applications",
-  * "Applicable Algebra in Engineering, Communication and Computing",
-  * "Journal of Algebra and Its Applications",
-  * "International Symposium on Symbolic and Algebraic Computation",
-  * "Yet Another Conference on Cryptography",
-  * "AsiaCrypt",
-  * "PQCrypto".
+* Rewiever for various international journals and conferences.
 
 #### Other responsibilities
 

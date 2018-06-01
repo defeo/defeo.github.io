@@ -1,6 +1,5 @@
-**Nov 15, 2017:** New paper:
-  [Mathematics of Isogeny Based Cryptography](https://arxiv.org/abs/1711.04062).
-  Creative Commons license!
+**Mai 31, 2018:** Slides for a new talk with the same old title:
+[Isogeny Graphs in Cryptography](http://defeo.lu/docet/assets/slides/2018-05-31-gdr-securite.pdf). With hand-drawings!
 
-**Nov 14, 2017:** Invited talk at ECC 2017, here's the
-  [slides](http://defeo.lu/docet/talk/2017/11/14/ecc/).
+**Mai 23, 2018:** New paper:
+[Towards practical key exchange from ordinary isogeny graphs](https://eprint.iacr.org/2018/485).
