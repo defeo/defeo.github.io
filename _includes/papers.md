@@ -1,12 +1,11 @@
 ### Preprints
 {:.publist}
 
-_Towards practical key exchange from ordinary isogeny graphs_{:.title}
-_with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
-_under review, 2018_{:.editor}
-<https://eprint.iacr.org/2018/485>{:.link}
-[ ](https://eprint.iacr.org/2018/485.pdf){:.download}
-
+_SeaSign: Compact isogeny signatures from class group actions_{:.title}
+_with [Steven Galbraith](https://www.math.auckland.ac.nz/~sgal018/)_{:.author}
+_preprint, 2018_{:.editor}
+<https://eprint.iacr.org/2018/824>{:.link}
+[ ](https://eprint.iacr.org/2018/824.pdf){:.download}
 
 _Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
 _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
@@ -62,6 +61,13 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 
 ### In conference proceedings
 {:.publist}
+
+_Towards practical key exchange from ordinary isogeny graphs_{:.title}
+_with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
+_AsiaCrypt 2018_{:.editor}
+<https://eprint.iacr.org/2018/485>{:.link}
+[ ](https://eprint.iacr.org/2018/485.pdf){:.download}
+
 
 _Knowledge-Based Interoperability for Mathematical Software Systems_{:.title}
 _with Michael Kohlhase, Dennis Müller, Markus Pfeiffer, Florian Rabe, Nicolas M. Thiéry, Victor Vasilyev and Tom Wiesing_{:.author}

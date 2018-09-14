@@ -1,7 +1,7 @@
 ---
 layout: cv
 scripts:
-date: 2018/06/01
+date: 2018/09/14
 ---
 
 {::options parse_block_html="true" /}
@@ -72,14 +72,19 @@ the ecosystem of computational mathematics tools.
 
 #### Recent publications
 
+_SeaSign: Compact isogeny signatures from class group actions_{:.title}
+_with [Steven Galbraith](https://www.math.auckland.ac.nz/~sgal018/)_{:.author}
+_preprint, 2018_{:.editor}
+<https://eprint.iacr.org/2018/824>{:.link}
+
 _Towards practical key exchange from ordinary isogeny graphs_{:.title}
 _with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
-_under review, 2018_{:.editor}
+_to appear in AsiaCrypt 2018_{:.editor}
 <https://eprint.iacr.org/2018/485>{:.link}
 
 _Computing isomorphisms and embeddings of finite fields_{:.title}
 _with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
-_to appear in Mathematics of Computation, 2018_{:.editor}
+_Mathematics of Computation, 2018_{:.editor}
 [10.1090/mcom/3363](https://doi.org/10.1090/mcom/3363){:.doi}
 
 _Supersingular Isogeny Key Encapsulation_{:.title}
@@ -149,9 +154,10 @@ _ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
 #### Research administration
 
 * Program committee member:
-  * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2018"](http://waifi.org/),  
+  * "AfricaCrypt 2019",
+  * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2018"](http://waifi.org/),
   * ["International Symposium on Symbolic and Algebraic Computation (ISSAC) 2018"](http://issac-conference.org/2018/),
-  * ["AfricaCrypt 2018"](www.math.unicaen.fr/~nitaj/Africacrypt.htmll),
+  * "AfricaCrypt 2018"
   * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2016"](http://waifi.org/),
   * ["Yet Another Conference on Cryptography (YACC) 2012"](http://yacc.univ-tln.fr/).
 * Rewiever for various international journals and conferences.
