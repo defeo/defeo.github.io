@@ -3,9 +3,6 @@
 I teach the following courses in [UVSQ](http://www.uvsq.fr/). Follow
 the links for more information and course material.
 
-[Mathématiques pour l'informatique][IN310]
-: [IN310][IN310], L2 Informatique.
-
 [Applications web et sécurité][AWS]
 : [AWS][AWS], [M1 Informatique][SECRETS].
 : [AWS][AWS], [ISTY, IATIC4][ISTY].
@@ -23,6 +20,9 @@ the links for more information and course material.
 
 [Applications de l'informatique][IN202]
 : [IN202][IN202], L1 Informatique.
+
+[Mathématiques pour l'informatique][IN310]
+: [IN310][IN310], L2 Informatique.
 
 [Algorithmique pour la cryptographie][IN420]
 : [IN420][IN420], L2 Informatique.
@@ -46,5 +46,5 @@ the links for more information and course material.
 [MA2]: http://www.departement.math.uvsq.fr/master2AA
 [SECRETS]: http://www.master-secrets.uvsq.fr/
 [MINT]: http://www.departement.math.uvsq.fr/MINT "MINT"
-[MYMAI201]: https://christinaboura.github.io/M1-AlgoProg/ "MYMAI201"
+[MYMAI201]: https://defeo.lu/M1-AlgoProg/ "MYMAI201"
 [ISTY]: http://www.isty.uvsq.fr/ "ISTY"
