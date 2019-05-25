@@ -1,11 +1,10 @@
 ### Preprints
 {:.publist}
 
-_SeaSign: Compact isogeny signatures from class group actions_{:.title}
-_with [Steven Galbraith](https://www.math.auckland.ac.nz/~sgal018/)_{:.author}
-_preprint, 2018_{:.editor}
-<https://eprint.iacr.org/2018/824>{:.link}
-[ ](https://eprint.iacr.org/2018/824.pdf){:.download}
+_Verifiable Delay Functions from Supersingular Isogenies and Pairings_{:.title}
+_with [Simon Masson](https://members.loria.fr/SMasson/) and [Christophe Petit](cpetit) and [Antonio Sanso](https://blog.intothesymmetry.com/)_{:.author}
+_submitted 2019_{:.editor}
+<https://eprint.iacr.org/2019/166>{:.link}
 
 _Applications of the affine geometry of GF(q<sup>n</sup>) to root finding_{:.title}
 _with [Christophe Petit][cpetit] and Michaël Quisquater_{:.author}
@@ -62,12 +61,22 @@ _ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71_{:.editor}
 ### In conference proceedings
 {:.publist}
 
+_Standard Lattices of Compatibly Embedded Finite Fields_{:.title}
+_with [Hugues Randriam](https://perso.telecom-paristech.fr/randriam/) and [Édouard Rousseau](https://erou.github.io/)_{:.author}
+_ISSAC 2019_{:.editor}
+[10.1145/3326229.3326251](https://doi.org/10.1145/3326229.3326251){:.doi}
+
+_SeaSign: Compact isogeny signatures from class group actions_{:.title}
+_with [Steven Galbraith](https://www.math.auckland.ac.nz/~sgal018/)_{:.author}
+_Eurocrypt 2019_{:.editor}
+[10.1007/978-3-030-17659-4_26](https://doi.org/10.1007/978-3-030-17659-4_26){:.doi}
+[ ](https://eprint.iacr.org/2018/824.pdf){:.download}
+
 _Towards practical key exchange from ordinary isogeny graphs_{:.title}
 _with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
 _AsiaCrypt 2018_{:.editor}
-<https://eprint.iacr.org/2018/485>{:.link}
+[10.1007/978-3-030-03332-3_14](https://doi.org/10.1007/978-3-030-03332-3_14){:.doi}
 [ ](https://eprint.iacr.org/2018/485.pdf){:.download}
-
 
 _Knowledge-Based Interoperability for Mathematical Software Systems_{:.title}
 _with Michael Kohlhase, Dennis Müller, Markus Pfeiffer, Florian Rabe, Nicolas M. Thiéry, Victor Vasilyev and Tom Wiesing_{:.author}
@@ -130,4 +139,4 @@ _École Polytechnique, December 13, 2010. In English_{:.editor}
 [djao]: http://djao.math.uwaterloo.ca/
 [eschost]: https://cs.uwaterloo.ca/~eschost/
 [fm]: http://www.lix.polytechnique.fr/~morain/
-[cpetit]: http://people.maths.ox.ac.uk/petit/
+[cpetit]: https://www.cs.bham.ac.uk/~petitcz/

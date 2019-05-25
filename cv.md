@@ -20,8 +20,8 @@ date: 2018/09/14
 
 #### Employment
 
-Sep 2016 – Aug 2018 | INRIA Saclay, **Chercheur délégué (Invited researcher)**.
 Dec 2015 – present | Laboratoire de Mathématiques de Versailles, Université de Versailles **Maître de Conférences (Assistant Professor)**.
+Sep 2016 – Aug 2018 | INRIA Saclay, **Chercheur délégué (Invited researcher)**.
 Sep 2011 – Nov 2015 | Laboratoire PRiSM, Université de Versailles **Maître de Conférences (Assistant Professor)**.
 Jul 2011 – Aug 2011 | Combinatorics & Optimization, University of Waterloo **Postdoctoral researcher**.
 Dec 2010 – May 2011 | IRMAR, Université de Rennes 1 **Postdoctoral researcher**.
@@ -54,6 +54,7 @@ the ecosystem of computational mathematics tools.
 
 #### Master's thesis supervision
 
+2019 | **Antonin Leroux:** *Contributions à la cryptographie à base d'isogénies.* [M2 Master Parisien de Recherche en Informatique](https://wikimpri.dptinfo.ens-cachan.fr/).
 2018 | **Mattia Veroni:** *Comptage de points de courbes elliptiques en moyenne caractéristique.* [Laurea Magistrale in Matematica (UniTrento)](https://offertaformativa.unitn.it/it/lm/matematica).
 2017 | **Jean Kieffer:** *Protocoles d'échange de clefs à base d'isogénies.* [M2 de Mathématiques Fondamentales (UPMC)](http://mathfond.math.upmc.fr/).
 2014 | **Ludovic Brieulle:** *Calcul d'isomorphismes de corps finis.* [M2 Algèbre Appliquée (UVSQ)](http://www.departement.math.uvsq.fr/master2AA) (joint supervision with Jean-Pierre Flori (ANSSI) and Jérôme Plût (ANSSI)).
@@ -72,15 +73,20 @@ the ecosystem of computational mathematics tools.
 
 #### Recent publications
 
+_Standard Lattices of Compatibly Embedded Finite Fields_{:.title}
+_with [Hugues Randriam](https://perso.telecom-paristech.fr/randriam/) and [Édouard Rousseau](https://erou.github.io/)_{:.author}
+_ISSAC 2019_{:.editor}
+[10.1145/3326229.3326251](https://doi.org/10.1145/3326229.3326251){:.doi}
+
 _SeaSign: Compact isogeny signatures from class group actions_{:.title}
 _with [Steven Galbraith](https://www.math.auckland.ac.nz/~sgal018/)_{:.author}
-_preprint, 2018_{:.editor}
-<https://eprint.iacr.org/2018/824>{:.link}
+_Eurocrypt 2019_{:.editor}
+[10.1007/978-3-030-17659-4_26](https://doi.org/10.1007/978-3-030-17659-4_26){:.doi}
 
 _Towards practical key exchange from ordinary isogeny graphs_{:.title}
 _with Jean Kieffer and [Benjamin Smith](http://www.lix.polytechnique.fr/~smith/)_{:.author}
-_to appear in AsiaCrypt 2018_{:.editor}
-<https://eprint.iacr.org/2018/485>{:.link}
+_AsiaCrypt 2018_{:.editor}
+[10.1007/978-3-030-03332-3_14](https://doi.org/10.1007/978-3-030-03332-3_14){:.doi}
 
 _Computing isomorphisms and embeddings of finite fields_{:.title}
 _with Ludovic Brieulle, Javad Doliskani, Jean-Pierre Flori and [Éric Schost][eschost]_{:.author}
@@ -105,16 +111,6 @@ _Explicit isogenies in quadratic time in any characteristic_{:.title}
 _with Cyril Hugounenq, Jérôme Plût and [Éric Schost][eschost]_{:.author}
 _LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282_{:.editor}
 [10.1112/S146115701600036X](http://dx.doi.org/10.1112/S146115701600036X){:.doi}
-
-_Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies_{:.title}
-_with [David Jao][djao] and Jérôme Plût_{:.author}
-_Journal of Mathematical Cryptology, 2014, 8 (3), pp. 209-247_{:.editor}
-[10.1515/jmc-2012-0015](http://www.degruyter.com/view/j/jmc.2014.8.issue-3/jmc-2012-0015/jmc-2012-0015.xml){:.doi}
-
-_Fast arithmetic for the algebraic closure of finite fields_{:.title}
-_with [Éric Schost][eschost] and Javad Doliskani_{:.author}
-_ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
-[10.1145/2608628.2608672](http://dx.doi.org/10.1145/2608628.2608672){:.doi}
 
 [djao]: http://djao.math.uwaterloo.ca/
 [eschost]: http://www.csd.uwo.ca/~eshcost
@@ -154,10 +150,12 @@ _ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129_{:.editor}
 #### Research administration
 
 * Program committee member:
-  * "AfricaCrypt 2019",
+  * ["Eurocrypt 2020"](https://eurocrypt.iacr.org/2020/),
+  * ["Mathcrypt 2019"](http://imdarc.math.snu.ac.kr/MathCrypt2019/),
+  * "Africacrypt 2019",
   * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2018"](http://waifi.org/),
   * ["International Symposium on Symbolic and Algebraic Computation (ISSAC) 2018"](http://issac-conference.org/2018/),
-  * "AfricaCrypt 2018"
+  * "Africacrypt 2018"
   * ["International Workshop on the Arithmetic of Finite Fields (WAIFI) 2016"](http://waifi.org/),
   * ["Yet Another Conference on Cryptography (YACC) 2012"](http://yacc.univ-tln.fr/).
 * Rewiever for various international journals and conferences.
