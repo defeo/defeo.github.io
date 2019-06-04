@@ -65,6 +65,7 @@ _Standard Lattices of Compatibly Embedded Finite Fields_{:.title}
 _with [Hugues Randriam](https://perso.telecom-paristech.fr/randriam/) and [Édouard Rousseau](https://erou.github.io/)_{:.author}
 _ISSAC 2019_{:.editor}
 [10.1145/3326229.3326251](https://doi.org/10.1145/3326229.3326251){:.doi}
+[ ](https://arxiv.org/pdf/1906.00870){:.download}
 
 _SeaSign: Compact isogeny signatures from class group actions_{:.title}
 _with [Steven Galbraith](https://www.math.auckland.ac.nz/~sgal018/)_{:.author}
