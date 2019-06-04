@@ -1,3 +1,6 @@
+**June 04, 2019**: *How to prove a secret isogeny*, talk at [CTCrypt
+2019](https://ctcrypt.ru/). Slides here: <https://defeo.lu/docet>.
+
 **May 23, 2019**: *SeaSign: Compact isogeny signatures from class
 group actions*, talk at [Eurocrypt
 2019](https://eurocrypt.iacr.org/2019/). Slides here:
