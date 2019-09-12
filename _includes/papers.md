@@ -2,7 +2,7 @@
 {:.publist}
 
 _Verifiable Delay Functions from Supersingular Isogenies and Pairings_{:.title}
-_with [Simon Masson](https://members.loria.fr/SMasson/) and [Christophe Petit](cpetit) and [Antonio Sanso](https://blog.intothesymmetry.com/)_{:.author}
+_with [Simon Masson](https://members.loria.fr/SMasson/) and [Christophe Petit][cpetit] and [Antonio Sanso](https://blog.intothesymmetry.com/)_{:.author}
 _submitted 2019_{:.editor}
 <https://eprint.iacr.org/2019/166>{:.link}
 
