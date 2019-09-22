@@ -1,0 +1,62 @@
+classes:
+  - name: Applications web et sécurité
+    url: 'https://defeo.lu/aws/'
+    institutions:
+      - UVSQ
+      - ISTY
+    level: MSc
+
+  - name: "Analyse d'algorithmes, programmation"
+    url: 'https://defeo.lu/M1-AlgoProg/'
+    institutions:
+      - UVSQ
+    level: MSc
+
+  - name: Algorithmique et programmation C
+    url: 'https://defeo.lu/MA2-AlgoC/'
+    institutions:
+      - UVSQ
+    level: MSc
+
+  - name: Algèbre Commutative et effective (TDs)
+    url: 'https://defeo.lu/MA2-ace/'
+    institutions:
+      - UVSQ
+    level: MSc
+
+  - name: "Applications de l'informatique"
+    url: 'https://defeo.lu/in202/'
+    institutions:
+      - UVSQ
+    level: BSc
+
+  - name: "Mathématiques pour l'informatique"
+    url: 'https://defeo.lu/in310/'
+    institutions:
+      - UVSQ
+    level: BSc
+
+  - name: Algorithmique pour la cryptographie
+    url: 'https://defeo.lu/in420/'
+    institutions:
+      - UVSQ
+    level: BSc
+
+  - name: Mathématiques
+    url: 'https://defeo.lu/esb1math/'
+    institutions:
+      - ISTY
+    level: BSc
+
+institutions:
+  UVSQ:
+    shortname: UVSQ
+    longname: Université de Versailles – Saint-Quentin-en-Yvelines
+    url: 'http://www.uvsq.fr'
+    country: France
+
+  ISTY:
+    shortname: ISTY
+    longname: Institut des sciences et techniques des Yvelines
+    url: 'http://www.isty.uvsq.fr/'
+    country: France

@@ -1,0 +1,43 @@
+# Site settings
+baseurl: ''
+url: "https://defeo.lu"
+permalink: /blog/:categories/:title
+
+# About
+title: Luca De Feo
+description: >-
+  Luca De Feo is a researcher at IBM. He works on Post-quantum
+  Cryptography, Isogeny-based Cryptography, Algorithmic Number
+  Theory and Computer Algebra.
+authors:
+  - name: Luca De Feo
+    url: 'https://defeo.lu/'
+created: 2019
+license:
+  name: Creative Commons 4.0 Attribution-ShareAlike
+  shortname: CC-BY-SA 4.0
+  url: https://creativecommons.org/licenses/by-sa/4.0/
+  badge: https://i.creativecommons.org/l/by-sa/4.0/80x15.png
+twitter_username: luca_defeo
+github_username:  defeo
+
+# Build settings
+markdown: kramdown
+theme: minima
+kramdown:
+  parse_block_html: true
+
+# SASS configuration.
+# sass:
+#   sass_dir: assets/css
+#   style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
