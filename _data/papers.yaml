@@ -81,7 +81,7 @@ papers:
     year: 2011
 
   - type: journal
-    title: transalpyne: a language for automatic transposition
+    title: 'transalpyne: a language for automatic transposition'
     coauthors:
       - eschost
     publisher: ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71
@@ -103,7 +103,7 @@ papers:
     year: 2019
 
   - type: conference
-    title: SeaSign: Compact isogeny signatures from class group actions
+    title: 'SeaSign: Compact isogeny signatures from class group actions'
     coauthors:
       - ellkiwi
     publisher: Eurocrypt 2019
@@ -210,7 +210,7 @@ papers:
 
   - type: Thesis
     title: Fast Algorithms for Towers of Finite Fields and Isogenies
-    comment: Advisors: François Morain, Éric Schost
+    comment: 'Advisors: François Morain, Éric Schost'
     publisher: École Polytechnique, December 13, 2010. In English
     links:
       - 'https://github.com/defeo/PhD-Thesis'
