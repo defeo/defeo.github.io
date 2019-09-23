@@ -1,0 +1,67 @@
+---
+---
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    &:hover {
+	text-decoration: underline;
+    }
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    perspective: 3px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+    
+    nav {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding: 6px 0;
+	font-weight: bold;
+	
+	a {
+	    display: block;
+	    flex: 1 0 auto;
+	    color: inherit;
+	    text-align: center;	
+	}
+	z-index: 1;
+    }
+
+    #home a[href="#home"],
+    #research a[href="#research"],
+    #teaching a[href="#teaching"] {
+	text-decoration: underline;
+	pointer-events: none;
+	opacity: 0.6;
+    }
+
+    section {
+	position: relative;
+	background-color: white;
+	min-height: 100vh;
+	scroll-snap-align: start;
+    }
+    
+    .background {
+	transform: translateZ(-1px) scale(1.5);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	z-index: -1;
+	min-height: auto;
+	height: 60vh;
+    }
+}

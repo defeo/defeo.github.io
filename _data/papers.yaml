@@ -9,88 +9,6 @@ papers:
     links:
       - 'https://eprint.iacr.org/2019/166'
     year: 2019
-      
-  - type: preprint
-    title: Applications of the affine geometry of GF(q<sup>n</sup>) to root finding
-    coauthors:
-      - cpetit
-      - Michaël Quisquater
-    publisher: In preparation. Best poster award ISSAC 2015
-    links:
-      - 'https://github.com/defeo/root_finding/'
-    year: 2015
-
-  - type: journal
-    title: Computing isomorphisms and embeddings of finite fields
-    coauthors:
-      - Ludovic Brieulle
-      - Javad Doliskani
-      - Jean-Pierre Flori
-      - eschost
-    publisher: Mathematics of Computation, 2018
-    doi: '10.1090/mcom/3363'
-    links:
-      - 'https://github.com/defeo/ffisom'
-      - 'https://arxiv.org/abs/1705.01221'
-    download: 'https://arxiv.org/pdf/1705.01221'
-    year: 2018
-
-  - type: journal
-    title: Explicit isogenies in quadratic time in any characteristic
-    coauthors:
-      - Cyril Hugounenq
-      - Jérôme Plût
-      - eschost
-    publisher: LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282
-    doi: '10.1112/S146115701600036X'
-    links:
-      - 'https://arxiv.org/abs/1603.00711'
-    download: 'https://arxiv.org/abs/1603.00711v1'
-    year: 2016
-
-  - type: journal
-    title: Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies
-    coauthors:
-      - djao
-      - Jérôme Plût
-    publisher: Journal of Mathematical Cryptology, 2014, 8 (3), pp. 209-247
-    doi: '10.1515/jmc-2012-0015'
-    links:
-      - 'http://eprint.iacr.org/2011/506'
-    download: 'http://eprint.iacr.org/2011/506.pdf'
-    year: 2014
-
-  - type: journal
-    title: Fast Arithmetics in Artin-Schreier Towers over Finite Fields
-    coauthors:
-      - eschost
-    publisher: Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792
-    doi: '10.1016/j.jsc.2011.12.008'
-    links:
-      - 'https://arxiv.org/abs/1002.2594'
-    download: 'https://arxiv.org/pdf/1002.2594v1'
-    year: 2012
-
-  - type: journal
-    title: Fast algorithms for computing isogenies between ordinary elliptic curves in small characteristic
-    publisher: Journal of Number Theory, 2011, 131 (5), pp. 873-893
-    doi: '10.1016/j.jnt.2010.07.003'
-    links:
-      - 'https://www.arxiv.org/abs/1002.2597'
-    download: 'https://www.arxiv.org/pdf/1002.2597v1'
-    year: 2011
-
-  - type: journal
-    title: 'transalpyne: a language for automatic transposition'
-    coauthors:
-      - eschost
-    publisher: ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71
-    doi: '10.1145/1838599.1838624'
-    download: 'http://dl.acm.org/authorize?373407'
-    links:
-      - 'http://hal.inria.fr/index.php?action_todo=search&view_this_doc=hal-00505809'
-      - 'http://hal.archives-ouvertes.fr/docs/00/50/58/09/PDF/Calculemus.pdf'
-    year: 2010
 
   - type: conference
     title: Standard Lattices of Compatibly Embedded Finite Fields
@@ -120,6 +38,52 @@ papers:
     doi: '10.1007/978-3-030-03332-3_14'
     download: 'https://eprint.iacr.org/2018/485.pdf'
     year: 2018
+      
+  - type: journal
+    title: Computing isomorphisms and embeddings of finite fields
+    coauthors:
+      - Ludovic Brieulle
+      - Javad Doliskani
+      - Jean-Pierre Flori
+      - eschost
+    publisher: Mathematics of Computation, 2018
+    doi: '10.1090/mcom/3363'
+    links:
+      - 'https://github.com/defeo/ffisom'
+      - 'https://arxiv.org/abs/1705.01221'
+    download: 'https://arxiv.org/pdf/1705.01221'
+    year: 2018
+
+  - type: other
+    title: Mathematics of Isogeny Based Cryptography
+    publisher: Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp
+    links:
+      - 'https://github.com/defeo/ema2017/'
+      - 'https://arxiv.org/abs/1711.04062'
+    download: 'https://arxiv.org/pdf/1711.04062'
+    year: 2017
+
+  - type: other
+    title: Supersingular Isogeny Key Encapsulation
+    coauthors:
+      - R. Azarderakhsh
+      - M. Campagna
+      - C. Costello
+      - B. Hess
+      - A. Jalali
+      - D. Jao
+      - B. Koziel
+      - B. LaMacchia
+      - P. Longa
+      - M. Naehrig
+      - J. Renes
+      - V. Soukharev
+      - D. Urbanik
+    publisher: Encryption/Key Encapsulation scheme, candidate to the [NIST Post-Quantum Cryptography competion](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), 2017
+    links:
+      - 'http://sike.org'
+    download: 'http://sike.org/files/SIDH-spec.pdf'
+    year: 2017
 
   - type: conference
     title: Knowledge-Based Interoperability for Mathematical Software Systems
@@ -135,6 +99,41 @@ papers:
     doi: '10.1007/978-3-319-72453-9_14'
     download: 'https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/12491/crc.pdf'
     year: 2017
+
+  - type: journal
+    title: Explicit isogenies in quadratic time in any characteristic
+    coauthors:
+      - Cyril Hugounenq
+      - Jérôme Plût
+      - eschost
+    publisher: LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282
+    doi: '10.1112/S146115701600036X'
+    links:
+      - 'https://arxiv.org/abs/1603.00711'
+    download: 'https://arxiv.org/abs/1603.00711v1'
+    year: 2016
+
+  - type: preprint
+    title: Applications of the affine geometry of GF(q<sup>n</sup>) to root finding
+    coauthors:
+      - cpetit
+      - Michaël Quisquater
+    publisher: In preparation. Best poster award ISSAC 2015
+    links:
+      - 'https://github.com/defeo/root_finding/'
+    year: 2015
+
+  - type: journal
+    title: Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies
+    coauthors:
+      - djao
+      - Jérôme Plût
+    publisher: Journal of Mathematical Cryptology, 2014, 8 (3), pp. 209-247
+    doi: '10.1515/jmc-2012-0015'
+    links:
+      - 'http://eprint.iacr.org/2011/506'
+    download: 'http://eprint.iacr.org/2011/506.pdf'
+    year: 2014
 
   - type: conference
     title: Fast arithmetic for the algebraic closure of finite fields
@@ -160,6 +159,26 @@ papers:
     download: 'http://dl.acm.org/authorize?6823128'
     year: 2013
 
+  - type: journal
+    title: Fast Arithmetics in Artin-Schreier Towers over Finite Fields
+    coauthors:
+      - eschost
+    publisher: Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792
+    doi: '10.1016/j.jsc.2011.12.008'
+    links:
+      - 'https://arxiv.org/abs/1002.2594'
+    download: 'https://arxiv.org/pdf/1002.2594v1'
+    year: 2012
+
+  - type: journal
+    title: Fast algorithms for computing isogenies between ordinary elliptic curves in small characteristic
+    publisher: Journal of Number Theory, 2011, 131 (5), pp. 873-893
+    doi: '10.1016/j.jnt.2010.07.003'
+    links:
+      - 'https://www.arxiv.org/abs/1002.2597'
+    download: 'https://www.arxiv.org/pdf/1002.2597v1'
+    year: 2011
+
   - type: conference
     title: Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies
     coauthors:
@@ -168,45 +187,17 @@ papers:
     doi: '10.1007/978-3-642-25405-5_2'
     year: 2011
 
-  - type: conference
-    title: Fast Arithmetics in Artin-Schreier Towers over Finite Fields
+  - type: journal
+    title: 'transalpyne: a language for automatic transposition'
     coauthors:
       - eschost
-    publisher: "ISSAC '09, July 2009, Seoul, Korea. ACM, 2009, pp. 127-134"
-    doi: '10.1145/1576702.1576722'
-    download: 'http://dl.acm.org/authorize?117912'
-    year: 2009
-
-  - type: other
-    title: Supersingular Isogeny Key Encapsulation
-    coauthors:
-      - R. Azarderakhsh
-      - M. Campagna
-      - C. Costello
-      - B. Hess
-      - A. Jalali
-      - D. Jao
-      - B. Koziel
-      - B. LaMacchia
-      - P. Longa
-      - M. Naehrig
-      - J. Renes
-      - V. Soukharev
-      - D. Urbanik
-    publisher: Encryption/Key Encapsulation scheme, candidate to the [NIST Post-Quantum Cryptography competion](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), 2017
+    publisher: ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71
+    doi: '10.1145/1838599.1838624'
+    download: 'http://dl.acm.org/authorize?373407'
     links:
-      - 'http://sike.org'
-    download: 'http://sike.org/files/SIDH-spec.pdf'
-    year: 2017
-
-  - type: other
-    title: Mathematics of Isogeny Based Cryptography
-    publisher: Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp
-    links:
-      - 'https://github.com/defeo/ema2017/'
-      - 'https://arxiv.org/abs/1711.04062'
-    download: 'https://arxiv.org/pdf/1711.04062'
-    year: 2017
+      - 'http://hal.inria.fr/index.php?action_todo=search&view_this_doc=hal-00505809'
+      - 'http://hal.archives-ouvertes.fr/docs/00/50/58/09/PDF/Calculemus.pdf'
+    year: 2010
 
   - type: Thesis
     title: Fast Algorithms for Towers of Finite Fields and Isogenies
@@ -217,6 +208,15 @@ papers:
       - 'https://hal.inria.fr/tel-00547034'
     download: 'https://hal.inria.fr/tel-00547034v3/document'
     year: 2010
+
+  - type: conference
+    title: Fast Arithmetics in Artin-Schreier Towers over Finite Fields
+    coauthors:
+      - eschost
+    publisher: "ISSAC '09, July 2009, Seoul, Korea. ACM, 2009, pp. 127-134"
+    doi: '10.1145/1576702.1576722'
+    download: 'http://dl.acm.org/authorize?117912'
+    year: 2009
     
 coauthors:
   djao:

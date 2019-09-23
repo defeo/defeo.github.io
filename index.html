@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% capture nav %}
+<nav>
+  <a href="#home">HOME</a>
+  <a href="#research">RESEARCH</a>
+  <a href="#teaching">TEACHING</a>
+</nav>
+{% endcapture %}
+
+<div class="wrapper">
+  <section style="background-image: url({{ '/assets/images/lattice.svg'| relative_url }})"
+	   class="background">
+  </section>
+  
+  <section id="home" style="background-color: #68c6a1; color: white">
+    {{ nav }}
+  </section>
+
+  <section id="research" style="color: #666">
+    {{ nav }}
+    <ul>
+      {% assign recent = site.data.papers.papers | slice: 0, 4 %}
+      {% for p in recent %}
+      <li>{{ p.title }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section id="teaching" style="background-color: #e3a5e2; color: white">
+    {{ nav }}
+  </section>
+</div>
