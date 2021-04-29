@@ -10,23 +10,62 @@ layout: default
 </nav>
 {% endcapture %}
 
-<div class="wrapper">
+<div class="wrapper" id="view">
   <section style="background-image: url({{ '/assets/images/lattice.svg'| relative_url }})"
 	   class="background">
   </section>
   
   <section id="home" style="background-color: #68c6a1; color: white">
     {{ nav }}
+
+    <div class="content">
+      <address>
+	<h3>Luca De Feo</h3>
+	<p class="email"><a class="botkiller"
+			    data-share1="173,240,30,144,183,74,220,249,229,91,178,181,196"
+			    data-share2="191,133,69,209,137,26,137,109,128,20,124,183,177"
+			    href="mailto:">whatever@&lt;domain-name&gt;</a></p>
+	<p class="twitter"><a href="https://twitter.com/@luca_defeo">
+	    <img src="" alt=""> Twitter</a></p>
+	<p class="github"><a href="https://github.com/defeo">
+	    <img src="" alt=""> GitHub</a></p>
+      </address>
+
+      <figure id="idpic">
+	<img class="spotlight"
+	     data-center="108px 92px" data-minrad="90" data-maxrad="353"
+	     data-start="0.4" data-increments="0.01" data-root="#view"
+	     data-margin="100% 0px -100px 0px"
+	     src="{{ '/assets/luca-drink.jpg' | relative_url }}" alt="">
+      </figure>
+    </div>
   </section>
 
   <section id="research" style="color: #666">
     {{ nav }}
-    <ul>
-      {% assign recent = site.data.papers.papers | slice: 0, 4 %}
-      {% for p in recent %}
-      <li>{{ p.title }}</li>
-      {% endfor %}
-    </ul>
+    
+    <div class="content">
+      <h3>Recent papers</h3>
+      <ul class="publist">
+	{% assign recent = site.data.papers.papers | slice: 0, 6 %}
+	{% for p in recent %}
+	<li class="pub">
+	  {{ p.title | markdownify }}
+	  {% if p.coauthors %}
+	  <span class="authors">with
+	    {% for c in p.coauthors %}
+	    {% assign a = site.data.papers.coauthors[c] %}
+	    {% if a %}<a href="{{ a.url }}">{{ a.name }}</a>
+	    {%- else %}{{ c }}{% endif %}
+	    {%- unless forloop.last %},{% endunless %}
+	    {%- endfor %}.
+	  </span>
+	  {% endif %}
+	  {{ p.publisher | markdownify }}
+	</li>
+	{% endfor %}
+      </ul>
+    </div>
   </section>
 
   <section id="teaching" style="background-color: #e3a5e2; color: white">
