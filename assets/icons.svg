@@ -1,0 +1,13 @@
+---
+---
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  {% for icon in site.data.icons.icons %}
+  <symbol id="{{ icon.id }}" fill-rule="evenodd" clip-rule="evenodd"
+	  stroke-linejoin="round" stroke-miterlimit="1.414" viewBox="{{ icon.viewBox }}">
+    <title>{{ icon.title }}</title>
+    <desc>{{ icon.desc }}</desc>
+    <path d="{{ icon.path }}"/>
+  </symbol>
+  {% endfor %}
+</svg>

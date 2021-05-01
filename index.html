@@ -10,38 +10,60 @@ layout: default
 </nav>
 {% endcapture %}
 
-<div class="wrapper" id="view">
+<div class="wrapper" id="view" tabindex="0">
   <section style="background-image: url({{ '/assets/images/lattice.svg'| relative_url }})"
 	   class="background">
   </section>
   
-  <section id="home" style="background-color: #68c6a1; color: white">
+  <section id="home" class="celadon">
     {{ nav }}
 
-    <div class="content">
-      <address>
-	<h3>Luca De Feo</h3>
-	<p class="email"><a class="botkiller"
-			    data-share1="173,240,30,144,183,74,220,249,229,91,178,181,196"
-			    data-share2="191,133,69,209,137,26,137,109,128,20,124,183,177"
-			    href="mailto:">whatever@&lt;domain-name&gt;</a></p>
-	<p class="twitter"><a href="https://twitter.com/@luca_defeo">
-	    <img src="" alt=""> Twitter</a></p>
-	<p class="github"><a href="https://github.com/defeo">
-	    <img src="" alt=""> GitHub</a></p>
-      </address>
+    <div class="content" itemscope itemtype="http://microformats.org/profile/hcard">
 
+      <div id="card">
+	<div id="snail">
+	  <h3 itemprop="fn">Luca De Feo</h3>
+	  <p itemprop="title">Research Staff Member</p>
+	  <p itemprop="org"><a target="_blank" href="https://www.zurich.ibm.com/">IBM Research Europe</a></p>
+	  <p itemprop="adr" itemscope>
+	    <span itemprop="street-address">Saümerstrasse 4</span><br>
+	    <span itemprop="postal-code">CH-8803</span>
+	    <span itemprop="locality">Rüschlikon</span><br>
+	    <span itemprop="country-name">Switzerland</span>
+	    </p>
+	</div>
+	
+	<div id="links">
+	  <p>
+	    <a class="botkiller" itemprop="email"
+	       data-share1="173,240,30,144,183,74,220,249,229,91,178,181,196"
+	       data-share2="191,133,69,209,137,26,137,109,128,20,124,183,177"
+	       href="mailto:"><svg class="icon">
+		{%- include icon.html id="envelope" -%}
+	      </svg><span>whatever@&lt;domain-name&gt;</span></a>
+	    <a href="https://openpgpkey.defeo.lu/.well-known/openpgpkey/defeo.lu/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb"><svg class="icon">
+		{% include icon.html id="key" %}
+	    </svg></a>
+	  </p>
+	  <p><a target="_blank" itemprop="url" href="https://twitter.com/@luca_defeo">
+	      <svg class="icon">{% include icon.html id="twitter" %}</svg>Twitter</a></p>
+	  <p><a target="_blank" itemprop="url" href="https://github.com/defeo">
+	      <svg class="icon">{% include icon.html id="github" %}</svg>GitHub</a></p>
+	</div>
+      </div>
+      
       <figure id="idpic">
-	<img class="spotlight"
+	<img class="spotlight" itemprop="photo"
 	     data-center="108px 92px" data-minrad="90" data-maxrad="353"
 	     data-start="0.4" data-increments="0.01" data-root="#view"
 	     data-margin="100% 0px -100px 0px"
-	     src="{{ '/assets/luca-drink.jpg' | relative_url }}" alt="">
+	     src="{{ '/assets/luca-drink.jpg' | relative_url }}"
+	     alt="Black and white Luca sipping a glowing golden drink.">
       </figure>
     </div>
   </section>
 
-  <section id="research" style="color: #666">
+  <section id="research" class="white">
     {{ nav }}
     
     <div class="content">
@@ -68,7 +90,21 @@ layout: default
     </div>
   </section>
 
-  <section id="teaching" style="background-color: #e3a5e2; color: white">
+  <section id="teaching" class="brick">
     {{ nav }}
+  <div class="content">
+    <p>BLop blip <a href="bla">BLA bla bla</a> <a href="https://defeo.lu">BLA bla bla</a></p>
+  </div>
   </section>
 </div>
+
+<script>
+  // Hack to delegate focus to wrapper (tested in Firefox and Chrome)
+  const w = document.querySelector('.wrapper');
+  w.focus({ preventScroll: true });
+  w.addEventListener('focusout',
+		     e => setTimeout(
+			 () => document.activeElement == document.body
+			     && w.focus({ preventScroll: true }),
+			 0));
+</script>
