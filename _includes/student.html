@@ -1,0 +1,26 @@
+{%- assign s = include.student %}
+{%- if s.website %}
+<a target="_blank" class="name" href="{{ s.website }}">{{ s.name }}</a>,
+{%- else %}
+<span class="name">{{ s.name }}</span>,
+{%- endif %}
+
+{%- if s.end and s.thesis %}
+{%- if s.thesis.url %}
+<a target="_blank" class="thesis" href="{{ s.thesis.url }}">{{ s.thesis.title }}</a>,
+{%- else %}
+<span class="thesis">{{ s.thesis.title }}</span>,
+{%- endif %}
+{%- endif %}
+
+{%- for i in s.inst %}
+<span class="inst">{{ i }}</span>{% if forloop.last %},{% else %} /{% endif %}
+{%- endfor %}
+<span class="type">{{ s.type }}</span>
+{%- if s.end %},
+{%- if s.thesis %}
+<span class="year">{{ s.end }}</span>
+{%- else %}
+<span class="year">{{ s.start }}–{{ s.end }}</span>
+{%- endif %}
+{%- endif %}.

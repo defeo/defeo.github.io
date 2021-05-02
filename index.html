@@ -67,34 +67,70 @@ layout: default
     {{ nav }}
     
     <div class="content">
-      <h3>Recent papers</h3>
-      <ul class="publist">
-	{% assign recent = site.data.papers.papers | slice: 0, 6 %}
-	{% for p in recent %}
-	<li class="pub">
-	  {{ p.title | markdownify }}
-	  {% if p.coauthors %}
-	  <span class="authors">with
-	    {% for c in p.coauthors %}
-	    {% assign a = site.data.papers.coauthors[c] %}
-	    {% if a %}<a href="{{ a.url }}">{{ a.name }}</a>
-	    {%- else %}{{ c }}{% endif %}
-	    {%- unless forloop.last %},{% endunless %}
-	    {%- endfor %}.
-	  </span>
-	  {% endif %}
-	  {{ p.publisher | markdownify }}
-	</li>
-	{% endfor %}
-      </ul>
+      <div id="publist">
+	<h3>Recent papers</h3>
+	<ul>
+	  {% assign recent = site.data.papers.papers | slice: 0, 5 %}
+	  {% for p in recent %}
+	  <li class="pub">{% include paper.html paper=p %}</li>
+	  {% endfor %}
+	</ul>
+	
+	<p><a href="{{ '/pubs' | relative_url }}">view more&hellip;</a></p>
+      </div>
+
+      <div id="rest">
+	<div id="students">
+	  <h3>Current research students</h3>
+
+	  <ul>
+	    {% assign cur = site.data.students.students | sort: "start" | reverse %}
+	    {%- for s in cur %}
+	    {%- unless s.end %}
+	    <li class="student">{% include student.html student=s %}</li>
+	    {%- endunless %}
+	    {%- endfor %}
+	  </ul>
+
+	  <p><a href="{{ '/students' | relative_url }}">view past
+	      students and theses&hellip;</a></p>
+	</div>
+
+	<div id="books">
+	  <h3>Lecture notes and theses</h3>
+
+	  <ul>
+	    <li><a target="_blank"
+		   href="https://defeo.lu/hdr/#manuscript">Exploring
+		   Isogeny Graphs</a>,<br> Habilitation thesis, 220
+		   pp, 2018.</li>
+	    <li><a target="_blank"
+		   href="https://arxiv.org/abs/1711.04062">Mathematics
+		   of Isogeny Based Cryptography</a>,<br> Lecture
+		   notes, 44 pp, 2017.</li>
+	    <li><a target="_blank"
+		   href="https://hal.inria.fr/tel-00547034">Fast
+		   Algorithms for Towers of Finite Fields and
+		   Isogenies</a>,<br> PhD thesis, 191 pp, 2010.</li>
+	  </ul>
+	</div>
+	
+	<div id="talks">
+	  <h3>Selected talks, videos and more&hellip;</h3>
+	  <p>&hellip;find them at
+	    <a target="_blank"
+	       href="https://defeo.lu/docet/">DeFeo.Lu/DOCET/</a></p>
+	</div>
+      </div>
     </div>
   </section>
 
   <section id="teaching" class="brick">
     {{ nav }}
-  <div class="content">
-    <p>BLop blip <a href="bla">BLA bla bla</a> <a href="https://defeo.lu">BLA bla bla</a></p>
-  </div>
+    
+    <div class="content">
+      <p>BLop blip <a href="bla">BLA bla bla</a> <a href="https://defeo.lu">BLA bla bla</a></p>
+    </div>
   </section>
 </div>
 

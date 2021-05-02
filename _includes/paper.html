@@ -1,0 +1,26 @@
+{% assign p = include.paper %}
+<div>
+  <span class="title">{{ p.title }}</span>
+  {% if p.doi %}
+  <a class="external" target="_blank" href="https://doi.org/{{ p.doi }}"><svg class="icon" alt="go to paper">{% include icon.html id="external" %}</svg></a>
+  {% endif %}
+</div><div>
+  {% if p.coauthors %}
+  <span class="authors">with
+    {%- for c in p.coauthors %}
+    {% assign a = site.data.papers.coauthors[c] %}
+    {%- if a %}<a href="{{ a.url }}">{{ a.name }}</a>
+    {%- else %}{{ c }}{% endif %}
+    {%- unless forloop.last %},{% endunless %}
+    {%- endfor %}.
+  </span>
+  {% endif %}
+</div><div>
+  <span class="venue">{{ p.publisher }}</span>
+  {% if p.download %}
+  <a class="download" href="{{ p.download }}"><svg class="icon oa-icon" alt="download">{% include icon.html id="open-access-text" %}</svg></a>
+  {% endif %}
+  {% if p.video %}
+  <a class="video" target="_blank" href="{{ p.video }}"><svg class="icon video" alt="video">{% include icon.html id="camera" %}</svg></a>
+  {% endif %}
+</div>

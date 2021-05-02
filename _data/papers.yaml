@@ -1,15 +1,84 @@
 papers:
   - type: conference
+    title: Delay Encryption
+    coauthors:
+      - Jeffrey Burdges
+    publisher: Eurocrypt 2021
+    download: 'https://eprint.iacr.org/2020/638.pdf'
+    year: 2021
+
+  - type: conference
+    title: 'SQISign: Compact Post-quantum Signatures from Quaternions and Isogenies'
+    coauthors:
+      - dkohel
+      - aleroux
+      - cpetit
+      - bweso
+    publisher: Asiacrypt 2020
+    doi: 10.1007/978-3-030-64837-4_3
+    download: 'https://eprint.iacr.org/2020/1240.pdf'
+    video: 'https://www.youtube.com/watch?v=zAGEV-5y2MU'
+    year: 2020
+
+  - type: conference
+    title: Cryptographic Group Actions and Applications
+    coauthors:
+      - Navid Alamati
+      - Hart Montgomery
+      - Sikhar Patranabis
+    publisher: Asiacrypt 2020
+    doi: 10.1007/978-3-030-64834-3_14
+    download: 'https://eprint.iacr.org/2020/1188.pdf'
+    video: 'https://www.youtube.com/watch?v=3jhQFYLU9yU'
+    year: 2020
+
+  - type: conference
+    title: Faster computation of isogenies of large prime degree
+    coauthors:
+      - djb
+      - aleroux
+      - bsmith
+    publisher: ANTS-XIV, Open Book Series
+    doi: 10.2140/obs.2020.4.39
+    download: 'https://eprint.iacr.org/2020/341.pdf'
+    video: 'https://vimeo.com/413269694'
+    links:
+      - 'https://velusqrt.isogeny.org/'
+    year: 2020
+
+  - type: conference
+    title:  Threshold schemes from isogeny assumptions
+    coauthors:
+      - Michael Meyer
+    publisher: PKC 2020
+    doi: 10.1007/978-3-030-64837-4_3
+    download: 'https://eprint.iacr.org/2019/1288.pdf'
+    video: 'https://www.youtube.com/watch?v=gjqbgUVZcwI'
+    year: 2020
+
+  - type: conference
     title: Verifiable Delay Functions from Supersingular Isogenies and Pairings
     coauthors:
       - smasson
       - cpetit
       - asanso
-    publisher: AsiaCrypt 2019.
-    links:
-      - 'https://eprint.iacr.org/2019/166'
+    publisher: AsiaCrypt 2019
+    doi: '10.1007/978-3-030-34578-5_10'
+    download: 'https://eprint.iacr.org/2019/166.pdf'
     year: 2019
 
+  - type: conference
+    title: Stronger and Faster Side-Channel Protections for CSIDH
+    coauthors:
+      - Daniel Cervantes-Váquez
+      - Mathilde Chenu
+      - Jesús-Javier Chi-Dominguez
+      - Francisco Rodríguez-Henriquez
+      - bsmith
+    doi: '10.1007/978-3-030-30530-7_9'
+    download: 'https://eprint.iacr.org/2019/837.pdf'
+    year: 2019
+    
   - type: conference
     title: Standard Lattices of Compatibly Embedded Finite Fields
     coauthors:
@@ -28,6 +97,15 @@ papers:
     doi: '10.1007/978-3-030-17659-4_26'
     download: 'https://eprint.iacr.org/2018/824.pdf'
     year: 2019
+
+  - type: thesis
+    title: Exploring Isogeny Graphs
+    publisher: Université de Versailles, December 14, 2018
+    links:
+      - 'https://defeo.lu/hdr/'
+    download: 'https://github.com/defeo/hdr/releases/download/defended/hdr.pdf'
+    video: 'https://vimeo.com/defeo/hdr'
+    year: 2010
 
   - type: conference
     title: Towards practical key exchange from ordinary isogeny graphs
@@ -50,7 +128,6 @@ papers:
     doi: '10.1090/mcom/3363'
     links:
       - 'https://github.com/defeo/ffisom'
-      - 'https://arxiv.org/abs/1705.01221'
     download: 'https://arxiv.org/pdf/1705.01221'
     year: 2018
 
@@ -58,8 +135,8 @@ papers:
     title: Mathematics of Isogeny Based Cryptography
     publisher: Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp
     links:
-      - 'https://github.com/defeo/ema2017/'
-      - 'https://arxiv.org/abs/1711.04062'
+      - 'https://defeo.lu/docet/class/2017/05/26/isogenies-in-africa/'
+      - 'https://defeo.lu/docet/talk/2019/07/29/wurzburg/'
     download: 'https://arxiv.org/pdf/1711.04062'
     year: 2017
 
@@ -70,20 +147,23 @@ papers:
       - M. Campagna
       - C. Costello
       - B. Hess
+      - A. Hutchinson
       - A. Jalali
       - D. Jao
+      - K. Karabina
       - B. Koziel
       - B. LaMacchia
       - P. Longa
       - M. Naehrig
+      - G. Pereira
       - J. Renes
       - V. Soukharev
       - D. Urbanik
     publisher: Encryption/Key Encapsulation scheme, candidate to the [NIST Post-Quantum Cryptography competion](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), 2017
     links:
-      - 'http://sike.org'
-    download: 'http://sike.org/files/SIDH-spec.pdf'
-    year: 2017
+      - 'https://sike.org'
+    download: 'https://sike.org/files/SIDH-spec.pdf'
+    year: 2020
 
   - type: conference
     title: Knowledge-Based Interoperability for Mathematical Software Systems
@@ -110,7 +190,7 @@ papers:
     doi: '10.1112/S146115701600036X'
     links:
       - 'https://arxiv.org/abs/1603.00711'
-    download: 'https://arxiv.org/abs/1603.00711v1'
+    download: 'https://arxiv.org/pdf/1603.00711'
     year: 2016
 
   - type: preprint
@@ -130,9 +210,7 @@ papers:
       - Jérôme Plût
     publisher: Journal of Mathematical Cryptology, 2014, 8 (3), pp. 209-247
     doi: '10.1515/jmc-2012-0015'
-    links:
-      - 'http://eprint.iacr.org/2011/506'
-    download: 'http://eprint.iacr.org/2011/506.pdf'
+    download: 'https://eprint.iacr.org/2011/506.pdf'
     year: 2014
 
   - type: conference
@@ -142,9 +220,8 @@ papers:
       - Javad Doliskani
     publisher: "ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129"
     links:
-      - 'http://defeo.lu/ff_compositum'
+      - 'https://github.com/defeo/ff_compositum'
     doi: '10.1145/2608628.2608672'
-    download: 'http://dl.acm.org/authorize?N82344'
     year: 2014
 
   - type: conference
@@ -156,7 +233,7 @@ papers:
     links:
       - 'http://defeo.lu/towers'
     doi: '10.1145/2465506.2465956'
-    download: 'http://dl.acm.org/authorize?6823128'
+    download: 'https://arxiv.org/pdf/1301.6021'
     year: 2013
 
   - type: journal
@@ -167,7 +244,7 @@ papers:
     doi: '10.1016/j.jsc.2011.12.008'
     links:
       - 'https://arxiv.org/abs/1002.2594'
-    download: 'https://arxiv.org/pdf/1002.2594v1'
+    download: 'https://arxiv.org/pdf/1002.2594'
     year: 2012
 
   - type: journal
@@ -176,7 +253,7 @@ papers:
     doi: '10.1016/j.jnt.2010.07.003'
     links:
       - 'https://www.arxiv.org/abs/1002.2597'
-    download: 'https://www.arxiv.org/pdf/1002.2597v1'
+    download: 'https://www.arxiv.org/pdf/1002.2597'
     year: 2011
 
   - type: conference
@@ -185,6 +262,7 @@ papers:
       - djao
     publisher: Post-Quantum Cryptography, Nov 2011, Taipei, Taiwan. Springer, 7071, pp. 19-34
     doi: '10.1007/978-3-642-25405-5_2'
+    download: 'https://link.springer.com/content/pdf/10.1007%2F978-3-642-25405-5.pdf'
     year: 2011
 
   - type: journal
@@ -193,13 +271,10 @@ papers:
       - eschost
     publisher: ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71
     doi: '10.1145/1838599.1838624'
-    download: 'http://dl.acm.org/authorize?373407'
-    links:
-      - 'http://hal.inria.fr/index.php?action_todo=search&view_this_doc=hal-00505809'
-      - 'http://hal.archives-ouvertes.fr/docs/00/50/58/09/PDF/Calculemus.pdf'
+    download: 'https://hal.archives-ouvertes.fr/hal-00505809/document'
     year: 2010
 
-  - type: Thesis
+  - type: thesis
     title: Fast Algorithms for Towers of Finite Fields and Isogenies
     comment: 'Advisors: François Morain, Éric Schost'
     publisher: École Polytechnique, December 13, 2010. In English
@@ -215,7 +290,6 @@ papers:
       - eschost
     publisher: "ISSAC '09, July 2009, Seoul, Korea. ACM, 2009, pp. 127-134"
     doi: '10.1145/1576702.1576722'
-    download: 'http://dl.acm.org/authorize?117912'
     year: 2009
     
 coauthors:
@@ -231,7 +305,7 @@ coauthors:
   cpetit:
     name: Christophe Petit
     url: 'https://www.cs.bham.ac.uk/~petitcz/'
-  bsmithm:
+  bsmith:
     name: Benjamin Smith
     url: 'https://www.lix.polytechnique.fr/~smith/'
   smasson:
@@ -249,4 +323,15 @@ coauthors:
   ellkiwi:
     name: Steven Galbraith
     url: 'https://www.math.auckland.ac.nz/~sgal018/'
-    
+  aleroux:
+    name: Antonin Leroux
+    url: 'https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/'
+  dkohel:
+    name: David Kohel
+    url: 'http://iml.univ-mrs.fr/~kohel/'
+  bweso:
+    name: Benjamin Wesolowski
+    url: 'https://www.bweso.com/'
+  djb:
+    name: Daniel J. Bernstein
+    url: 'https://cr.yp.to/djb.html'

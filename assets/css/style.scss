@@ -50,6 +50,7 @@ html {
 /* Colors */
 .celadon {
     color: white;
+    fill: #fff;
     background-color: hsl(169,35%,55%);
     a {
 	&:link { color: hsl(233,92%,31%); }
@@ -58,6 +59,7 @@ html {
 }
 .white {
     color: #666;
+    fill: #666;
     background-color: white;
     a {
 	&:link { color: hsl(233,92%,31%); }
@@ -66,11 +68,32 @@ html {
 }
 .brick {
     color: white;
+    fill: #fff;
     background-color: hsl(0,35%,55%);
     a {
 	&:link { color: hsl(233,87%,29%); }
 	&:visited { color: hsl(292,44%,20%); }
     }
+}
+
+/* Icons */
+svg.icon {
+    width: 1em;
+    height: 1em;
+    margin: 0 .25em;
+    vertical-align: middle;
+    fill: currentcolor;
+}
+svg.oa-icon {
+    width: 3.75em;
+    height: 1.5em;
+    vertical-align: bottom;
+}
+a svg.icon {
+    opacity: 0.8;
+}
+a:hover svg.icon {
+    opacity: 1;
 }
 
 /* Navigation menu */
@@ -128,15 +151,11 @@ nav {
     [itemprop="adr"] { font-size: 80%; }
     [itemprop="email"], [itemprop="url"] { display: inline-block; height: 1.8em; }
     svg.icon {
-	fill: #eee;
-	width: 1.8em;
+	fill: white;
+        width: 1.2em;
 	height: 1.2em;
-	vertical-align: middle;
-    } 
-    a:hover svg.icon {
-	fill: #fff;
     }
-   
+
     #idpic {
 	overflow: hidden;
 	img {
@@ -150,11 +169,16 @@ nav {
 
 /* #Research */
 #research .content {
-    .publist {
-	list-style-type: none;
-	.title, .authors { display: block; }
-    }
-    .pub {
-	margin-bottom: 0.6em;
-    }
+    display: flex;
+    flex-flow: row wrap;
+
+    div { flex: 1 1 auto; }
+    
+    li { list-style-type: none; }
+
+    #publist, #rest > div { margin-bottom: 1.4em; }
+    .pub, #students ul { margin-bottom: 0.6em; }
+    svg.icon { fill: currentcolor; }
+    svg.oa-icon { margin: 0 1em; }
+    svg.video { vertical-align: baseline; }
 }

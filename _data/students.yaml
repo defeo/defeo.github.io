@@ -1,0 +1,101 @@
+students:
+  - type: PhD
+    name: Cyril Hougounenq
+    website: 'https://github.com/Hugounenq-Cyril'
+    thesis:
+      title: Volcans et calcul d'isogénies
+      url: 'https://tel.archives-ouvertes.fr/tel-01635463'
+    inst:
+      - Université de Versailles
+    start: 2013
+    end: 2017
+
+  - type: MSc
+    name: Sébastien Besnier
+    website: 'https://github.com/sebsheep'
+    thesis:
+      title: 'Courbes elliptiques et isogénies: implantation dans Sage'
+    inst:
+      - Université de Versailles
+    start: 2014
+    end: 2014
+
+  - type: MSc
+    name: Ludovic Brieulle
+    thesis:
+      title: Calcul d'isomorphismes de corps finis
+    inst:
+      - Université de Versailles
+    start: 2014
+    end: 2014
+
+  - type: PhD
+    name: Robin Larrieu
+    website: 'https://larrieu.perso.math.cnrs.fr/'
+    thesis:
+      title: Arithmétique rapide pour des corps finis
+      url: 'https://tel.archives-ouvertes.fr/tel-02439581'
+    inst:
+      - École Polytechnique
+    start: 2015
+    end: 2019
+
+  - type: PhD
+    name: Édouard Rousseau
+    website: 'https://erou.github.io/'
+    thesis:
+      title: Efficient Arithmetic of Finite Field Extensions
+    inst:
+      - Télécom Paristech
+    start: 2017
+
+  - type: MSc
+    name: Jean Kieffer
+    website: 'https://www.math.u-bordeaux.fr/~jekieffer/'
+    thesis:
+      title: Accelerating the Couveignes-Rostovtsev-Stolbunov key exchange protocol
+      url: 'https://www.math.u-bordeaux.fr/~jekieffer/.pagepro/documents/master.pdf'
+    inst:
+      - Inria
+      - École Normale Supérieure
+    start: 2017
+    end: 2017
+
+  - type: MSc
+    name: Mattia Veroni
+    website: 'https://www.ntnu.edu/employees/mattia.veroni'
+    thesis:
+      title: Computing Isogenies between Elliptic Curves over Finite Fields
+    inst:
+      - Inria
+      - Università di Trento
+    start: 2018
+    end: 2018
+
+  - type: PhD
+    name: Manoj Gyawali
+    thesis:
+      title: Some Objects from Algebraic Geometry and theirApplication to Post-Quantum Cryptography
+    inst:
+      - Università Roma 3
+    start: 2018
+
+  - type: PhD
+    name: Élise Tasso
+    inst:
+      - CEA/Leti
+    start: 2019
+
+  - type: PhD
+    name: Antonin Leroux
+    website: 'https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/'
+    inst:
+      - École Polytechnique
+    start: 2019
+
+  - type: MSc
+    name: Pierrick Dartois
+    inst:
+      - IBM
+      - Corps des Mines-Télécom
+    start: 2019
