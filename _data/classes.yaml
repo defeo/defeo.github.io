@@ -1,62 +1,102 @@
 classes:
   - name: Applications web et sécurité
     url: 'https://defeo.lu/aws/'
-    institutions:
-      - UVSQ
-      - ISTY
+    dipl:
+      - inst: UVSQ
+        name: uvsq-mi
+      - inst: ISTY
+        name: isty
     level: MSc
+    start: 2013
+    end: 2019
 
   - name: "Analyse d'algorithmes, programmation"
     url: 'https://defeo.lu/M1-AlgoProg/'
-    institutions:
-      - UVSQ
+    dipl:
+      - inst: UVSQ
+        name: uvsq-mm
     level: MSc
-
+    start: 2016
+    end: 2019
+    
   - name: Algorithmique et programmation C
     url: 'https://defeo.lu/MA2-AlgoC/'
-    institutions:
-      - UVSQ
+    dipl:
+      - inst: UVSQ
+        name: maa
     level: MSc
+    start: 2014
+    end: 2019
 
   - name: Algèbre Commutative et effective (TDs)
     url: 'https://defeo.lu/MA2-ace/'
-    institutions:
-      - UVSQ
+    dipl:
+      - inst: UVSQ
+        name: maa
     level: MSc
+    start: 2014
+    end: 2019
 
   - name: "Applications de l'informatique"
     url: 'https://defeo.lu/in202/'
-    institutions:
-      - UVSQ
+    dipl:
+      - inst: UVSQ
+        name: uvsq-li
     level: BSc
+    start: 2015
+    end: 2015
 
   - name: "Mathématiques pour l'informatique"
     url: 'https://defeo.lu/in310/'
-    institutions:
-      - UVSQ
+    dipl:
+      - inst: UVSQ
+        name: uvsq-li
     level: BSc
+    start: 2011
+    end: 2015
 
   - name: Algorithmique pour la cryptographie
     url: 'https://defeo.lu/in420/'
-    institutions:
-      - UVSQ
+    dipl:
+      - inst: UVSQ
+        name: uvsq-li
     level: BSc
+    start: 2012
+    end: 2014
 
   - name: Mathématiques
     url: 'https://defeo.lu/esb1math/'
-    institutions:
-      - ISTY
+    dipl:
+      - inst: ISTY
+        name: isty
     level: BSc
+    start: 2013
+    end: 2014
 
-institutions:
+inst:
   UVSQ:
     shortname: UVSQ
     longname: Université de Versailles – Saint-Quentin-en-Yvelines
-    url: 'http://www.uvsq.fr'
+    url: 'https://www.uvsq.fr'
     country: France
 
   ISTY:
     shortname: ISTY
     longname: Institut des sciences et techniques des Yvelines
-    url: 'http://www.isty.uvsq.fr/'
+    url: 'https://www.isty.uvsq.fr/'
     country: France
+
+dipl:
+  uvsq-li:
+    name: "Licence d'Informartique"
+    url: 'https://www.uvsq.fr/licence-informatique'
+  uvsq-mm:
+    name: Master Mathématiques et Interactions
+  uvsq-mi:
+    name: "Masters d'Informatique"
+  maa:
+    name: "Master d'Algèbre Appliquée"
+    url: 'http://www.departement.math.uvsq.fr/master2AA'
+  isty:
+    name: Cycle Ingénieur Informatique
+    url: 'https://www.isty.uvsq.fr/cycle-ingenieur-informatique'

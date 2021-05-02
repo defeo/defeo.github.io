@@ -10,7 +10,7 @@ document.querySelectorAll('.spotlight').forEach(e => {
 	//console.log(entries);
 	let ratio = Math.max(entries[0].intersectionRatio - start, 0);
 	let radius = Math.round(minrad + slackrad * ratio);
-	e.style.clipPath = `circle(${radius}px at ${center})`;
+	e.style.clipPath = `circle(${radius}% at ${center})`;
     }, {
 	root: root,
 	rootMargin: e.dataset.margin || '0px',

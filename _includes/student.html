@@ -14,7 +14,7 @@
 {%- endif %}
 
 {%- for i in s.inst %}
-<span class="inst">{{ i }}</span>{% if forloop.last %},{% else %} /{% endif %}
+<span class="org">{{ i }}</span>{% if forloop.last %},{% else %} /{% endif %}
 {%- endfor %}
 <span class="type">{{ s.type }}</span>
 {%- if s.end %},

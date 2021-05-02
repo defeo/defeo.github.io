@@ -4,7 +4,7 @@ layout: default
 
 {% capture nav %}
 <nav>
-  <a href="#home">HOME</a>
+  <a href="#about">ABOUT</a>
   <a href="#research">RESEARCH</a>
   <a href="#teaching">TEACHING</a>
 </nav>
@@ -41,7 +41,7 @@ layout: default
 	       href="mailto:"><svg class="icon">
 		{%- include icon.html id="envelope" -%}
 	      </svg><span>whatever@&lt;domain-name&gt;</span></a>
-	    <a href="https://openpgpkey.defeo.lu/.well-known/openpgpkey/defeo.lu/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb"><svg class="icon">
+	    <a href="https://openpgpkey.defeo.lu/.well-known/openpgpkey/defeo.lu/hu/wbp7trgro48kdyd9oi1ykze9zj5hpqwb" title="OpenPGP key"><svg class="icon">
 		{% include icon.html id="key" %}
 	    </svg></a>
 	  </p>
@@ -54,7 +54,7 @@ layout: default
       
       <figure id="idpic">
 	<img class="spotlight" itemprop="photo"
-	     data-center="108px 92px" data-minrad="90" data-maxrad="353"
+	     data-center="30% 28%" data-minrad="26" data-maxrad="101"
 	     data-start="0.4" data-increments="0.01" data-root="#view"
 	     data-margin="100% 0px -100px 0px"
 	     src="{{ '/assets/luca-drink.jpg' | relative_url }}"
@@ -66,7 +66,7 @@ layout: default
   <section id="research" class="white">
     {{ nav }}
     
-    <div class="content">
+    <div class="content columns">
       <div id="publist">
 	<h3>Recent papers</h3>
 	<ul>
@@ -79,48 +79,62 @@ layout: default
 	<p><a href="{{ '/pubs' | relative_url }}">view more&hellip;</a></p>
       </div>
 
-      <div id="rest">
-	<div id="students">
-	  <h3>Current research students</h3>
+      <div id="books">
+	<h3>Lecture notes and theses</h3>
 
-	  <ul>
-	    {% assign cur = site.data.students.students | sort: "start" | reverse %}
-	    {%- for s in cur %}
-	    {%- unless s.end %}
-	    <li class="student">{% include student.html student=s %}</li>
-	    {%- endunless %}
-	    {%- endfor %}
-	  </ul>
+	<ul>
+	  <li><a target="_blank" class="title"
+		 href="https://defeo.lu/hdr/#manuscript">Exploring
+	      Isogeny Graphs</a>,<br><em>Habilitation thesis</em>, 220
+	    pp, 2018.</li>
+	  <li><a target="_blank" class="title"
+		 href="https://arxiv.org/abs/1711.04062">Mathematics
+	      of Isogeny Based Cryptography</a>,<br><em>Lecture
+	      notes</em>, 44 pp, 2017.</li>
+	  <li><a target="_blank" class="title"
+		 href="https://hal.inria.fr/tel-00547034">Fast
+		 Algorithms for Towers of Finite Fields and
+		 Isogenies</a>,<br><em>PhD thesis</em>, 191 pp,
+		 2010.</li>
+	</ul>
+      </div>
 
-	  <p><a href="{{ '/students' | relative_url }}">view past
-	      students and theses&hellip;</a></p>
-	</div>
+      <div id="res-software">
+	<h3>Selected software</h3>
 
-	<div id="books">
-	  <h3>Lecture notes and theses</h3>
-
-	  <ul>
-	    <li><a target="_blank"
-		   href="https://defeo.lu/hdr/#manuscript">Exploring
-		   Isogeny Graphs</a>,<br> Habilitation thesis, 220
-		   pp, 2018.</li>
-	    <li><a target="_blank"
-		   href="https://arxiv.org/abs/1711.04062">Mathematics
-		   of Isogeny Based Cryptography</a>,<br> Lecture
-		   notes, 44 pp, 2017.</li>
-	    <li><a target="_blank"
-		   href="https://hal.inria.fr/tel-00547034">Fast
-		   Algorithms for Towers of Finite Fields and
-		   Isogenies</a>,<br> PhD thesis, 191 pp, 2010.</li>
-	  </ul>
-	</div>
+	<ul>
+	  <li><a target="_blank" class="title"
+		 href="https://github.com/SQISign/sqisign">SQISign</a>,
+	    C/libpari, 2020,<br>
+	    <em>Compact post-quantum signature based on isogenies</em>.</li>
+	  <li><a target="_blank" class="title"
+		 href="https://velusqrt.isogeny.org/software.html">√élusqrt</a>,
+	    C/Sagemath/Nemo/Magma, 2020,<br>
+	    <em>Asymptotically fastest isogeny evaluation and CSIDH
+	      implementation</em>.</li>
+	  <li><a target="_blank" class="title"
+		 href="https://github.com/isogenies-vdf/isogenies-vdf-sage">Isogeny
+	      VDF</a>, Sagemath, 2019–2020,<br>
+	    <em>Isogeny-based Verifiable Delay Function (PoC)</em>.</li>
+	  <li><a target="_blank" class="title"
+		 href="https://www.sagemath.org">Sagemath</a>,
+	    Python, 2009–present,<br>
+	    <em>I am a modest contributor to this great software. Use
+		 it!</em>.</li>
+	</ul>
 	
-	<div id="talks">
-	  <h3>Selected talks, videos and more&hellip;</h3>
-	  <p>&hellip;find them at
+	<p>find more projects on my
+	  <a target="_blank" href="https://github.com/defeo/">GitHub
+	    page</a> and learn more about my past activity with
 	    <a target="_blank"
-	       href="https://defeo.lu/docet/">DeFeo.Lu/DOCET/</a></p>
-	</div>
+	       href="https://opendreamkit.org/">OpenDreamKit</a>.</p>
+      </div>
+      
+      <div id="talks">
+	<h3>Selected talks, videos and more&hellip;</h3>
+	<p>&hellip;find them at
+	  <strong><a target="_blank"
+		     href="https://defeo.lu/docet/">DeFeo.Lu/DOCET/</a></strong></p>
       </div>
     </div>
   </section>
@@ -128,8 +142,49 @@ layout: default
   <section id="teaching" class="brick">
     {{ nav }}
     
-    <div class="content">
-      <p>BLop blip <a href="bla">BLA bla bla</a> <a href="https://defeo.lu">BLA bla bla</a></p>
+    <div class="content columns">
+      <div id="students">
+	<h3>Current research students</h3>
+
+	<ul>
+	  {% assign cur = site.data.students.students | sort: "start" | reverse %}
+	  {%- for s in cur %}
+	  {%- unless s.end %}
+	  <li class="student">{% include student.html student=s %}</li>
+	  {%- endunless %}
+	  {%- endfor %}
+	</ul>
+
+	<p><a href="{{ '/students' | relative_url }}">view past
+	    students and theses&hellip;</a></p>
+      </div>
+
+      <div id="courses">
+	<h3>Courses</h3>
+
+	{%- assign cs = site.data.classes.classes | where: "end", false %}
+	{%- if cs.length %}
+	<ul>
+	  {%- for c in cs %}
+	  <li class="course">{% include course.html course=c %}</li>
+	  {%- endfor %}
+	</ul>
+	{%- else %}
+	<p>Currently I am not giving any courses.</p>
+	{%- endif %}
+      </div>
+
+      <div id="past-courses">
+	<h3>Past Courses</h3>
+
+	<ul>
+	  {%- for c in site.data.classes.classes %}
+	  {%- if c.end %}
+	  <li class="course">{% include course.html course=c %}</li>
+	  {%- endif %}
+	  {%- endfor %}
+	</ul>
+      </div>
     </div>
   </section>
 </div>
@@ -137,7 +192,7 @@ layout: default
 <script>
   // Hack to delegate focus to wrapper (tested in Firefox and Chrome)
   const w = document.querySelector('.wrapper');
-  w.focus({ preventScroll: true });
+  setTimeout(() => w.focus({ preventScroll: true }), 0);
   w.addEventListener('focusout',
 		     e => setTimeout(
 			 () => document.activeElement == document.body

@@ -18,9 +18,9 @@
 </div><div>
   <span class="venue">{{ p.publisher }}</span>
   {% if p.download %}
-  <a class="download" href="{{ p.download }}"><svg class="icon oa-icon" alt="download">{% include icon.html id="open-access-text" %}</svg></a>
+  <a class="download" href="{{ p.download }}" title="download"><svg class="icon oa-icon" alt="download">{% include icon.html id="open-access-text" %}</svg></a>
   {% endif %}
   {% if p.video %}
-  <a class="video" target="_blank" href="{{ p.video }}"><svg class="icon video" alt="video">{% include icon.html id="camera" %}</svg></a>
+  <a class="video" target="_blank" href="{{ p.video }}" title="video"><svg class="icon video" alt="video">{% include icon.html id="camera" %}</svg></a>
   {% endif %}
 </div>

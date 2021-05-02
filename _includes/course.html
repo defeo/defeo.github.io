@@ -1,0 +1,18 @@
+{%- assign c = include.course %}
+<div>
+  <a class="name" href="{{ c.url }}">{{ c.name }}</a>
+  {%- if c.end %}
+  <span class="years">({{ c.start }}–{{ c.end }})</span>
+  {%- endif %}
+</div>
+{%- for d in c.dipl %}
+<div class="dipl">
+  {%- assign inst = site.data.classes.inst[d.inst] %}
+  {%- assign dipl = site.data.classes.dipl[d.name] %}
+  <span class="inst"><abbr title="{{ inst.longname }}, {{ inst.country }}">{{ inst.shortname }}</abbr><a target="_blank" href="{{ inst.url }}" ><svg class="icon" alt="go to {{ inst.shortname }}">{% include icon.html id="external" %}</svg></a>–</span>
+  {%- if dipl.url %}{% assign tag = "a" %}{% else %}{% assign tag = "span" %}{% endif %}
+  <span class="dipl-name">{{ dipl.name }}
+    {%- if dipl.url %}<a target="_blank" href="{{ dipl.url }}"><svg class="icon" alt="go to {{ dipl.name }}">{% include icon.html id="external" %}</svg></a>{% endif %}
+  </span>
+</div>
+{%- endfor %}

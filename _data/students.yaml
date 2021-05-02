@@ -23,7 +23,7 @@ students:
   - type: MSc
     name: Ludovic Brieulle
     thesis:
-      title: Calcul d'isomorphismes de corps finis
+      title: "Calcul d'isomorphismes de corps finis"
     inst:
       - Université de Versailles
     start: 2014
