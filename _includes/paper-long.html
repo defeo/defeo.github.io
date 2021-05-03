@@ -1,0 +1,83 @@
+{%- assign p = include.paper %}
+<div>
+  <span class="title">{{ p.title }}</span>
+</div>
+
+<!-- Authors -->
+<div>
+  <span class="authors">
+    {%- for c in p.authors %}
+    {% assign a = site.data.papers.coauthors[c] %}
+    {%- if a.url %}{% assign tag = "a" %}{% else %}{% assign tag = "span" %}{% endif %}
+    <{{tag}} href="{{ a.url }}">{{ a.name | default: c }}</{{tag}}>
+    {%- unless forloop.last %},{% endunless %}
+    {%- endfor %}.
+  </span>
+</div>
+
+<!-- Bibliographic info -->
+{%- assign bib = p.bibinfo %}
+<div>
+  {%- if bib.title %}
+  <span class="venue">{{ bib.title.long | default: bib.title }},</span>
+  {%- endif %}
+  
+  {%- if p.type == "journal" %}
+  <span class="bib">
+    {%- if bib.series %}{{ bib.series }}, {% endif %}
+    {%- if bib.volume %}{{ bib.volume }}{% endif %}
+    {%- if bib.number %}({{ bib.number }}){% endif %}
+    {%- if bib.pagestart %}:{{ bib.pagestart }}{% endif %}
+    {%- if bib.pageend %}–{{ bib.pageend }}{% endif %}.
+  </span>
+  {%- elsif p.type == "conference" %}
+  <span class="bib">
+    {%- if bib.series %}
+    {%- if bib.volume %}volume {{ bib.volume }} of {% endif %}
+    {{- bib.series }},
+    {% endif %}
+    {%- if bib.pagestart %}page{% if bib.pageend %}s{% endif %} {{ bib.pagestart }}{% endif %}
+    {%- if bib.pageend %}–{{ bib.pageend }}{% endif %}.
+  </span>
+  {%- elsif p.type == "preprint" %}
+  <span class="bib">
+    preprint
+    {%- if bib.id %}, {{ bib.id }}{% endif %}
+    {%- if bib.pages %}, {{ bib.pages }} pages{% endif %}.
+  </span>
+  {%- elsif p.type == "thesis" %}
+  <span class="bib">
+    {%- if p.thesistype %}{{ p.thesistype }} thesis{% else %}Thesis, {% endif %}
+    {%- if bib.pages %}{{ bib.pages }} pages. {% endif %}
+  </span>
+  {%- else %} 
+  <span class="bib">
+    {%- if bib.pages %}{{ bib.pages }} pages.{% endif %}
+  </span>
+  {%- endif %}
+
+  {%- if p.comment %}{{ p.comment }}.{% endif %}
+  
+  {%- if bib.publisher %}
+  {% assign pub = site.data.papers.publishers[bib.publisher] %}
+  <span class="publisher">{{ pub | default: bib.publisher }},</span>
+  {%- endif %}
+  <span class="date">{{ p.year }}.</span>
+</div>
+
+<!-- Buttons -->
+<div>
+  {% if p.doi %}
+  <a class="external" target="_blank" href="https://doi.org/{{ p.doi }}">doi:{{ p.doi }}</a>
+  {% endif %}
+</div><div>
+  {% if p.download %}
+  <a rel="alternate" href="{{ p.download }}"><svg class="icon">{% include icon.html id="open-access" %}</svg>pdf</a>
+  {% endif %}
+  {% if p.video %}
+  <a rel="alternate" target="_blank" href="{{ p.video }}"><svg class="icon">{% include icon.html id="camera" %}</svg>video</a>
+  {% endif %}
+  {% for l in p.links %}
+  <a rel="alternate" target="_blank" href="{{ l }}"><svg class="icon">{% include icon.html id="external" %}</svg>{{ l | split: '/' | slice: 2 }}</a>
+  {% endfor %}
+</div>

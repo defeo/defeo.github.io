@@ -1,0 +1,10 @@
+maps:
+  type:
+    journal: journal
+    conference: inproceedings
+    thesis: phdthesis
+    preprint: misc
+    other: misc
+  title:
+    journal: journal
+    conference: booktitle

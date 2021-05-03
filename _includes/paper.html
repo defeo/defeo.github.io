@@ -4,19 +4,24 @@
   {% if p.doi %}
   <a class="external" target="_blank" href="https://doi.org/{{ p.doi }}"><svg class="icon" alt="go to paper">{% include icon.html id="external" %}</svg></a>
   {% endif %}
-</div><div>
-  {% if p.coauthors %}
+</div>
+
+<!-- authors -->
+<div>
   <span class="authors">with
-    {%- for c in p.coauthors %}
+    {%- assign aut = p.authors | where_exp: "a","a != 'me'" %}
+    {%- for c in aut %}
     {% assign a = site.data.papers.coauthors[c] %}
-    {%- if a %}<a href="{{ a.url }}">{{ a.name }}</a>
-    {%- else %}{{ c }}{% endif %}
+    {%- if a.url %}{% assign tag = "a" %}{% else %}{% assign tag = "span" %}{% endif %}
+    <{{tag}} href="{{ a.url }}">{{ a.name | default: c }}</{{tag}}>
     {%- unless forloop.last %},{% endunless %}
     {%- endfor %}.
   </span>
-  {% endif %}
-</div><div>
-  <span class="venue">{{ p.publisher }}</span>
+</div>
+
+<!-- Venue and links -->
+<div>
+  <span class="venue">{{ p.bibinfo.title.short | default: p.bibinfo.title }}</span>
   {% if p.download %}
   <a class="download" href="{{ p.download }}" title="download"><svg class="icon oa-icon" alt="download">{% include icon.html id="open-access-text" %}</svg></a>
   {% endif %}

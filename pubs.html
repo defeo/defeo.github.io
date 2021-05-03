@@ -1,0 +1,23 @@
+---
+layout: default
+title: "My publications"
+description: "Luca De Feo's publication list."
+---
+
+<section id="research" class="white">
+  <nav>
+    <span>{{ page.title | upcase }}</span>
+    <a href="{{ 'pubs.bib' | relative_url }}" download>BibTeX export</a>
+    <a href="{{ '/' | relative_url }}#research">back to homepage</a>
+  </nav>
+  
+  <div class="content">
+    <div id="publist">
+      <ul>
+	{% for p in site.data.papers.papers %}
+	<li class="pub bib">{% include paper-long.html paper=p %}</li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

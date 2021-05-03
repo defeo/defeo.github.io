@@ -105,7 +105,7 @@ nav {
     font-weight: bold;
     min-height: 4vh;
     
-    a {
+    a, span {
 	display: block;
 	flex: 1 0 auto;
 	color: inherit;
@@ -183,12 +183,26 @@ nav {
 /* #Research */
 #research .content, #teaching .content {
     li { list-style-type: none; }
+    li.bib { list-style-type: decimal; }
     .pub, .course, ul, p { margin-bottom: 0.6em; }
     .venue, .org, .years { font-style: italic; }
     .title, .name { font-style: italic; font-weight: bold; }
     .years { font-size: 80%; }
     svg.oa-icon { margin: 0 1em; }
     svg.video { vertical-align: baseline; }
+    
+    a[rel="alternate"] {
+	display: inline-block;
+	border: solid thin currentcolor;
+	padding: 0px 0.5em 0px 0.25em;
+	border-radius: 15px;
+	margin: 0.3em .625em 0 0;
+	svg.icon { vertical-align: baseline; margin: 0 0.25em; }
+	&:hover {
+	    box-shadow: 0 0 1px 1px;
+	    text-decoration: none;
+	}
+    }
 }
 
 /* Adjust for large screens */

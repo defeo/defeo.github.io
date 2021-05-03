@@ -1,0 +1,39 @@
+---
+layout: default
+title: "Students I have/had the pleasure to work with"
+description: "List of Luca De Feo's present and past research students."
+---
+
+<section id="teaching" class="white">
+  <nav>
+    <span>{{ page.title | upcase }}</span>
+    <a href="{{ '/' | relative_url }}#teaching">back to homepage</a>
+  </nav>
+  
+  {{ nav }}
+  
+  <div class="content">
+    {%- assign stud = site.data.students.students | sort: "start" | reverse %}
+    <div id="students">
+      <h3>Current research students</h3>
+      <ul>
+	{%- for s in stud %}
+	{%- unless s.end %}
+	<li class="student">{% include student.html student=s %}</li>
+	{%- endunless %}
+	{%- endfor %}
+      </ul>
+    </div>
+    
+    <div id="students">
+      <h3>Past research students</h3>
+      <ul>
+	{%- for s in stud %}
+	{%- if s.end %}
+	<li class="student">{% include student.html student=s %}</li>
+	{% endif %}
+	{%- endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

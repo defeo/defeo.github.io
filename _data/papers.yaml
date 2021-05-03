@@ -1,44 +1,88 @@
 papers:
   - type: conference
     title: Delay Encryption
-    coauthors:
+    authors:
       - Jeffrey Burdges
-    publisher: Eurocrypt 2021
+      - me
+    bibinfo:
+      publisher: Springer
+      title: EUROCRYPT 2021
+      editor:
+        - Anne Canteaut
+        - François-Xavier Standaert
+      series: LNCS
     download: 'https://eprint.iacr.org/2020/638.pdf'
+    date: 2021-10
     year: 2021
 
   - type: conference
     title: 'SQISign: Compact Post-quantum Signatures from Quaternions and Isogenies'
-    coauthors:
+    authors:
+      - me
       - dkohel
       - aleroux
       - cpetit
       - bweso
-    publisher: Asiacrypt 2020
+    bibinfo:
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2020, Part I
+        short: ASIACRYPT 2020
+      volume: 12491
+      series: LNCS
+      pagestart: 64
+      pageend: 93
+      editor:
+        - Shiho Moriai
+        - Huaxiong Wang
     doi: 10.1007/978-3-030-64837-4_3
     download: 'https://eprint.iacr.org/2020/1240.pdf'
     video: 'https://www.youtube.com/watch?v=zAGEV-5y2MU'
+    date: 2020-12
     year: 2020
 
   - type: conference
     title: Cryptographic Group Actions and Applications
-    coauthors:
+    authors:
       - Navid Alamati
+      - me
       - Hart Montgomery
       - Sikhar Patranabis
-    publisher: Asiacrypt 2020
+    bibinfo:
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2020, Part II
+        short: ASIACRYPT 2020
+      volume: 12492
+      series: LNCS
+      pagestart: 411
+      pageend: 439
+      editor:
+        - Shiho Moriai
+        - Huaxiong Wang
     doi: 10.1007/978-3-030-64834-3_14
     download: 'https://eprint.iacr.org/2020/1188.pdf'
     video: 'https://www.youtube.com/watch?v=3jhQFYLU9yU'
+    date: 2020-12
     year: 2020
 
-  - type: conference
+  - type: journal
     title: Faster computation of isogenies of large prime degree
-    coauthors:
+    authors:
       - djb
+      - me
       - aleroux
       - bsmith
-    publisher: ANTS-XIV, Open Book Series
+    bibinfo:
+      publisher: MSP
+      series: The Open Book Series
+      title: ANTS XIV
+      volume: 4
+      number: 1
+      pagestart: 39
+      pageend: 55
+      editor:
+         - Steven D. Galbraith
     doi: 10.2140/obs.2020.4.39
     download: 'https://eprint.iacr.org/2020/341.pdf'
     video: 'https://vimeo.com/413269694'
@@ -48,101 +92,194 @@ papers:
 
   - type: conference
     title:  Threshold schemes from isogeny assumptions
-    coauthors:
+    authors:
+      - me
       - Michael Meyer
-    publisher: PKC 2020
+    bibinfo:
+      publisher: Springer
+      title:
+        long: PKC 2020, Part II
+        short: PKC 2020
+      volume: 12111
+      series: LNCS
+      pagestart: 187
+      pageend: 212
+      editor:
+        - Aggelos Kiayias
+        - Markulf Kohlweiss
+        - Petros Wallden
+        - Vassilis Zikas
     doi: 10.1007/978-3-030-64837-4_3
     download: 'https://eprint.iacr.org/2019/1288.pdf'
     video: 'https://www.youtube.com/watch?v=gjqbgUVZcwI'
+    year: 2020-05
     year: 2020
 
   - type: conference
     title: Verifiable Delay Functions from Supersingular Isogenies and Pairings
-    coauthors:
+    authors:
+      - me
       - smasson
       - cpetit
       - asanso
-    publisher: AsiaCrypt 2019
+    bibinfo:
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2019, Part I
+        short: ASIACRYPT 2019
+      volume: 11921
+      series: LNCS
+      pagestart: 248
+      pageend: 277
+      editor:
+        - Steven D. Galbraith
+        - Shiho Moriai
     doi: '10.1007/978-3-030-34578-5_10'
     download: 'https://eprint.iacr.org/2019/166.pdf'
+    year: 2019-12
     year: 2019
 
   - type: conference
     title: Stronger and Faster Side-Channel Protections for CSIDH
-    coauthors:
+    authors:
       - Daniel Cervantes-Váquez
       - Mathilde Chenu
       - Jesús-Javier Chi-Dominguez
+      - me
       - Francisco Rodríguez-Henriquez
       - bsmith
+    bibinfo:
+      title: LATINCRYPT 2019
+      editor:
+        - Peter Schwabe
+        - Nicolas Thériault
+      volume: 11774
+      series: LNCS
+      publisher: Springer
+      pagestart: 173
+      pageend: 193
     doi: '10.1007/978-3-030-30530-7_9'
     download: 'https://eprint.iacr.org/2019/837.pdf'
+    daet: 2019-09
     year: 2019
     
   - type: conference
     title: Standard Lattices of Compatibly Embedded Finite Fields
-    coauthors:
+    authors:
+      - me
       - hrandriam
       - erou
-    publisher: ISSAC 2019
+    bibinfo:
+      publisher: ACM
+      title:
+        short: "ISSAC '19"
+        long: "ISSAC '19: Proceedings of the 2019 on International Symposium on Symbolic and Algebraic Computation"
+      pagestart: 122
+      pageend: 130
     doi: '10.1145/3326229.3326251'
     download: 'https://arxiv.org/pdf/1906.00870'
+    date: 2019-07
     year: 2019
 
   - type: conference
     title: 'SeaSign: Compact isogeny signatures from class group actions'
-    coauthors:
+    authors:
+      - me
       - ellkiwi
-    publisher: Eurocrypt 2019
+    bibinfo:
+      publisher: Springer
+      title:
+        long: EUROCRYPT 2019, Part III
+        short: EUROCRYPT 2019
+      volume: 11478
+      series: LNCS
+      pagestart: 759
+      pageend: 789
+      editor:
+        - Yuval Ishai
+        - Vincent Rijmen
     doi: '10.1007/978-3-030-17659-4_26'
     download: 'https://eprint.iacr.org/2018/824.pdf'
+    date: 2019-05
     year: 2019
 
   - type: thesis
+    thesistype: Habilitation
     title: Exploring Isogeny Graphs
-    publisher: Université de Versailles, December 14, 2018
+    authors:
+      - me
+    bibinfo:
+      publisher: Université de Versailles
+      pages: 220
     links:
       - 'https://defeo.lu/hdr/'
     download: 'https://github.com/defeo/hdr/releases/download/defended/hdr.pdf'
     video: 'https://vimeo.com/defeo/hdr'
+    date: 2018-12-14
     year: 2010
 
   - type: conference
     title: Towards practical key exchange from ordinary isogeny graphs
-    coauthors:
+    authors:
+      - me
       - Jean Kieffer
       - bsmith
-    publisher: AsiaCrypt 2018
+    bibinfo:
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2018, Part III
+        short: ASIACRYPT 2018
+      volume: 11274
+      series: LNCS
+      pagestart: 365
+      pageend: 394
+      editor:
+        - Thomas Peyrin
+        - Steven Galbraith
     doi: '10.1007/978-3-030-03332-3_14'
     download: 'https://eprint.iacr.org/2018/485.pdf'
+    date: 2018-12
     year: 2018
       
   - type: journal
     title: Computing isomorphisms and embeddings of finite fields
-    coauthors:
+    authors:
       - Ludovic Brieulle
-      - Javad Doliskani
+      - me
+      - javad
       - Jean-Pierre Flori
       - eschost
-    publisher: Mathematics of Computation, 2018
+    bibinfo:
+      publisher: AMS
+      title: Mathematics of Computation
+      volume: 88
+      pagestart: 1391
+      pageend: 1426
     doi: '10.1090/mcom/3363'
     links:
       - 'https://github.com/defeo/ffisom'
     download: 'https://arxiv.org/pdf/1705.01221'
+    date: 2018-06-19
     year: 2018
 
-  - type: other
+  - type: preprint
     title: Mathematics of Isogeny Based Cryptography
-    publisher: Lecture notes, [École Mathématique Africaine](http://ema2017.lacgaa.com/), Thiès, Sénégal, 2017, 44 pp
+    authors:
+      - me
+    comment: Lecture notes
+    bibinfo:
+      pages: 44
+      id: 'arXiv:1711.04062'
     links:
       - 'https://defeo.lu/docet/class/2017/05/26/isogenies-in-africa/'
       - 'https://defeo.lu/docet/talk/2019/07/29/wurzburg/'
     download: 'https://arxiv.org/pdf/1711.04062'
+    date: 2017-07
     year: 2017
 
   - type: other
-    title: Supersingular Isogeny Key Encapsulation
-    coauthors:
+    title: "SIKE: Supersingular Isogeny Key Encapsulation"
+    authors:
       - R. Azarderakhsh
       - M. Campagna
       - C. Costello
@@ -159,34 +296,55 @@ papers:
       - J. Renes
       - V. Soukharev
       - D. Urbanik
-    publisher: Encryption/Key Encapsulation scheme, candidate to the [NIST Post-Quantum Cryptography competion](https://csrc.nist.gov/Projects/Post-Quantum-Cryptography), 2017
+    bibinfo:
+      publisher: National Institute of Standards and Technology (NIST)
+      title: Post-Quantum Cryptography Standardization
     links:
       - 'https://sike.org'
     download: 'https://sike.org/files/SIDH-spec.pdf'
+    date: 2020-10
     year: 2020
 
   - type: conference
     title: Knowledge-Based Interoperability for Mathematical Software Systems
-    coauthors:
+    authors:
       - Michael Kohlhase
+      - me
       - Dennis Müller
       - Markus Pfeiffer
       - Florian Rabe
       - Nicolas M. Thiéry
       - Victor Vasilyev
       - Tom Wiesing
-    publisher: Mathematical Aspects of Computer and Information Sciences, Springer, 2017, pp. 195-210
+    bibinfo:
+      title:
+        long: 'MACIS 2017: Mathematical Aspects of Computer and Information Sciences'
+        short: MACIS 2017
+      publisher: Springer
+      pagestart: 195
+      pageend: 210
+      volume: 10693
+      series: LNCS
     doi: '10.1007/978-3-319-72453-9_14'
     download: 'https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/12491/crc.pdf'
+    year: 2017-12
     year: 2017
 
   - type: journal
     title: Explicit isogenies in quadratic time in any characteristic
-    coauthors:
+    authors:
+      - me
       - Cyril Hugounenq
       - Jérôme Plût
       - eschost
-    publisher: LMS Journal of Computation and Mathematics, 2016, 19 (A), pp. 267-282
+    bibinfo:
+      publisher: Oxford University Press
+      title: ANTS XII
+      series: LMS Journal of Computation and Mathematics
+      volume: 19
+      number: A
+      pagestart: 267
+      pageend: 282
     doi: '10.1112/S146115701600036X'
     links:
       - 'https://arxiv.org/abs/1603.00711'
@@ -195,52 +353,86 @@ papers:
 
   - type: preprint
     title: Applications of the affine geometry of GF(q<sup>n</sup>) to root finding
-    coauthors:
+    authors:
+      - me
       - cpetit
       - Michaël Quisquater
-    publisher: In preparation. Best poster award ISSAC 2015
+    comment: In preparation
     links:
       - 'https://github.com/defeo/root_finding/'
     year: 2015
 
   - type: journal
     title: Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies
-    coauthors:
+    authors:
+      - me
       - djao
       - Jérôme Plût
-    publisher: Journal of Mathematical Cryptology, 2014, 8 (3), pp. 209-247
+    bibinfo:
+      publisher: De Gruyter
+      title: Journal of Mathematical Cryptology
+      volume: 8
+      number: 3
+      pagestart: 209
+      pageend: 247
     doi: '10.1515/jmc-2012-0015'
     download: 'https://eprint.iacr.org/2011/506.pdf'
+    date: 2014-01
     year: 2014
 
   - type: conference
     title: Fast arithmetic for the algebraic closure of finite fields
-    coauthors:
+    authors:
+      - me
       - eschost
-      - Javad Doliskani
-    publisher: "ISSAC '14, July 2014, Kobe, Japan. ACM, 2014, pp. 122-129"
+      - javad
+    bibinfo:
+      title:
+        long: "ISSAC '14: Proceedings of the 39th International Symposium on Symbolic and Algebraic Computation"
+        short: "ISSAC '14"
+      location: Kobe, Japan
+      publisher: ACM
+      pagestart: 122
+      pageend: 129
     links:
       - 'https://github.com/defeo/ff_compositum'
     doi: '10.1145/2608628.2608672'
+    date: 2014-07
     year: 2014
 
   - type: conference
     title: Fast algorithms for ℓ-adic towers over finite fields
-    coauthors:
+    authors:
+      - me
       - eschost
-      - Javad Doliskani
-    publisher: "ISSAC '13, June 2013, Boston (MA), USA. ACM, 2013, pp. 165-172"
+      - javad
+    bibinfo:
+      title:
+        long: "ISSAC '13: Proceedings of the 38th international symposium on International symposium on symbolic and algebraic computation"
+        short: "ISSAC '13"
+      location: Boston (MA), USA
+      publisher: ACM
+      pagestart: 165
+      pageend: 172
     links:
       - 'http://defeo.lu/towers'
     doi: '10.1145/2465506.2465956'
     download: 'https://arxiv.org/pdf/1301.6021'
+    date: 2013-06
     year: 2013
 
   - type: journal
     title: Fast Arithmetics in Artin-Schreier Towers over Finite Fields
-    coauthors:
+    authors:
+      - me
       - eschost
-    publisher: Journal of Symbolic Computation, 2012, 47 (7), pp. 771-792
+    bibinfo:
+      publisher: Elsevier
+      title: Journal of Symbolic Computation
+      volume: 47
+      number: 7
+      pagestart: 771
+      pageend: 792
     doi: '10.1016/j.jsc.2011.12.008'
     links:
       - 'https://arxiv.org/abs/1002.2594'
@@ -249,7 +441,15 @@ papers:
 
   - type: journal
     title: Fast algorithms for computing isogenies between ordinary elliptic curves in small characteristic
-    publisher: Journal of Number Theory, 2011, 131 (5), pp. 873-893
+    authors:
+      - me
+    bibinfo:
+      publisher: Elsevier
+      title: Journal of Number Theory
+      volume: 131
+      number: 5
+      pagestart: 873
+      pageend: 893
     doi: '10.1016/j.jnt.2010.07.003'
     links:
       - 'https://www.arxiv.org/abs/1002.2597'
@@ -258,41 +458,77 @@ papers:
 
   - type: conference
     title: Towards Quantum-Resistant Cryptosystems from Supersingular Elliptic Curve Isogenies
-    coauthors:
+    authors:
       - djao
-    publisher: Post-Quantum Cryptography, Nov 2011, Taipei, Taiwan. Springer, 7071, pp. 19-34
+      - me
+    bibinfo:
+      title: Post-Quantum Cryptography - 4th International Workshop, PQCrypto 2011
+      location: Taipei, Taiwan
+      publisher: Springer
+      pagestart: 19
+      pageend: 34
+      volume: 7071
+      series: LNCS
+      editor:
+        - Bo-Yin Yang
     doi: '10.1007/978-3-642-25405-5_2'
     download: 'https://link.springer.com/content/pdf/10.1007%2F978-3-642-25405-5.pdf'
+    date: 2011-11
     year: 2011
 
   - type: journal
-    title: 'transalpyne: a language for automatic transposition'
-    coauthors:
+    title: 'transalpyne: a Language for Automatic Transposition'
+    authors:
+      - me
       - eschost
-    publisher: ACM SIGSAM Bulletin, 2010, 44 (1/2), pp. 59-71
+    bibinfo:
+      publisher: ACM
+      title: SIGSAM Bulletin
+      volume: 44
+      number: 1/2
+      pagestart: 59
+      pageend: 71
     doi: '10.1145/1838599.1838624'
     download: 'https://hal.archives-ouvertes.fr/hal-00505809/document'
+    date: 2010-07
     year: 2010
 
   - type: thesis
+    thesistype: PhD
     title: Fast Algorithms for Towers of Finite Fields and Isogenies
+    authors:
+      - me
     comment: 'Advisors: François Morain, Éric Schost'
-    publisher: École Polytechnique, December 13, 2010. In English
+    bibinfo:
+      publisher: École Polytechnique
+      pages: 191
     links:
       - 'https://github.com/defeo/PhD-Thesis'
       - 'https://hal.inria.fr/tel-00547034'
     download: 'https://hal.inria.fr/tel-00547034v3/document'
+    date: 2010-12-13
     year: 2010
 
   - type: conference
     title: Fast Arithmetics in Artin-Schreier Towers over Finite Fields
-    coauthors:
+    authors:
+      - me
       - eschost
-    publisher: "ISSAC '09, July 2009, Seoul, Korea. ACM, 2009, pp. 127-134"
+    bibinfo:
+      title:
+        long: "ISSAC '09: Proceedings of the 2009 international symposium on Symbolic and algebraic computation"
+        short: "ISSAC '09"
+      location: "Seoul, Korea"
+      publisher: ACM
+      pagestart: 127
+      pageend: 134
     doi: '10.1145/1576702.1576722'
+    date: 2009-07
     year: 2009
     
 coauthors:
+  me:
+    name: Luca De Feo
   djao:
     name: David Jao
     url: 'http://djao.math.uwaterloo.ca/'
@@ -335,3 +571,11 @@ coauthors:
   djb:
     name: Daniel J. Bernstein
     url: 'https://cr.yp.to/djb.html'
+  javad:
+    name: Javad Doliskani
+    url: 'https://doliskani.net/'
+
+publishers:
+  ACM: Association for Computing Machinery
+  AMS: American Mathematical Society
+  MSP: Mathematical Sciences Publishers

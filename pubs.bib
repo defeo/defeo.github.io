@@ -1,0 +1,56 @@
+---
+---
+{%- for p in site.data.papers.papers %}
+{%- assign slug = p.title | append: p.year | slugify %}
+{%- assign bib = p.bibinfo %}
+{%- assign maps = site.data.bibtex.maps %}
+@{{ maps.type[p.type] }}{{'{'}}{{ p.doi | default: slug }},
+  title = "{{ p.title | prepend: '{' }}}",
+{%- assign aut = "" | split: "" %}
+{%- for c in p.authors %}
+{%- assign a = site.data.papers.coauthors[c].name | default: c | prepend: '{' | append: '}' %}
+{%- assign aut = aut | push: a %}
+{%- endfor %}
+  author = "{{ aut | join: " and " }}",
+  year = "{{ p.year }}",
+  {%- if bib.title %}
+  {{ maps.title[p.type] }} = "{{ bib.title.long | default: bib.title }}",
+  {%- endif %}
+  {%- if bib.series %}
+  series = "{{ bib.series }}",
+  {%- endif %}
+  {%- if bib.volume %}
+  volume = "{{ bib.volume }}",
+  {%- endif %}
+  {%- if bib.number %}
+  number = "{{ bib.number }}",
+  {%- endif %}
+  {%- if bib.pagestart %}
+  pages = "{{ bib.pagestart }}{% if bib.pageend %}--{{ bib.pageend }}{% endif %}",
+  {%- endif %}
+  {%- if p.type == "preprint" and bib.id %}
+  howpublished = "{{ bib.id }}",
+  {%- endif %}
+  {%- if p.thesistype %}
+  type = "{{ p.thesistype }}",
+  {%- endif %}
+  {%- if p.comment %}
+  comment = "{{ p.comment }}",
+  {%- endif %}
+  {%- if bib.publisher %}
+  publisher = "{{ site.data.papers.publishers[bib.publisher] | default: bib.publisher }}",
+  {%- endif %}
+  {%- if p.doi %}
+  doi = "{{ p.doi }}",
+  {%- endif %}
+  {%- if p.download %}
+  url = "{{ p.download }}",
+  {%- endif %}
+  {%- if p.video %}
+  url = "{{ p.video }}",
+  {%- endif %}
+  {%- for l in p.links %}
+  url = "{{ l }}",
+  {%- endfor %}
+}
+{% endfor %}
