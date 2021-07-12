@@ -48,6 +48,7 @@ students:
     inst:
       - Télécom Paristech
     start: 2017
+    end: 2021
 
   - type: MSc
     name: Jean Kieffer
@@ -79,6 +80,7 @@ students:
     inst:
       - Università Roma 3
     start: 2018
+    end: 2021
 
   - type: PhD
     name: Élise Tasso

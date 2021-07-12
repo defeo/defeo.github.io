@@ -1,5 +1,33 @@
 papers:
   - type: conference
+    title: On the (in)security of ElGamal in OpenPGP
+    authors:
+      - me
+      - Bertram Poettering
+      - Alessandro Sorniotti
+    bibinfo:
+      publisher: ACM
+      title:
+        short: ACM CCS 2021
+        long: The 28th ACM Conference on Computer and Communications Security
+    download: 'https://eprint.iacr.org/2021/923.pdf'
+    date: 2021-11
+    year: 2021
+
+  - type: conference
+    title: Resistance of Isogeny-Based Cryptographic Implementations to a Fault Attack
+    authors:
+      - Élise Tasso
+      - me
+      - Nadia El Mrabet
+      - Simon Pontié
+    bibinfo:
+      title: COSADE 2021
+    download: 'https://eprint.iacr.org/2021/850.pdf'
+    date: 2021-10
+    year: 2021
+
+  - type: conference
     title: Delay Encryption
     authors:
       - Jeffrey Burdges
