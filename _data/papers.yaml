@@ -1,4 +1,17 @@
 papers:
+  - type: preprint
+    title: SIDH Proof of Knowledge
+    authors:
+      - me
+      - Samuel Dobson
+      - ellkiwi
+      - Lukas Zobernig
+    bibinfo:
+      id: 'iacr:2021/1023'
+    download: 'https://eprint.iacr.org/2021/1023.pdf'
+    date: 2021-08
+    year: 2021
+      
   - type: conference
     title: On the (in)security of ElGamal in OpenPGP
     authors:
