@@ -1,4 +1,25 @@
 papers:
+  - type: conference
+    title: 'SÉTA: Supersingular Encryption from Torsion Attacks'
+    authors:
+      - me
+      - Cyprien Delpech de Saint Guilhem
+      - Tako Boris Fouotsa
+      - Péter Kutas
+      - aleroux
+      - cpetit
+      - Javier Silva
+      - Benjamin Wesolowski
+      - bweso
+    bibinfo:
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2021
+        short: ASIACRYPT 2021
+    download: 'https://eprint.iacr.org/2019/1291.pdf'
+    date: 2021-12
+    year: 2021
+
   - type: preprint
     title: SIDH Proof of Knowledge
     authors:
@@ -11,7 +32,7 @@ papers:
     download: 'https://eprint.iacr.org/2021/1023.pdf'
     date: 2021-08
     year: 2021
-      
+
   - type: conference
     title: On the (in)security of ElGamal in OpenPGP
     authors:
@@ -257,7 +278,7 @@ papers:
     download: 'https://github.com/defeo/hdr/releases/download/defended/hdr.pdf'
     video: 'https://vimeo.com/defeo/hdr'
     date: 2018-12-14
-    year: 2010
+    year: 2018
 
   - type: conference
     title: Towards practical key exchange from ordinary isogeny graphs
