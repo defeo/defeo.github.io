@@ -1,5 +1,18 @@
 papers:
   - type: conference
+    title: On the security of OSIDH
+    authors:
+      - Pierrick Dartois
+      - me
+    bibinfo:
+      publisher: Springer
+      title:
+        short: PKC 2022
+      series: LNCS
+    date: 2022-03
+    year: 2022
+
+  - type: conference
     title: 'SÉTA: Supersingular Encryption from Torsion Attacks'
     authors:
       - me
@@ -15,7 +28,16 @@ papers:
       publisher: Springer
       title:
         long: ASIACRYPT 2021
-        short: ASIACRYPT 2021
+        short:  Advances in Cryptology – ASIACRYPT 2021
+      volume: 13093
+      series: LNCS
+      pagestart: 249
+      pageend: 278
+      editor:
+        - Mehdi Tibouchi
+        - Huaxiong Wang
+    doi: 10.1007/978-3-030-92068-5_9
+    video: 'https://www.youtube.com/watch?v=IPvj9lPwvwg'
     download: 'https://eprint.iacr.org/2019/1291.pdf'
     date: 2021-12
     year: 2021
@@ -40,11 +62,20 @@ papers:
       - Bertram Poettering
       - Alessandro Sorniotti
     bibinfo:
-      publisher: ACM
+      publisher: Association for Computing Machinery
       title:
         short: ACM CCS 2021
-        long: The 28th ACM Conference on Computer and Communications Security
+        long: The 28th ACM SIGSAC Conference on Computer and Communications Security
+      series: "CCS '21"
+      pagestart: 2066
+      pageend: 2080
+      editor:
+        - Giovanni Vigna
+        - Elaine Shi
+    doi: 10.1145/3460120.3485257
     download: 'https://eprint.iacr.org/2021/923.pdf'
+    links:
+      - 'https://ibm.github.io/system-security-research-updates/2021/07/20/insecurity-elgamal-pt1'
     date: 2021-11
     year: 2021
 
@@ -56,7 +87,18 @@ papers:
       - Nadia El Mrabet
       - Simon Pontié
     bibinfo:
-      title: COSADE 2021
+      publisher: Springer
+      title:
+        short: COSADE 2021
+        long: Constructive Side-Channel Analysis and Secure Design
+      volume: 12910
+      series: LNCS
+      pagestart: 255
+      pageend: 276
+      editor:
+        - Shivam Bhasin
+        - Fabrizio De Santis
+    doi: 10.1007/978-3-030-89915-8_12
     download: 'https://eprint.iacr.org/2021/850.pdf'
     date: 2021-10
     year: 2021
@@ -68,12 +110,19 @@ papers:
       - me
     bibinfo:
       publisher: Springer
-      title: EUROCRYPT 2021
+      title:
+        short: EUROCRYPT 2021
+        long: Advances in Cryptology – EUROCRYPT 2021
       editor:
         - Anne Canteaut
         - François-Xavier Standaert
+      volume: 12696
       series: LNCS
+      pagestart: 302
+      pageend: 326
+    doi: 10.1007/978-3-030-77870-5_11
     download: 'https://eprint.iacr.org/2020/638.pdf'
+    video: 'https://www.youtube.com/watch?v=amUP8EZ8Z0w'
     date: 2021-10
     year: 2021
 
