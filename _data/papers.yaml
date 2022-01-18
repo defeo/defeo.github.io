@@ -1,4 +1,20 @@
 papers:
+  - type: preprint
+    title: 'SIKE Channels, Zero-Value Side-Channel Attacks on SIKE'
+    authors:
+      - me
+      - Nadia El Mrabet
+      - Aymeric Genêt
+      - Novak Kaluđerović
+      - Natacha Linard de Guertechin 
+      - Simon Pontié
+      - Élise Tasso
+    bibinfo:
+      id: 'iacr:2022/054'
+    download: 'https://eprint.iacr.org/2022/054.pdf'
+    date: 2022-01
+    year: 2022
+  
   - type: conference
     title: On the security of OSIDH
     authors:
@@ -6,8 +22,7 @@ papers:
       - me
     bibinfo:
       publisher: Springer
-      title:
-        short: PKC 2022
+      title: PKC 2022
       series: LNCS
     download: 'https://eprint.iacr.org/2021/1681.pdf'
     date: 2022-03
