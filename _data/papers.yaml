@@ -1,5 +1,17 @@
 papers:
   - type: preprint
+    title: 'New algorithms for the Deuring correspondence: SQISign twice as fast'
+    authors:
+      - me
+      - aleroux
+      - bweso
+    bibinfo:
+      id: 'iacr:2022/234'
+    download: 'https://eprint.iacr.org/2022/234.pdf'
+    date: 2022-02
+    year: 2022
+
+  - type: preprint
     title: 'SIKE Channels, Zero-Value Side-Channel Attacks on SIKE'
     authors:
       - me
@@ -90,6 +102,7 @@ papers:
         - Elaine Shi
     doi: 10.1145/3460120.3485257
     download: 'https://eprint.iacr.org/2021/923.pdf'
+    video: 'https://www.youtube.com/watch?v=r6Y0s5DTGEM'
     links:
       - 'https://ibm.github.io/system-security-research-updates/2021/07/20/insecurity-elgamal-pt1'
     date: 2021-11
