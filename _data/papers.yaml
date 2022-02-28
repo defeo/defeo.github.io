@@ -34,10 +34,20 @@ papers:
       - me
     bibinfo:
       publisher: Springer
-      title: PKC 2022
+      title:
+        short: PKC 2022
+        long: 'PKC 2022: Public-Key Cryptography'
       series: LNCS
+      volume: 13177
+      pagestart: 52
+      pageend: 81
+      editor:
+        - Goichiro Hanaoka
+        - Junji Shikata
+        - Yohei Watanabe
     download: 'https://eprint.iacr.org/2021/1681.pdf'
-    date: 2022-03
+    doi: 10.1007/978-3-030-97121-2_3
+    date: 2022-02
     year: 2022
 
   - type: conference
