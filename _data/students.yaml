@@ -90,14 +90,19 @@ students:
 
   - type: PhD
     name: Antonin Leroux
+    thesis:
+      title: Quaternion Algebras and Isogeny-based Cryptography
     website: 'https://www.lix.polytechnique.fr/Labo/Antonin.LEROUX/'
     inst:
       - École Polytechnique
     start: 2019
+    end: 2022
 
-  - type: MSc
+  - type: PhD
     name: Pierrick Dartois
+    website: 'https://www.pierrickdartois.fr/homepage/'
     inst:
       - IBM
       - Corps des Mines-Télécom
+      - Inria
     start: 2019
