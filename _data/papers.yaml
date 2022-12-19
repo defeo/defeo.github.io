@@ -1,17 +1,37 @@
 papers:
   - type: preprint
-    title: 'New algorithms for the Deuring correspondence: SQISign twice as fast'
+    title: 'Supersingular Curves You Can Trust'
+    authors:
+      - Andrea Basso
+      - Giulio Codogni
+      - Deirdre Connolly
+      - me
+      - Tako Boris Fouotsa
+      - Guido Maria Lido
+      - Travis Morrison
+      - Lorenz Panny
+      - Sikhar Patranabis
+      - bweso
+    bibinfo:
+      id: 'iacr:2022/1469'
+    download: 'https://eprint.iacr.org/2022/1469.pdf'
+    date: 2022-10
+    year: 2022
+
+  - type: preprint
+    title: 'New algorithms for the Deuring correspondence: Towards practical and secure SQISign signatures'
     authors:
       - me
       - aleroux
       - bweso
+      - Patrick Longa
     bibinfo:
       id: 'iacr:2022/234'
     download: 'https://eprint.iacr.org/2022/234.pdf'
-    date: 2022-02
+    date: 2022-12
     year: 2022
 
-  - type: preprint
+  - type: journal
     title: 'SIKE Channels, Zero-Value Side-Channel Attacks on SIKE'
     authors:
       - me
@@ -22,9 +42,14 @@ papers:
       - Simon Pontié
       - Élise Tasso
     bibinfo:
-      id: 'iacr:2022/054'
+      title: IACR Transactions on Cryptographic Hardware and Embedded Systems
+      volume: 2022
+      number: 3
+      pagestart: 264
+      pageend: 289
     download: 'https://eprint.iacr.org/2022/054.pdf'
-    date: 2022-01
+    doi: 10.46586/tches.v2022.i3.264-289
+    date: 2022-06
     year: 2022
   
   - type: conference
@@ -47,6 +72,7 @@ papers:
         - Yohei Watanabe
     download: 'https://eprint.iacr.org/2021/1681.pdf'
     doi: 10.1007/978-3-030-97121-2_3
+    video: 'https://youtube.com/watch?v=n4dhX1Mga2k'
     date: 2022-02
     year: 2022
 
@@ -80,7 +106,7 @@ papers:
     date: 2021-12
     year: 2021
 
-  - type: preprint
+  - type: conference
     title: SIDH Proof of Knowledge
     authors:
       - me
@@ -88,10 +114,13 @@ papers:
       - ellkiwi
       - Lukas Zobernig
     bibinfo:
-      id: 'iacr:2021/1023'
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2022
+        short:  Advances in Cryptology – ASIACRYPT 2022
     download: 'https://eprint.iacr.org/2021/1023.pdf'
-    date: 2021-08
-    year: 2021
+    date: 2022-12
+    year: 2022
 
   - type: conference
     title: On the (in)security of ElGamal in OpenPGP
