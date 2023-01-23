@@ -1,5 +1,21 @@
 papers:
   - type: preprint
+    title: 'SCALLOP: scaling the CSI-FiSh'
+    authors:
+      - me
+      - Tako Boris Fouotsa
+      - Péter Kutas
+      - aleroux
+      - Simon-Philipp Merz
+      - Lorenz Panny
+      - bweso
+    bibinfo:
+      id: 'iacr:2023/058'
+    download: 'https://eprint.iacr.org/2023/058.pdf'
+    date: 2023-1
+    year: 2023
+
+  - type: preprint
     title: 'Supersingular Curves You Can Trust'
     authors:
       - Andrea Basso
