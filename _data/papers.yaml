@@ -1,5 +1,5 @@
 papers:
-  - type: preprint
+  - type: conference
     title: 'SCALLOP: scaling the CSI-FiSh'
     authors:
       - me
@@ -10,12 +10,15 @@ papers:
       - Lorenz Panny
       - bweso
     bibinfo:
-      id: 'iacr:2023/058'
+      publisher: Springer
+      title:
+        short: PKC 2023
+        long: 'PKC 2023: Public-Key Cryptography'
     download: 'https://eprint.iacr.org/2023/058.pdf'
     date: 2023-1
     year: 2023
 
-  - type: preprint
+  - type: conference
     title: 'Supersingular Curves You Can Trust'
     authors:
       - Andrea Basso
@@ -29,12 +32,15 @@ papers:
       - Sikhar Patranabis
       - bweso
     bibinfo:
-      id: 'iacr:2022/1469'
+      publisher: Springer
+      title:
+        short: EUROCRYPT 2023
+        long: Advances in Cryptology – EUROCRYPT 2023
     download: 'https://eprint.iacr.org/2022/1469.pdf'
     date: 2022-10
     year: 2022
 
-  - type: preprint
+  - type: conference
     title: 'New algorithms for the Deuring correspondence: Towards practical and secure SQISign signatures'
     authors:
       - me
@@ -42,10 +48,37 @@ papers:
       - bweso
       - Patrick Longa
     bibinfo:
-      id: 'iacr:2022/234'
+      publisher: Springer
+      title:
+        short: EUROCRYPT 2023
+        long: Advances in Cryptology – EUROCRYPT 2023
     download: 'https://eprint.iacr.org/2022/234.pdf'
     date: 2022-12
     year: 2022
+
+  - type: conference
+    title: SIDH Proof of Knowledge
+    authors:
+      - me
+      - Samuel Dobson
+      - ellkiwi
+      - Lukas Zobernig
+    bibinfo:
+      publisher: Springer
+      title:
+        long: ASIACRYPT 2022
+        short:  Advances in Cryptology – ASIACRYPT 2022
+      volume: 13792
+      series: LNCS
+      pagestart: 310
+      pageend: 339
+      editor:
+        - Shweta Agrawal
+        - Dongdai Lin
+    doi: 10.1007/978-3-031-22966-4_11
+    download: 'https://eprint.iacr.org/2021/1023.pdf'
+    date: 2023-01
+    year: 2023
 
   - type: journal
     title: 'SIKE Channels, Zero-Value Side-Channel Attacks on SIKE'
@@ -121,22 +154,6 @@ papers:
     download: 'https://eprint.iacr.org/2019/1291.pdf'
     date: 2021-12
     year: 2021
-
-  - type: conference
-    title: SIDH Proof of Knowledge
-    authors:
-      - me
-      - Samuel Dobson
-      - ellkiwi
-      - Lukas Zobernig
-    bibinfo:
-      publisher: Springer
-      title:
-        long: ASIACRYPT 2022
-        short:  Advances in Cryptology – ASIACRYPT 2022
-    download: 'https://eprint.iacr.org/2021/1023.pdf'
-    date: 2022-12
-    year: 2022
 
   - type: conference
     title: On the (in)security of ElGamal in OpenPGP
