@@ -36,7 +36,15 @@ papers:
       title:
         short: EUROCRYPT 2023
         long: Advances in Cryptology – EUROCRYPT 2023
+      volume: 14005
+      series: LNCS
+      pagestart:  405
+      pageend: 437
+      editor:
+        - Carmit Hazay
+        - Martijn Stam
     download: 'https://eprint.iacr.org/2022/1469.pdf'
+    doi: 10.1007/978-3-031-30617-4_14
     date: 2022-10
     year: 2022
 
@@ -45,14 +53,22 @@ papers:
     authors:
       - me
       - aleroux
-      - bweso
       - Patrick Longa
+      - bweso
     bibinfo:
       publisher: Springer
       title:
         short: EUROCRYPT 2023
         long: Advances in Cryptology – EUROCRYPT 2023
+      volume: 14008
+      series: LNCS
+      pagestart: 659
+      pageend: 690
+      editor:
+        - Carmit Hazay
+        - Martijn Stam
     download: 'https://eprint.iacr.org/2022/234.pdf'
+    doi: 10.1007/978-3-031-30589-4_23
     date: 2022-12
     year: 2022
 
