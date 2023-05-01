@@ -13,10 +13,19 @@ papers:
       publisher: Springer
       title:
         short: PKC 2023
-        long: 'PKC 2023: Public-Key Cryptography'
+        long: 'Public-Key Cryptography -- PKC 2023'
+      volume: 13940
+      series: LNCS
+      pagestart: 345
+      pageend: 375
+      editor:
+        - Alexandra Boldyreva
+        - Vladimir Kolesnikov
     download: 'https://eprint.iacr.org/2023/058.pdf'
-    date: 2023-1
+    date: 2023-5
     year: 2023
+    doi: 10.1007/978-3-031-31368-4_13
+
 
   - type: conference
     title: 'Supersingular Curves You Can Trust'
