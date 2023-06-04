@@ -1,4 +1,19 @@
 papers:
+  - type: journal
+    title: 'Proving knowledge of isogenies: a survey'
+    authors:
+      - Ward Beullens
+      - me
+      - ellkiwi
+      - cpetit
+    bibinfo:
+      publisher: Springer
+      title: Designs, Codes and Cryptography
+    download: 'https://eprint.iacr.org/2023/671.pdf'
+    date: 2023-06-02
+    year: 2023
+    doi: 10.1007/s10623-023-01243-3
+
   - type: conference
     title: 'SCALLOP: scaling the CSI-FiSh'
     authors:
@@ -25,7 +40,6 @@ papers:
     date: 2023-5
     year: 2023
     doi: 10.1007/978-3-031-31368-4_13
-
 
   - type: conference
     title: 'Supersingular Curves You Can Trust'
