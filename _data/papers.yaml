@@ -7,8 +7,13 @@ papers:
       - ellkiwi
       - cpetit
     bibinfo:
-      publisher: Springer
+      publisher: Springer Science and Business Media LLC
       title: Designs, Codes and Cryptography
+      volume: 91
+      pagestart: 3425
+      pageend: 3456
+      issn: 1573-7586
+      number: 11
     download: 'https://eprint.iacr.org/2023/671.pdf'
     date: 2023-06-02
     year: 2023
@@ -68,8 +73,8 @@ papers:
         - Martijn Stam
     download: 'https://eprint.iacr.org/2022/1469.pdf'
     doi: 10.1007/978-3-031-30617-4_14
-    date: 2022-10
-    year: 2022
+    date: 2023-04
+    year: 2023
 
   - type: conference
     title: 'New algorithms for the Deuring correspondence: Towards practical and secure SQISign signatures'
@@ -92,8 +97,8 @@ papers:
         - Martijn Stam
     download: 'https://eprint.iacr.org/2022/234.pdf'
     doi: 10.1007/978-3-031-30589-4_23
-    date: 2022-12
-    year: 2022
+    date: 2023-04
+    year: 2023
 
   - type: conference
     title: SIDH Proof of Knowledge
