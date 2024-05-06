@@ -1,4 +1,27 @@
 papers:
+  - type: conference
+    title: 'Isogeny Problems with Level Structure'
+    authors:
+      - me
+      - boris
+      - panny
+    bibinfo:
+      publisher: Springer
+      title:
+        short: EUROCRYPT 2024
+        long: Advances in Cryptology – EUROCRYPT 2024
+      volume: 14657
+      series: LNCS
+      pagestart: 181
+      pageend: 204
+      editor:
+        - Marc Joye
+        - Gregor Leander
+    download: 'https://eprint.iacr.org/2024/459.pdf'
+    date: 2024-4
+    year: 2024
+    doi: 10.1007/978-3-031-58754-2_7
+
   - type: journal
     title: 'Proving knowledge of isogenies: a survey'
     authors:
@@ -23,11 +46,11 @@ papers:
     title: 'SCALLOP: scaling the CSI-FiSh'
     authors:
       - me
-      - Tako Boris Fouotsa
+      - boris
       - Péter Kutas
       - aleroux
       - Simon-Philipp Merz
-      - Lorenz Panny
+      - panny
       - bweso
     bibinfo:
       publisher: Springer
@@ -53,10 +76,10 @@ papers:
       - Giulio Codogni
       - Deirdre Connolly
       - me
-      - Tako Boris Fouotsa
+      - boris
       - Guido Maria Lido
       - Travis Morrison
-      - Lorenz Panny
+      - panny
       - Sikhar Patranabis
       - bweso
     bibinfo:
@@ -174,7 +197,7 @@ papers:
     authors:
       - me
       - Cyprien Delpech de Saint Guilhem
-      - Tako Boris Fouotsa
+      - boris
       - Péter Kutas
       - aleroux
       - cpetit
@@ -830,6 +853,12 @@ coauthors:
   javad:
     name: Javad Doliskani
     url: 'https://doliskani.net/'
+  panny:
+    name: Lorenz Panny
+    url: 'https://yx7.cc/'
+  boris:
+    name: Tako Boris Fouotsa
+    url: 'https://borisfouotsa.com/'
 
 publishers:
   ACM: Association for Computing Machinery
