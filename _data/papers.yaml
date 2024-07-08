@@ -1,4 +1,19 @@
 papers:
+  - type: preprint
+    title: 'SQIsign2D-West: The Fast, the Small, and the Safer'
+    authors:
+      - Andrea Basso
+      - Pierrick Dartois
+      - me
+      - aleroux
+      - Luciano Maino
+      - Giacomo Pope
+      - Damien Robert
+      - Benjamin Wesolowski
+    download: 'https://eprint.iacr.org/2024/760.pdf'
+    date: 2024-05-17
+    year: 2024
+  
   - type: conference
     title: 'Isogeny Problems with Level Structure'
     authors:
@@ -41,6 +56,28 @@ papers:
     date: 2023-06-02
     year: 2023
     doi: 10.1007/s10623-023-01243-3
+
+  - type: journal
+    title: On the (in)security of ElGamal in OpenPGP
+    authors:
+      - me
+      - Bertram Poettering
+      - Alessandro Sorniotti
+    bibinfo:
+      publisher: Association for Computing Machinery
+      title: Communications of the ACM
+      volume: 66
+      number: 6
+      issn: 0001-0782
+      pagestart: 107
+      pageend: 115
+    doi: 10.1145/3592835
+    download: 'https://eprint.iacr.org/2021/923.pdf'
+    video: 'https://www.youtube.com/watch?v=r6Y0s5DTGEM'
+    links:
+      - 'https://ibm.github.io/system-security-research-updates/2021/07/20/insecurity-elgamal-pt1'
+    date: 2023-05
+    year: 2023
 
   - type: conference
     title: 'SCALLOP: scaling the CSI-FiSh'
