@@ -1,17 +1,42 @@
 papers:
   - type: preprint
+    title: A Complete Security Proof of SQIsign
+    authors:
+      - Marius A. Aardal
+      - basso
+      - me
+      - Sikhar Patranabis
+      - bweso
+    download: 'https://eprint.iacr.org/2025/379.pdf'
+    date: 2025-03-04
+    year: 2025
+
+  - type: conference
     title: 'SQIsign2D-West: The Fast, the Small, and the Safer'
     authors:
-      - Andrea Basso
+      - basso
       - Pierrick Dartois
       - me
       - aleroux
       - Luciano Maino
       - Giacomo Pope
       - Damien Robert
-      - Benjamin Wesolowski
+      - bweso
+    bibinfo:
+      publisher: Springer
+      title:
+        short: ASIACRYPT 2024
+        long: Advances in Cryptology – ASIACRYPT 2024
+      volume: 15486
+      series: LNCS
+      pagestart: 339
+      pageend: 370
+      editor:
+        - Kai-Min Chung
+        - Yu Sasaki
     download: 'https://eprint.iacr.org/2024/760.pdf'
-    date: 2024-05-17
+    doi: 10.1007/978-981-96-0891-1_11
+    date: 2024-10
     year: 2024
   
   - type: conference
@@ -33,7 +58,7 @@ papers:
         - Marc Joye
         - Gregor Leander
     download: 'https://eprint.iacr.org/2024/459.pdf'
-    date: 2024-4
+    date: 2024-04
     year: 2024
     doi: 10.1007/978-3-031-58754-2_7
 
@@ -109,7 +134,7 @@ papers:
   - type: conference
     title: 'Supersingular Curves You Can Trust'
     authors:
-      - Andrea Basso
+      - basso
       - Giulio Codogni
       - Deirdre Connolly
       - me
@@ -239,7 +264,7 @@ papers:
       - aleroux
       - cpetit
       - Javier Silva
-      - Benjamin Wesolowski
+      - bweso
       - bweso
     bibinfo:
       publisher: Springer
@@ -896,6 +921,9 @@ coauthors:
   boris:
     name: Tako Boris Fouotsa
     url: 'https://borisfouotsa.com/'
+  basso:
+    name: Andrea Basso
+    url: 'https://andreabasso.com/'
 
 publishers:
   ACM: Association for Computing Machinery
