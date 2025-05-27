@@ -3,21 +3,18 @@
   
   <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description }}">
-
   
   <link rel="author" href="/"> 
   <link rel="me" href="/">
   <link rel="me" href="https://github.com/{{ site.github_username }}">
   <link rel="me" href="https://{{ site.mastodon_server }}/@{{ site.mastodon_username }}">
-  <link rel="me" href="https://twitter.com/@{{ site.twitter_username }}">
+  <link rel="me" href="https://bsky.app/profile/{{ site.bsky_username }}">
   <link rel="license" href="{{ site.license.url }}">
   
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="{{ page.description }}" />
-  <meta name="twitter:image" content="{{ '/assets/luca-drink.jpg' | relative_url }}" />
-  <meta name="twitter:site" content="@{{ site.twitter_username }}">
-  <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{ '/assets/luca-drink.jpg' | relative_url }}" />
+  <meta property="og:description" content="{{ site.url }}/{{ page.url }}" />
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
