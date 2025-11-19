@@ -107,14 +107,18 @@ students:
   - type: PhD
     name: Pierrick Dartois
     website: 'https://www.pierrickdartois.fr/homepage/'
+    thesis:
+      title: Fast computation of higher dimensional isogenies for cryptographic applications,
+      url: 'https://theses.hal.science/tel-05229911v1/'
     inst:
-      - IBM
-      - Corps des Mines-Télécom
       - Inria
-    start: 2019
+      - Université de Bordeaux
+    start: 2022
+    end: 2025
 
   - type: MSc
     name: Ole Spjeldnas
+    website: 'https://spjoleh.com/'
     thesis:
       title: Verifying Isogeny Walks with Succinct Zero-Knowledge Arguments
     inst:
@@ -137,8 +141,25 @@ students:
       - Universität Zürich
     start: 2023
 
-  - type: MSc
+  - type: PhD
     name: Ryan Rueger
+    website: 'https://rueg.re/'
+    inst:
+      - IBM
+      - TU München
+    start: 2024
+
+  - type: MSc
+    name: Andraž Strgar
+    thesis:
+      title: Efficiently Proving Knowledge of a Two-Dimensional Isogeny in Zero-Knowledge
     inst:
       - ETH Zürich
-    start: 2023
+    start: 2024
+    end: 2025
+    
+  - type: PhD
+    name: Jeanne Laflamme
+    inst:
+      - Université de Laval
+    start: 2025
