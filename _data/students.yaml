@@ -150,6 +150,15 @@ students:
     start: 2024
 
   - type: MSc
+    name: Valerio Ardizio
+    thesis:
+      title: Towards an isogeny-based protocol for more efficient Password-Authenticated Key Exchange (PAKE)
+    inst:
+      - EPFL
+    start: 2025
+    end: 2025
+
+  - type: MSc
     name: Andraž Strgar
     thesis:
       title: Efficiently Proving Knowledge of a Two-Dimensional Isogeny in Zero-Knowledge
@@ -157,7 +166,7 @@ students:
       - ETH Zürich
     start: 2024
     end: 2025
-    
+   
   - type: PhD
     name: Jeanne Laflamme
     inst:
