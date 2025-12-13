@@ -77,7 +77,7 @@ students:
   - type: PhD
     name: Manoj Gyawali
     thesis:
-      title: Some Objects from Algebraic Geometry and theirApplication to Post-Quantum Cryptography
+      title: Some Objects from Algebraic Geometry and their Application to Post-Quantum Cryptography
     inst:
       - Università Roma 3
     start: 2018
@@ -108,7 +108,7 @@ students:
     name: Pierrick Dartois
     website: 'https://www.pierrickdartois.fr/homepage/'
     thesis:
-      title: Fast computation of higher dimensional isogenies for cryptographic applications,
+      title: Fast computation of higher dimensional isogenies for cryptographic applications
       url: 'https://theses.hal.science/tel-05229911v1/'
     inst:
       - Inria
@@ -128,6 +128,7 @@ students:
     
   - type: PhD
     name: Sina Schaeffler
+    website: 'https://syndrakon.github.io/'
     inst:
       - IBM
       - ETH Zürich
