@@ -1,5 +1,27 @@
 papers:
   - type: preprint
+    title: 'The SQInstructor: a guide to SQIsign and the Deuring Correspondence with level structures'
+    authors:
+      - gborin
+      - me
+      - Guido Lido
+      - sschaeffler
+    download: 'https://eprint.iacr.org/2026/493.pdf'
+    date: 2026-03-11
+    year: 2026
+
+  - type: preprint
+    title: SQISign on ARM
+    authors:
+      - me
+      - Li-Jie Jian
+      - Ting-Yuan Wang
+      - Bo-Yin Yang
+    download: 'https://eprint.iacr.org/2026/394.pdf'
+    date: 2026-03-01
+    year: 2026
+    
+  - type: conference
     title: A Complete Security Proof of SQIsign
     authors:
       - Marius A. Aardal
@@ -7,8 +29,21 @@ papers:
       - me
       - Sikhar Patranabis
       - bweso
+    bibinfo:
+      publisher: Springer
+      title:
+        short: CRYPTO 2025
+        long: Advances in Cryptology – CRYPTO 2025
+      volume: 16005
+      series: LNCS
+      pagestart: 190
+      pageend: 222
+      editor:
+        - Yael Tauman Kalai
+        - Seni F. Kamara
+    doi: 10.1007/978-3-032-01887-8_7
     download: 'https://eprint.iacr.org/2025/379.pdf'
-    date: 2025-03-04
+    date: 2025-08-17
     year: 2025
 
   - type: conference
@@ -924,6 +959,12 @@ coauthors:
   basso:
     name: Andrea Basso
     url: 'https://andreabasso.com/'
+  gborin:
+    name: Giacomo Borin
+    url: 'https://gbor.in/'
+  sschaeffler:
+    name: Sina Schaeffler
+    url: 'https://syndrakon.github.io/'
 
 publishers:
   ACM: Association for Computing Machinery
