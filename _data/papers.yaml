@@ -1,5 +1,17 @@
 papers:
   - type: preprint
+    title: 'Forensic categories: a framework for SQIsign-like primitives'
+    authors:
+      - basso
+      - me
+      - sikhar
+      - Ilinca Radulescu
+      - bweso
+    download: 'https://eprint.iacr.org/2026/1171.pdf'
+    date: 2026-06-08
+    year: 2026
+
+  - type: preprint
     title: 'The SQInstructor: a guide to SQIsign and the Deuring Correspondence with level structures'
     authors:
       - gborin
@@ -27,7 +39,7 @@ papers:
       - Marius A. Aardal
       - basso
       - me
-      - Sikhar Patranabis
+      - sikhar
       - bweso
     bibinfo:
       publisher: Springer
@@ -177,7 +189,7 @@ papers:
       - Guido Maria Lido
       - Travis Morrison
       - panny
-      - Sikhar Patranabis
+      - sikhar
       - bweso
     bibinfo:
       publisher: Springer
@@ -423,7 +435,7 @@ papers:
       - Navid Alamati
       - me
       - Hart Montgomery
-      - Sikhar Patranabis
+      - sikhar
     bibinfo:
       publisher: Springer
       title:
@@ -965,6 +977,9 @@ coauthors:
   sschaeffler:
     name: Sina Schaeffler
     url: 'https://syndrakon.github.io/'
+  sikhar:
+    name: Sikhar Patranabis
+    url: 'https://sites.google.com/site/sikharpatranabis/home'
 
 publishers:
   ACM: Association for Computing Machinery
