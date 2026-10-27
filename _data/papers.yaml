@@ -1,5 +1,18 @@
 papers:
-  - type: preprint
+  - type: eprint
+    title: The Isogeny Problems
+    authors:
+      - Wouter Castryck
+      - me
+      - ellkiwi
+      - Péter Kutas
+      - Krijn Reijnders
+      - bweso
+    download: 'https://eprint.iacr.org/2026/1431'
+    date: 2026-07-16
+    year: 2026
+    
+  - type: journal
     title: 'Forensic categories: a framework for SQIsign-like primitives'
     authors:
       - basso
@@ -7,31 +20,58 @@ papers:
       - sikhar
       - Ilinca Radulescu
       - bweso
+    bibinfo:
+      publisher: International Association for Cryptologic Research
+      title: IACR Communications in Cryptology
+      volume: 3
+      issn: 3006-5496
+      number: 3
     download: 'https://eprint.iacr.org/2026/1171.pdf'
-    date: 2026-06-08
+    date: 2026-10-26
     year: 2026
+    doi: '10.62056/aebnjbhdj'
 
-  - type: preprint
+  - type: conference
     title: 'The SQInstructor: a guide to SQIsign and the Deuring Correspondence with level structures'
     authors:
       - gborin
       - me
       - Guido Lido
       - sschaeffler
+    bibinfo:
+      publisher: Springer
+      title:
+        short: CRYPTO 2026
+        long: Advances in Cryptology – CRYPTO 2026
+      volume: 16803
+      series: LNCS
+      pagestart: 537
+      pageend: 569
+      editor:
+        - Nadia Heninger
+        - Michael Rosulek
     download: 'https://eprint.iacr.org/2026/493.pdf'
-    date: 2026-03-11
+    date: 2026-08-16
     year: 2026
+    doi: 10.1007/978-3-032-35398-6_18
 
-  - type: preprint
+  - type: journal
     title: SQISign on ARM
     authors:
       - me
       - Li-Jie Jian
       - Ting-Yuan Wang
       - Bo-Yin Yang
+    bibinfo:
+      title: IACR Transactions on Cryptographic Hardware and Embedded Systems
+      volume: 2026
+      number: 4
+      pagestart: 471
+      pageend: 495
     download: 'https://eprint.iacr.org/2026/394.pdf'
-    date: 2026-03-01
+    date: 2026-09-11
     year: 2026
+    doi: 10.46586/tches.v2026.i4.471-495
     
   - type: conference
     title: A Complete Security Proof of SQIsign

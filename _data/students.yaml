@@ -173,3 +173,21 @@ students:
     inst:
       - Université de Laval
     start: 2025
+
+  - type: MsC
+    name: Julia Wuersch
+    thesis:
+      title: An Analysis of the Number of Reduction Steps for Special Two-Dimensional Lattices
+    inst:
+      - University of Zürich
+    start: 2026
+    end: 2026
+
+  - type: MsC
+    name: Eliot Collombet
+    thesis:
+      title: Accelerating SQIsign-NIST1 and Erebor
+    inst:
+      - Télécom Paristech
+    start: 2026
+    end: 2026
